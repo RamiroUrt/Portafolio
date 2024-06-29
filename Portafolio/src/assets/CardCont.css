@@ -1,0 +1,128 @@
+.section_pic_cont{
+    position: absolute;
+    left: -6px;
+    top: -6px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icono{
+    fill: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+}
+.about_details{
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.details_container{
+    padding: 1.5rem;
+    background-color: transparent;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    align-items: center;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+}
+.details_container_about{
+    position: relative;
+    padding: 1.5rem;
+    background-color: transparent;
+    border-radius: 2rem;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163, 163, 163);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    width: 200px;
+    max-width: 200px;
+    max-height: 200px;
+    height: 200px;
+}
+
+/*Projects*/
+.btn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.article_exp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.color-container{
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+    justify-content: center;
+    display: flex;
+    gap: 4rem;
+}
+/* 
+ Contact */
+ .contact{
+    margin-top: 2rem;
+    margin-bottom: 10rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+ }
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.contact-info{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    flex-wrap: wrap;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+/*Nav contact*/
+
+.nav_contact{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    flex-wrap: wrap;
+    text-align: center;
+}
+span{
+    margin-right: 7rem;
+}
+.links{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+
+.no-drop{
+    cursor: no-drop;
+}

@@ -1,0 +1,13 @@
+.arrowDown{
+    margin: 1rem;
+    position: fixed;
+    right: 0;
+    top: 50rem;
+}
+
+.arrowUp{
+    margin: 1rem;
+    position: fixed;
+    right: 0;
+    top: 5rem;
+}
