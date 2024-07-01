@@ -44,7 +44,7 @@ const Projects = () => {
           <CardProjects 
           img={BikeShop} 
           title={'BikeShop'} 
-          description={'Web insumos de ciclismo'}
+          description={'Cycling supplies website'}
           location={'https://bike-shopgt.netlify.app'}
           locations={'https://github.com/RamiroUrt/Bike-Shop'}/>
         </div>
