@@ -2,6 +2,11 @@ import { Mail } from 'lucide-react';
 import '../assets/CardCont.css'
 import { Linkedin } from 'lucide-react';
 
+
+import LanguageOption from '../components/LanguageOption';
+
+import '../assets/LanguageOption.css'
+
 const Contact = () => {
   return (
     <>
@@ -35,6 +40,9 @@ const Contact = () => {
         </div>
       </nav>
     </section>
+      <div className="language">
+        <LanguageOption />
+      </div>
     <div className="footer">
       <p className='text-center'>Copyright © 2024 Ramiro Urteaga. All Rights Reserved.</p>
     </div>

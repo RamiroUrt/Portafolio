@@ -114,12 +114,12 @@ span{
     margin-right: 7rem;
 }
 .links{
+    margin: 0 auto;
     display: flex;
     gap: 2rem;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: center;
-    display: flex;
+    justify-content: space-between;
 }
 
 

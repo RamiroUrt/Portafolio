@@ -209,7 +209,8 @@ img{
     justify-content: center;
     align-items: center;
     align-items: stretch;
-    flex-wrap: wrap; 
+    flex-wrap: wrap;
+ 
 }
 
 .experience_sub_title{
@@ -283,13 +284,16 @@ img{
   }
 
 @media screen and (max-width: 700px){
+    .language{
+        display: flex;
+    }
     #profile{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 20rem;
+        margin-top: 25rem;
         margin-bottom: 50rem;
     }
     .btn_container{
@@ -374,6 +378,11 @@ img{
     }
     .contact{
         margin-top: 10rem;
+    }
+    .themeChange{
+        display: block;
+        overflow: visible;
+        z-index: 300;
     }
 }
 

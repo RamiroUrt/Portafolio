@@ -1,13 +1,12 @@
-.arrowDown{
-    margin: 1rem;
+.arrows {
     position: fixed;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
     right: 0;
-    top: 50rem;
-}
-
-.arrowUp{
-    margin: 1rem;
-    position: fixed;
-    right: 0;
-    top: 5rem;
-}
+    margin-right: 1rem;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    gap: 5rem;
+  }

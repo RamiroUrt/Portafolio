@@ -23,7 +23,7 @@ const About = () => {
             Icon={GraduationCap}/>
             <CardCont
             title={"Experience"}
-            description={"Font Developer"}
+            description={"Front Developer"}
             details={''}
             Icon={BicepsFlexed}/>
           </div>

@@ -1,6 +1,14 @@
 import { useState, useEffect } from 'react';
 import { Ellipsis, X } from 'lucide-react';
 
+
+import LanguageOption from './LanguageOption';
+import '../assets/LanguageOption.css'
+
+
+import ThemeChange from './ThemeChange';
+import '../assets/ThemeChange.css'
+
 const Nav = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -23,6 +31,7 @@ const Nav = () => {
   return (
     <>
       <nav className="desktop-nav">
+        <ThemeChange />
         <div className="logo">
           <span>Ramiro Urteaga</span>
         </div>
@@ -39,6 +48,7 @@ const Nav = () => {
         <div className="logo">
           <span>Ramiro Urteaga</span>
         </div>
+        <ThemeChange />
         <div className="hamburger-menu" onClick={toggleMenu}>
           <span className={`icon ${isMenuOpen ? 'hide' : 'show'}`}>
             <Ellipsis size={26} />
@@ -48,12 +58,17 @@ const Nav = () => {
           </span>
         </div>
         {isMenuOpen && (
+          <>
           <ul className="nav-links-hamburger">
             <li><a href="#about" onClick={closeMenu}>About me</a></li>
             <li><a href="#experience" onClick={closeMenu}>Experience</a></li>
             <li><a href="#projects" onClick={closeMenu}>Project</a></li>
             <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
+            <div className="pt-[2rem]">
+              <LanguageOption />
+            </div>
           </ul>
+          </>
         )}
       </nav>
     </>

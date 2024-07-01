@@ -4,22 +4,20 @@ import Contact from "./pages/Contact"
 import Experience from "./pages/Experience"
 import Header from "./pages/Header"
 import Projects from "./pages/Projects"
+import Arrows from './components/Arrows'
 
-import ArrowDown from './components/ArrowUp'
-import ArrowUp from "./components/ArrowDown"
 
 function App() {
 
 
   return (
     <>
-    <ArrowUp />
+    <Arrows />
       <Header />
       <About />
       <Experience />
       <Projects />
       <Contact />
-    <ArrowDown />
     </>
   )
 }
