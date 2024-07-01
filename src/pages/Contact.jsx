@@ -14,7 +14,7 @@ const Contact = () => {
         <p className="section_text_p text-center">Get in Touch</p>
         <h1 className="title">Contact Me</h1>
 
-          <div className="container ">
+          <div className="container mt-[4rem]">
             <div className="details_container mt-8">
               <div className="contact-info break-all">
                 <div className="mail flex gap-2 ">
@@ -29,6 +29,9 @@ const Contact = () => {
             </div>
           </div>
     </section>
+    <div className="language">
+        <LanguageOption />
+      </div>
     <section className="nav_contact">
     <nav className="">
         <div className="links">
@@ -40,9 +43,7 @@ const Contact = () => {
         </div>
       </nav>
     </section>
-      <div className="language">
-        <LanguageOption />
-      </div>
+
     <div className="footer">
       <p className='text-center'>Copyright © 2024 Ramiro Urteaga. All Rights Reserved.</p>
     </div>

@@ -20,7 +20,7 @@ const Header = () => {
         <p className="section_text_p text-amber-300 bouncy-text">Fronted Developer</p>
         <div className="btn_container">
           {/*btn white*/}
-          <BtnWhite text={'Download CV'} location={'https://drive.google.com/file/d/1bI3g_NExYZ5blPfy97-NOC4KsiPRsk8K/view?usp=sharing'}/>
+          <BtnWhite text={'Download CV'} location={'https://drive.google.com/file/d/1SefpHY4_zVY9b2N5ujIiGV9YMJpIpn-o/view'}/>
           {/*btn black*/}
           <a href="#contact">
             <BtnBlack text={'Contact info'}/>
