@@ -45,8 +45,8 @@ const Projects = () => {
           img={BikeShop} 
           title={'BikeShop'} 
           description={'Cycling supplies website'}
-          location={'https://bike-shopgt.netlify.app'}
-          locations={'https://github.com/RamiroUrt/Bike-Shop'}/>
+          location={'https://github.com/RamiroUrt/Bike-Shop'}
+          locations={'https://bike-shopgt.netlify.app'}/>
         </div>
       </div>
     </section>
