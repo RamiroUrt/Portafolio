@@ -12,12 +12,14 @@ function App() {
 
   return (
     <>
-    <Arrows />
-      <Header />
-      <About />
-      <Experience />
-      <Projects />
-      <Contact />
+    <html className="dark:-bg--light-black--">
+      <Arrows />
+        <Header />
+        <About />
+        <Experience />
+        <Projects />
+        <Contact />
+    </html>
     </>
   )
 }

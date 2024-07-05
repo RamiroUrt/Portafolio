@@ -1,8 +1,27 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root{
+    --ligth-gray: rgb(85, 85, 85);
+    --ligth-black : black;
+    --ligth-white: white;
+    --ligth-gray--: rgb(181, 181, 181) ;
+    --ligth-black--: #1A1A1A;
+    --ligt-border:rgb(53, 53, 53);
+    --font-ligth: rgb(104, 104, 104);
+    --font-black: rgb(32, 32, 32);
+
+    --font-color-dark: #323232;
+    --font-color-light: #fff;
+    --bg-color: #fff;
+    --main-color: #323232;
+    --secondary-color: #505050;
+}
 
 
 *{
@@ -14,12 +33,13 @@
 }
 html{
     scroll-behavior: smooth;
+
 }
 body {
     font-family: "Poppins", sans-serif;
 }
 p{
-    color: rgb(85, 85, 85);
+    color: var(--ligth-gray);
 }
 a, .btn{
     transition: all 300ms ease;
@@ -31,7 +51,7 @@ nav, .nav-links{
 nav{
     justify-content: space-around;
     align-items: center;
-    margin-top: 3rem;
+    height: 7rem;
 }
 .nav-links{
     gap: 2rem;
@@ -42,15 +62,22 @@ span{
     cursor: default;
     z-index: 90;
 }
+.bouncy-text{
+    color: 	rgb(253 224 71);;
+}
 a{
-    color: black;
-    text-decoration-color: white;
+    color: var(--ligth-black);
+    text-decoration-color: var(--ligth-white)
 }
 a:hover{
-    color: gray;
+    color: var(--ligth-gray);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: rgb(181, 181, 181) ;
+    text-decoration-color: var(--ligth-gray--) ;
+}
+.text_p_About{
+    font-family: "Zilla Slab", sans-serif;
+    font-weight: 600;
 }
 /*Hamburger menu*/
 
@@ -78,7 +105,6 @@ a:hover{
 .section_pic{
     display: flex;
     /* height: 4000px; */
-    width: 400px;
 }
 img{
     border-radius: 50%;
@@ -158,7 +184,7 @@ img{
     flex-wrap: wrap;
 }
 .text_content{
-    margin-top: 1rem;
+    margin-top: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -175,9 +201,7 @@ img{
     justify-content: center;
     align-items: start; 
 }
-.about{
-    display: flex;
-}
+
 
 .about_details {
     display: flex;
@@ -214,7 +238,7 @@ img{
 }
 
 .experience_sub_title{
-    color: rgb(85, 85, 85);
+    color: var(--ligth-gray);
     font-weight: 600;
     font-size: 1.8rem;
     margin-bottom: 2rem;
@@ -235,6 +259,11 @@ img{
     gap: 5rem;
     justify-content: center;
     flex-wrap: wrap;
+}
+.themeChange{
+    display: block;
+    overflow: visible;
+    z-index: 300;
 }
 /* Animación de opacidad */
 @keyframes fadeIn {
@@ -293,8 +322,11 @@ img{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 25rem;
+        margin-top: 21rem;
         margin-bottom: 50rem;
+    }
+    .section_pic{
+        margin: 0 auto;
     }
     .btn_container{
         margin-top: 3rem;
@@ -355,9 +387,13 @@ img{
         justify-content: center;
         align-items: center;
         text-align: center;
+        margin-top: 4rem;
     }
     span{
         margin: 0 auto;
+    }
+    .footer{
+        margin-top: 12rem;
     }
     .projects{
         display: flex;
@@ -418,7 +454,7 @@ img{
         transition-property: all;
         transition-duration: 500ms;
         z-index: 50;
-        background-color: white;
+        background-color: var(--ligth-white);
     }
     .about{
         margin-bottom: 30rem;

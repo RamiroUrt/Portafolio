@@ -32,23 +32,27 @@ const Nav = () => {
     <>
       <nav className="desktop-nav">
         <ThemeChange />
-        <div className="logo">
-          <span>Ramiro Urteaga</span>
+        <div className="logo dark:-text--light-white ">
+          <span >Ramiro Urteaga</span>
         </div>
-        <div className="">
-          <ul className="nav-links">
-            <li><a href="#about">About me</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#projects">Project</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <div className="dark:-text--light-white">
+          <ul className="nav-links dark:-text--light-white">
+            <li><a href="#about"
+            className='dark:-text--light-white'>About me</a></li>
+            <li><a href="#experience"
+            className='dark:-text--light-white'>Experience</a></li>
+            <li><a href="#projects"
+            className='dark:-text--light-white'>Project</a></li>
+            <li><a href="#contact"
+            className='dark:-text--light-white'>Contact</a></li>
           </ul>
         </div>
       </nav>
-      <nav className="hamburger-nav">
+      <nav className="hamburger-nav  dark:-text--light-white">
         <div className="logo">
-          <span>Ramiro Urteaga</span>
+          <span className='dark:-text--light-white'>Ramiro Urteaga</span>
         </div>
-        <ThemeChange />
+        <ThemeChange/>
         <div className="hamburger-menu" onClick={toggleMenu}>
           <span className={`icon ${isMenuOpen ? 'hide' : 'show'}`}>
             <Ellipsis size={26} />
@@ -59,11 +63,15 @@ const Nav = () => {
         </div>
         {isMenuOpen && (
           <>
-          <ul className="nav-links-hamburger">
-            <li><a href="#about" onClick={closeMenu}>About me</a></li>
-            <li><a href="#experience" onClick={closeMenu}>Experience</a></li>
-            <li><a href="#projects" onClick={closeMenu}>Project</a></li>
-            <li><a href="#contact" onClick={closeMenu}>Contact</a></li>
+          <ul className="nav-links-hamburger dark:-text--light-white dark:-bg--light-black--">
+            <li><a href="#about" onClick={closeMenu} 
+            className='dark:-text--light-white'>About me</a></li>
+            <li><a href="#experience"
+            className='dark:-text--light-white' onClick={closeMenu}>Experience</a></li>
+            <li><a href="#projects" 
+            className='dark:-text--light-white' onClick={closeMenu}>Project</a></li>
+            <li><a href="#contact"
+            className='dark:-text--light-white'  onClick={closeMenu}>Contact</a></li>
             <div className="pt-[2rem]">
               <LanguageOption />
             </div>

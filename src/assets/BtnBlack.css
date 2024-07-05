@@ -1,11 +1,11 @@
 /* BtnWhite.css */
 .btn_black {
     appearance: none;
-    background-color: #1A1A1A;
-    border: 0.125em solid #1A1A1A;
+    background-color: var(--ligth-black--);
+    border: 0.125em solid var(--ligth-black--);
     border-radius: 0.9375em;
     box-sizing: border-box;
-    color: #ffffff;
+    color: var(--ligth-white);
     cursor: pointer;
     display: inline-block;
     font-family: Roobert, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -31,9 +31,8 @@
   }
   
   .btn_black:hover {
-    color:white;
-    background-color: black;
-    box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+    color: var(--ligth-white);
+    box-shadow: var(--ligth-black--) 0 8px 15px;
     transform: translateY(-2px);
   }
   

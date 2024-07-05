@@ -11,8 +11,8 @@ import BikeShop from '../../public/img/BikeShop.png'
 const Projects = () => {
   return (
     <section id='projects' className="projects">
-      <p className="section_text_p text-center">Browse my recent</p>
-      <h1 className="title">Projects</h1>
+      <p className="section_text_p text-center dark:-text--light-white">Browse my recent</p>
+      <h1 className="title dark:-text--light-white">Projects</h1>
       <div className="color-container flex flex-wrap">
         <div className="container_project">
           <CardProjects 
@@ -45,8 +45,8 @@ const Projects = () => {
           img={BikeShop} 
           title={'BikeShop'} 
           description={'Cycling supplies website'}
-          location={'https://bike-shopgt.netlify.app'}
-          locations={'https://github.com/RamiroUrt/Bike-Shop'}/>
+          location={'https://github.com/RamiroUrt/Bike-Shop'}
+          locations={'https://bike-shopgt.netlify.app'}/>
         </div>
       </div>
     </section>

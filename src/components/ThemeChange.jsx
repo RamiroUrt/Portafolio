@@ -1,16 +1,31 @@
+import { useEffect, useState } from 'react';
 import '../assets/ThemeChange.css';
 
 const ThemeChange = () => {
+  const [theme, setTheme] = useState('light');
+
+  useEffect(() => {
+    if (theme === 'dark') {
+      document.querySelector('html').classList.add('dark');
+    } else {
+      document.querySelector('html').classList.remove('dark');
+    }
+  }, [theme]);
+
+  const handleTheme = () => {
+    setTheme((prevTheme) => (prevTheme === 'light' ? 'dark' : 'light'));
+  };
+
   return (
     <div className="themeChange">
-      <label className="ui-switch">
-        <input type="checkbox" className='checkbox'/>
+      <button onClick={handleTheme} className="ui-switch">
+        <input type="checkbox" className="checkbox" checked={theme === 'dark'} readOnly />
         <div className="slider">
           <div className="circle"></div>
         </div>
-      </label>
+      </button>
     </div>
-  )
-}
+  );
+};
 
 export default ThemeChange;

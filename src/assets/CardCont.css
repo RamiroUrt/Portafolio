@@ -5,14 +5,14 @@
     border-radius: 50%;
     width: 30px;
     height: 30px;
-    background-color: black;
+    background-color: var(--ligth-black);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .icono{
-    fill: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
+    fill: var(--ligth-black);
+    color: var(--ligth-white);
 }
 .about_details{
     justify-content: center;
@@ -26,8 +26,8 @@
     padding: 1.5rem;
     background-color: transparent;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
+    border: var(--ligth-gray--) 0.1rem solid;
+    border-color: var(--ligth-gray--);
     text-align: center;
     align-items: center;
     display: grid;
@@ -38,8 +38,8 @@
     padding: 1.5rem;
     background-color: transparent;
     border-radius: 2rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: rgb(163, 163, 163);
+    border: var(--ligth-gray--) 0.1rem solid;
+    border-color: var(--ligth-gray--);
     text-align: center;
     align-items: center;
     display: flex;

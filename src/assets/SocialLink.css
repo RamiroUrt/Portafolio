@@ -8,19 +8,19 @@
   .button {
     cursor: pointer;
     text-decoration: none;
-    color: #ffff;
+    color: var(--ligth-white);
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background-color: #1A1A1A;
-    border: 2px solid #1A1A1A;
+    background-color: var(--ligth-black--);
+    border: 2px solid var(--ligth-black--);
   }
   
   .button:hover {
     transform: rotate(360deg);
     transform-origin: center center;
-    background-color: #ffff;
-    color: #2d2e32;
+    background-color: var(--ligth-white);
+    color: var(--ligth-gray--);
   }
   
   .button:hover .btn-svg {

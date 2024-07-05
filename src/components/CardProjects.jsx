@@ -11,8 +11,8 @@ const CardProjects = ({img, title, description, isFirst, location, locations }) 
             <div className="article-container">
               <img src={img} alt="" className="project-img rounded-3xl object-cover" />
             </div>
-            <h2 className="project-title mt-4 font-bold">{title}</h2>
-            <p className="section_text_p text-center mt-3" dangerouslySetInnerHTML={{ __html: description }}></p>
+            <h2 className="project-title mt-4 font-bold dark:-text--light-white">{title}</h2>
+            <p className="section_text_p text-center mt-3 dark:-text--light-white" dangerouslySetInnerHTML={{ __html: description }}></p>
             <div className="btn_container mt-5">
             <div>
             { isFirst ? (
