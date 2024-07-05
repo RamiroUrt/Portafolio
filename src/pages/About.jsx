@@ -10,7 +10,7 @@ const About = () => {
     <>
     <section className="about" id="about">
       <p className="section_text_p text-center dark:-text--light-white">Get To Know More</p>
-      <h1 className="title  dark:-text--font-light">About Me</h1>
+      <h1 className="title   dark:-text--light-white">About Me</h1>
         <div className="about_container">
             <div className="card-junior">
               <CardJr />
