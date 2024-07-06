@@ -33,7 +33,7 @@
 }
 html{
     scroll-behavior: smooth;
-
+    transition: background-color 0.9s ease, color 0.9s ease;
 }
 body {
     font-family: "Poppins", sans-serif;
@@ -49,9 +49,13 @@ nav, .nav-links{
     display: flex;
 }
 nav{
+    display: flex;
     justify-content: space-around;
     align-items: center;
     height: 7rem;
+    width: 100%;
+    transition: background-color 0.9s ease, color 0.9s ease;
+    z-index: 1000
 }
 .nav-links{
     gap: 2rem;
@@ -89,6 +93,7 @@ a:hover{
 .hamburger-nav{
     display: none;
 }
+
 /*Section*/
 #profile{
     padding-top: 6vh;

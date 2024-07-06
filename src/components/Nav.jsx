@@ -30,11 +30,11 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="desktop-nav">
-        <ThemeChange />
-        <div className="logo dark:-text--light-white ">
+      <nav className="desktop-nav dark:-bg--light-black-- -bg--light-white">
+        <div className="logo dark:-text--light-white "  id='logo-desk'>
           <span >Ramiro Urteaga</span>
         </div>
+        <ThemeChange />
         <div className="dark:-text--light-white">
           <ul className="nav-links dark:-text--light-white">
             <li><a href="#about"
@@ -48,7 +48,7 @@ const Nav = () => {
           </ul>
         </div>
       </nav>
-      <nav className="hamburger-nav  dark:-text--light-white">
+      <nav className="hamburger-nav  dark:-text--light-white  dark:-bg--light-black-- -bg--light-white">
         <div className="logo">
           <span className='dark:-text--light-white'>Ramiro Urteaga</span>
         </div>

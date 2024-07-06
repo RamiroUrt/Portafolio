@@ -1,7 +1,7 @@
 /* BtnWhite.css */
 .btn_white {
     appearance: none;
-    background-color: var(--ligth-white);
+    background-color: transparent;
     border: 0.125em solid var(--ligth-black--);
     border-radius: 0.9375em;
     box-sizing: border-box;
