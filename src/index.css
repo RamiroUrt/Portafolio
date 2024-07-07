@@ -76,9 +76,6 @@ span{
     cursor: default;
     z-index: 90;
 }
-.bouncy-text{
-    color: 	rgb(253 224 71);;
-}
 a{
     color: var(--ligth-black);
     text-decoration-color: var(--ligth-white)
