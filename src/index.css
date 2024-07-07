@@ -35,6 +35,16 @@ html{
     scroll-behavior: smooth;
     transition: background-color 0.9s ease, color 0.9s ease;
 }
+
+html::-webkit-scrollbar{
+    width: 10px;
+    background: var(--ligth-white);
+}
+html::-webkit-scrollbar-thumb{
+    background-color: var(--ligth-gray);
+    border-radius: 30px;
+}
+
 body {
     font-family: "Poppins", sans-serif;
 }
