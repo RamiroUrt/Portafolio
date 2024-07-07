@@ -17,7 +17,7 @@ const Header = () => {
       <div className="section_text ">
         <p className="section_text_p dark:-text--light-white">👋Hello, I'm</p>
         <h1 className="title       dark:-text--light-white">Ramiro Urteaga</h1>
-        <p className="section_text_p bouncy-text">Fronted Developer</p>
+        <p className="section_text_p bouncy-text  text-jr-text">Fronted Developer</p>
         <div className="btn_container">
           {/*btn white*/}
           <BtnWhite text={'Download CV'} location={'https://drive.google.com/file/d/1SefpHY4_zVY9b2N5ujIiGV9YMJpIpn-o/view'}/>
