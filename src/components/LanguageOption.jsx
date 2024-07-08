@@ -1,22 +1,49 @@
 import '../assets/LanguageOption.css';
+import { useTranslation } from 'react-i18next';
+import i18next from 'i18next';
 
-const LanguageOption = () => {
+
+
+// eslint-disable-next-line react/prop-types
+const LanguageOption = ({ closeMenu }) => {
+  // eslint-disable-next-line no-unused-vars
+  const { t } = useTranslation();
+
+  const handleLanguageChange = (event) => {
+    const selectedLanguage = event.target.value === 'option1' ? 'en' : 'es';
+    i18next.changeLanguage(selectedLanguage);
+    closeMenu();
+  };
+
   return (
-<div className="wrapper dark:-bg--light-black--">
-  <div className="option">
-    <input checked="" value="option1" name="btn" type="radio" className="input" />
-    <div className="btn">
-      <span className="span dark:-text--light-white">English</span>
+    <div className="wrapper dark:-bg--light-black--">
+      <div className="option">
+        <input
+          checked={i18next.language === 'en'}
+          value="option1"
+          name="btn"
+          type="radio"
+          className="input"
+          onChange={handleLanguageChange}
+        />
+        <div className="btn">
+          <span className="span dark:-text--light-white">English</span>
+        </div>
+      </div>
+      <div className="option">
+        <input
+          checked={i18next.language === 'es'}
+          value="option2"
+          name="btn"
+          type="radio"
+          className="input"
+          onChange={handleLanguageChange}
+        />
+        <div className="btn">
+          <span className="span dark:-text--light-white">Spanish</span>
+        </div>
+      </div>
     </div>
-  </div>
-  <div className="option">
-    <input value="option2" name="btn" type="radio" className="input" />
-    <div className="btn">
-      <span className="span dark:-text--light-white">Spanish</span>
-    </div>
-  </div>
-</div>
-
   );
 }
 

@@ -1,0 +1,81 @@
+{
+    "profile": {
+      "hello": "👋Hola, soy",
+      "name": "Ramiro Urteaga",
+      "role": "Desarrollador Frontend",
+      "downloadCV": "Descargar CV",
+      "contactInfo": "Información de contacto",
+      "location": "📍Maggiolo - Santa Fe 🇦🇷"
+    },
+    "about": {
+      "getToKnow": "Conoce más",
+      "aboutMe": "Sobre mí",
+      "education": {
+        "title": "Educación",
+        "description": "Instituto Teclab",
+        "details": "Técnico en Programación"
+      },
+      "experience": {
+        "title": "Experiencia",
+        "description": "Desarrollador Frontend",
+        "details": ""
+      },
+      "textContent": "👋 Hola, soy Ramiro. Como entusiasta de la tecnología y desarrollador web, me he centrado en adquirir conocimientos para convertirme en Desarrollador Frontend. Aunque mi educación incluye cursos en Python, Django y Java enfocados en el desarrollo Back End, mi verdadera pasión radica en crear experiencias de usuario interactivas y atractivas.\nNo solo estoy buscando oportunidades de trabajo, sino también la oportunidad de seguir aprendiendo y creciendo en la industria tecnológica. Mi objetivo es aplicar tanto mi conocimiento académico como mis habilidades autodidactas a proyectos del mundo real. Creo firmemente que el aprendizaje continuo es clave para mantenerse actualizado en un entorno tan dinámico como el desarrollo web.\nAunque me doy cuenta de que mi experiencia técnica aún es débil en este mundo en constante evolución y crecimiento, he descubierto el valor de las conexiones y asociaciones con otros expertos. A veces, la respuesta a una pregunta no está solo en el código, sino también en la comunidad de la que formamos parte. En este sentido, estoy dispuesto a compartir mi experiencia y ansioso por beneficiarme de cualquier comentario constructivo. ❤"
+    },
+    "experience": {
+      "exploreMy": "Explora mi",
+      "title": "Experiencia",
+      "frontend": {
+        "title": "Desarrollo Frontend"
+      },
+      "backend": {
+        "title": "Desarrollo Backend"
+      }
+    },
+    "projects": {
+      "browseMyRecent": "Explora mis recientes",
+      "title": "Proyectos",
+      "cards": {
+        "scaloneta": {
+          "title": "Scaloneta",
+          "description": "Credencial:<br> guayerd@estudiantes <br> 123456"
+        },
+        "aloha": {
+          "title": "Aloha Aromas",
+          "description": "E-commerce sobre aromas"
+        },
+        "wingu": {
+          "title": "Wingu",
+          "description": "Web de donación/envío"
+        },
+        "tresDeseos": {
+          "title": "3Deseos",
+          "description": "Web para suministros de impresión 3D"
+        },
+        "bikeShop": {
+          "title": "BikeShop",
+          "description": "Sitio web de suministros para ciclismo"
+        }
+      }
+    },
+    "contact": {
+      "getInTouch": "Ponte en Contacto",
+      "title": "Contáctame",
+      "email": "urteagaramiro33@gmail.com",
+      "linkedin": "Linkedin",
+      "footer": "Derechos de Autor © 2024 Ramiro Urteaga. Todos los Derechos Reservados.",
+      "nav": {
+        "name": "Ramiro Urteaga",
+        "about": "Sobre mí",
+        "experience": "Experiencia",
+        "projects": "Proyecto",
+        "contact": "Contacto"
+      }
+    },  "nav": {
+      "name": "Ramiro Urteaga",
+      "about": "Sobre mí",
+      "experience": "Experiencia",
+      "projects": "Proyecto",
+      "contact": "Contacto"
+    }
+    }

@@ -1,0 +1,83 @@
+{
+    "profile": {
+      "hello": "👋Hello, I'm",
+      "name": "Ramiro Urteaga",
+      "role": "Fronted Developer",
+      "downloadCV": "Download CV",
+      "contactInfo": "Contact info",
+      "location": "📍Maggiolo - Santa Fe 🇦🇷"
+    },
+    "about": {
+      "getToKnow": "Get To Know More",
+      "aboutMe": "About Me",
+      "education": {
+        "title": "Education",
+        "description": "Institute Teclab",
+        "details": "Programming Technician"
+      },
+      "experience": {
+        "title": "Experience",
+        "description": "Front Developer",
+        "details": ""
+      },
+      "textContent": "👋 Hello, I'm Ramiro. As a technology enthusiast and web developer, I have focused on acquiring knowledge to become a Front End Developer. While my education includes courses in Python, Django, and Java focused on Back End development, my true passion lies in creating interactive and engaging user experiences.\nI am not only seeking job opportunities but also the chance to continue learning and growing in the technology industry. My goal is to apply both my academic knowledge and self-taught skills to real-world projects. I firmly believe that continuous learning is key to staying current in such a dynamic environment as web development.\nAlthough I realize that my technical experience is still weak in this ever-evolving and growing world, I have discovered the value of connections and associations with other experts. Sometimes, the answer to a question isn't just in the code but also in the community we are part of. In this regard, I am willing to share my experience and eager to benefit from any constructive feedback. ❤"
+    },
+    "experience": {
+      "exploreMy": "Explore my",
+      "title": "Experience",
+      "frontend": {
+        "title": "Frontend Development"
+      },
+      "backend": {
+        "title": "Backend Development"
+      }
+    },
+    "projects": {
+      "browseMyRecent": "Browse my recent",
+      "title": "Projects",
+      "cards": {
+        "scaloneta": {
+          "title": "Scaloneta",
+          "description": "Credential:<br> guayerd@estudiantes <br> 123456"
+        },
+        "aloha": {
+          "title": "Aloha Aromas",
+          "description": "E-commerce about aromas"
+        },
+        "wingu": {
+          "title": "Wingu",
+          "description": "Donation/shipping web"
+        },
+        "tresDeseos": {
+          "title": "3Deseos",
+          "description": "Web for 3D printing supplies"
+        },
+        "bikeShop": {
+          "title": "BikeShop",
+          "description": "Cycling supplies website"
+        }
+      }
+    },
+    "contact": {
+      "getInTouch": "Get in Touch",
+      "title": "Contact Me",
+      "email": "urteagaramiro33@gmail.com",
+      "linkedin": "Linkedin",
+      "footer": "Copyright © 2024 Ramiro Urteaga. All Rights Reserved.",
+      "nav": {
+        "name": "Ramiro Urteaga",
+        "about": "About me",
+        "experience": "Experience",
+        "projects": "Project",
+        "contact": "Contact"
+      }
+    },
+    "nav": {
+      "name": "Ramiro Urteaga",
+      "about": "About me",
+      "experience": "Experience",
+      "projects": "Project",
+      "contact": "Contact"
+    }
+  }
+  
