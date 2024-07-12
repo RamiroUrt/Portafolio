@@ -44,7 +44,6 @@ html::-webkit-scrollbar-thumb{
     background-color: var(--ligth-gray);
     border-radius: 30px;
 }
-
 body {
     font-family: "Poppins", sans-serif;
 }

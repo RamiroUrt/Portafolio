@@ -38,7 +38,7 @@
       "cards": {
         "scaloneta": {
           "title": "Scaloneta",
-          "description": "Credential:<br> guayerd@estudiantes <br> 123456"
+          "description": "Credential:<br> estudiante@guayerd.com <br> 123456"
         },
         "aloha": {
           "title": "Aloha Aromas",
@@ -78,6 +78,10 @@
       "experience": "Experience",
       "projects": "Project",
       "contact": "Contact"
+    },
+    "language": {
+      "english": "English",
+      "spanish": "Spanish"
     }
   }
   

@@ -2,11 +2,8 @@ import '../assets/LanguageOption.css';
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 
-
-
 // eslint-disable-next-line react/prop-types
 const LanguageOption = ({ closeMenu }) => {
-  // eslint-disable-next-line no-unused-vars
   const { t } = useTranslation();
 
   const handleLanguageChange = (event) => {
@@ -27,7 +24,7 @@ const LanguageOption = ({ closeMenu }) => {
           onChange={handleLanguageChange}
         />
         <div className="btn">
-          <span className="span dark:-text--light-white">English</span>
+          <span className="span dark:-text--light-white">{t('language.english')}</span>
         </div>
       </div>
       <div className="option">
@@ -40,7 +37,7 @@ const LanguageOption = ({ closeMenu }) => {
           onChange={handleLanguageChange}
         />
         <div className="btn">
-          <span className="span dark:-text--light-white">Spanish</span>
+          <span className="span dark:-text--light-white">{t('language.spanish')}</span>
         </div>
       </div>
     </div>

@@ -21,7 +21,7 @@ const Header = () => {
           <p className="section_text_p bouncy-text text-jr-text">{t('profile.role')}</p>
           <div className="btn_container">
             {/*btn white*/}
-            <BtnWhite text={t('profile.downloadCV')} location={'https://drive.google.com/file/d/1SefpHY4_zVY9b2N5ujIiGV9YMJpIpn-o/view'} />
+            <BtnWhite text={t('profile.downloadCV')} location={'https://drive.google.com/file/d/16hhTPTEwN6_MBGIQpbjysartAv-Yldtx/view?usp=sharing'} />
             {/*btn black*/}
             <a href="#contact">
               <BtnBlack text={t('profile.contactInfo')} />

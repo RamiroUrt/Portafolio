@@ -33,7 +33,12 @@ const Nav = () => {
         <div className="logo dark:-text--light-white" id='logo-desk'>
           <span>{t('nav.name')}</span>
         </div>
-        <ThemeChange />
+        <div className="flex gap-10 cont-center">
+          <div className="theme">
+            <ThemeChange />
+          </div>
+          <LanguageOption/>
+        </div>
         <div className="dark:-text--light-white">
           <ul className="nav-links dark:-text--light-white">
             <li><a href="#about" className='dark:-text--light-white'>{t('nav.about')}</a></li>
