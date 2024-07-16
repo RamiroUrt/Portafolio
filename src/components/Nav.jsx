@@ -31,7 +31,7 @@ const Nav = () => {
     <>
       <nav className="desktop-nav dark:-bg--light-black-- -bg--light-white">
         <div className="logo dark:-text--light-white" id='logo-desk'>
-          <span>{t('nav.name')}</span>
+          <a className='dark:-text--light-white dark:hover:-text--light-gray-- hover:no-underline'><span>{t('nav.name')}</span></a>
         </div>
         <div className="flex gap-10 cont-center">
           <div className="theme">
@@ -50,8 +50,7 @@ const Nav = () => {
       </nav>
       <nav className="hamburger-nav dark:-text--light-white dark:-bg--light-black-- -bg--light-white">
         <div className="logo">
-          <span className='dark:-text--light-white'>{t('nav.name')}</span>
-        </div>
+        <a className='dark:-text--light-white dark:hover:-text--light-gray-- hover:no-underline'><span>{t('nav.name')}</span></a>        </div>
         <ThemeChange />
         <div className="hamburger-menu" onClick={toggleMenu}>
           <span className={`icon ${isMenuOpen ? 'hide' : 'show'}`}>

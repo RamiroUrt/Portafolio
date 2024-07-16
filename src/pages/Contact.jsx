@@ -14,7 +14,7 @@ const Contact = () => {
         <p className="section_text_p text-center dark:-text--light-white">{t('contact.getInTouch')}</p>
         <h1 className="title dark:-text--light-white">{t('contact.title')}</h1>
         <div className="container mt-[4rem]">
-          <div className="details_container mt-8">
+          <div className="details_container mt-8 max-w-[500px]">
             <div className="contact-info break-all dark:-text--light-white">
               <div className="mail flex gap-2 ">
                 <Mail />
@@ -34,7 +34,7 @@ const Contact = () => {
       <section className="nav_contact">
         <nav className="">
           <div className="links ">
-            <span className='dark:-text--light-white'>{t('contact.nav.name')}</span>
+          <a className='dark:-text--light-white dark:hover:-text--light-gray-- hover:no-underline'><span>{t('nav.name')}</span></a>
             <li><a href="#about" className='dark:-text--light-white'>{t('contact.nav.about')}</a></li>
             <li><a href="#experience" className='dark:-text--light-white'>{t('contact.nav.experience')}</a></li>
             <li><a href="#projects" className='dark:-text--light-white'>{t('contact.nav.projects')}</a></li>

@@ -20,7 +20,7 @@
         "description": "Front Developer",
         "details": ""
       },
-      "textContent": "👋 Hello, I'm Ramiro. As a technology enthusiast and web developer, I have focused on acquiring knowledge to become a Front End Developer. While my education includes courses in Python, Django, and Java focused on Back End development, my true passion lies in creating interactive and engaging user experiences.\nI am not only seeking job opportunities but also the chance to continue learning and growing in the technology industry. My goal is to apply both my academic knowledge and self-taught skills to real-world projects. I firmly believe that continuous learning is key to staying current in such a dynamic environment as web development.\nAlthough I realize that my technical experience is still weak in this ever-evolving and growing world, I have discovered the value of connections and associations with other experts. Sometimes, the answer to a question isn't just in the code but also in the community we are part of. In this regard, I am willing to share my experience and eager to benefit from any constructive feedback. ❤"
+      "textContent": "👋 Hello, I'm Ramiro. As a technology enthusiast and web developer, I have focused on acquiring knowledge to become a Front End Developer. While my education includes courses in Python, Django, and Java focused on Back End development, my true passion lies in creating interactive and engaging user experiences.<br/>I am not only seeking job opportunities but also the chance to continue learning and growing in the technology industry. My goal is to apply both my academic knowledge and self-taught skills to real-world projects. I firmly believe that continuous learning is key to staying current in such a dynamic environment as web development.<br/>Although I realize that my technical experience is still weak in this ever-evolving and growing world, I have discovered the value of connections and associations with other experts. Sometimes, the answer to a question isn't just in the code but also in the community we are part of. In this regard, I am willing to share my experience and eager to benefit from any constructive feedback. ❤"
     },
     "experience": {
       "exploreMy": "Explore my",
@@ -69,7 +69,7 @@
       "linkedin": "Linkedin",
       "footer": "Copyright © 2024 Ramiro Urteaga. All Rights Reserved.",
       "nav": {
-        "name": "Ramiro Urteaga",
+        "name": "{RU}",
         "about": "About me",
         "experience": "Experience",
         "projects": "Project",
@@ -77,7 +77,7 @@
       }
     },
     "nav": {
-      "name": "Ramiro Urteaga",
+      "name": "{RU}",
       "about": "About me",
       "experience": "Experience",
       "projects": "Project",
