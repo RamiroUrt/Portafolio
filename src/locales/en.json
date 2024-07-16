@@ -55,6 +55,10 @@
         "bikeShop": {
           "title": "BikeShop",
           "description": "Cycling supplies website"
+        },
+        "VideoConverter": {
+        "title": "VideoConverter",
+        "description": "Convert YouTube Video ID to Mp3"
         }
       }
     },
