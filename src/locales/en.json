@@ -59,7 +59,11 @@
         "VideoConverter": {
         "title": "VideoConverter",
         "description": "Convert YouTube Video ID to Mp3"
-        }
+        },
+        "Coquette": {
+          "title": "Coquette",
+          "description": "Gallery 'Coquette' fashion studio"
+          }
       }
     },
     "contact": {

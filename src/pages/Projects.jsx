@@ -1,10 +1,15 @@
 import CardProjects from "../components/CardProjects";
+
+
 import Scaloneta from '../../public/img/Scaloneta.png';
 import Aloha from '../../public/img/Aloha.png';
 import Wingu from '../../public/img/Wingu.png';
 import TresDESEOS from '../../public/img/TresDESEOS.png';
 import BikeShop from '../../public/img/BikeShop.png';
 import VideoConverter from '../../public/img/VideoConverter.png';
+import CoquettePortada from '../../public/img/Coquette.png'
+
+
 import { useTranslation } from 'react-i18next';
 
 const Projects = () => {
@@ -58,6 +63,13 @@ const Projects = () => {
             description={t('projects.cards.VideoConverter.description')}
             location={'https://github.com/RamiroUrt/ConverterToMp3'}
             locations={'https://convertertomp3.onrender.com'}
+          />
+            <CardProjects 
+            img={CoquettePortada} 
+            title={t('projects.cards.Coquette.title')} 
+            description={t('projects.cards.Coquette.description')}
+            location={'https://github.com/RamiroUrt/Coquette'}
+            locations={'https://coquette.vercel.app'}
           />
         </div>
       </div>
