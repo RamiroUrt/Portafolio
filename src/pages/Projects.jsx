@@ -28,13 +28,15 @@ const Projects = () => {
             isFirst={true}
             location={''}
             locations={'https://symphonious-trifle-c8a521.netlify.app'}
+            technologies={['HTML', 'CSS', 'JS']}
           />
           <CardProjects 
             img={Aloha} 
             title={t('projects.cards.aloha.title')} 
             description={t('projects.cards.aloha.description')}
             location={'https://github.com/RamiroUrt/Aloha_tienda'}
-            locations={'https://aloha-tienda.onrender.com'} 
+            locations={'https://aloha-tienda.onrender.com'}
+            technologies={['HTML', 'CSS', 'JS', 'EXPRESS']} 
           />
           <CardProjects 
             img={Wingu} 
@@ -42,13 +44,15 @@ const Projects = () => {
             description={t('projects.cards.wingu.description')}
             location={'https://github.com/RamiroUrt/Win.fin/tree/main'}
             locations={'https://frabjous-rolypoly-c02616.netlify.app'} 
+            technologies={['HTML', 'CSS', 'JS', 'APEX']} 
           />
           <CardProjects 
             img={TresDESEOS} 
             title={t('projects.cards.tresDeseos.title')} 
             description={t('projects.cards.tresDeseos.description')}
             location={'https://github.com/3Dseos/3dseos-pagina'}
-            locations={'https://pescar-3dseos.web.app'} 
+            locations={'https://pescar-3dseos.web.app'}
+            technologies={['HTML', 'CSS', 'JS', 'WEBPACK']}  
           />
           <CardProjects 
             img={BikeShop} 
@@ -56,6 +60,7 @@ const Projects = () => {
             description={t('projects.cards.bikeShop.description')}
             location={'https://github.com/RamiroUrt/Bike-Shop'}
             locations={'https://bike-shopgt.netlify.app'}
+            technologies={['HTML', 'CSS', 'REACT']}  
           />
           <CardProjects 
             img={VideoConverter} 
@@ -63,6 +68,7 @@ const Projects = () => {
             description={t('projects.cards.VideoConverter.description')}
             location={'https://github.com/RamiroUrt/ConverterToMp3'}
             locations={'https://convertertomp3.onrender.com'}
+            technologies={['HTML', 'CSS', 'JS', 'NODEJS', 'EXPRESS']}  
           />
             <CardProjects 
             img={CoquettePortada} 
@@ -70,6 +76,7 @@ const Projects = () => {
             description={t('projects.cards.Coquette.description')}
             location={'https://github.com/RamiroUrt/Coquette'}
             locations={'https://coquette.vercel.app'}
+            technologies={['HTML', 'CSS', 'JS', 'REACT']} 
           />
         </div>
       </div>
@@ -78,3 +85,10 @@ const Projects = () => {
 }
 
 export default Projects;
+
+
+const Technologies ={
+  Scaloneta: {
+    language1 : 'HTML'
+  }
+}
