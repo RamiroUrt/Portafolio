@@ -8,6 +8,7 @@ import TresDESEOS from '../../public/img/TresDESEOS.png';
 import BikeShop from '../../public/img/BikeShop.png';
 import VideoConverter from '../../public/img/VideoConverter.png';
 import CoquettePortada from '../../public/img/Coquette.png'
+import GrillHouse from '../../public/img/GrillHouse.png'
 
 
 import { useTranslation } from 'react-i18next';
@@ -78,6 +79,14 @@ const Projects = () => {
             locations={'https://coquette.vercel.app'}
             technologies={['HTML', 'CSS', 'JS', 'REACT']} 
           />
+          <CardProjects 
+            img={GrillHouse} 
+            title={t('projects.cards.Grill.title')} 
+            description={t('projects.cards.Grill.description')}
+            location={'https://github.com/RamiroUrt/Grill-House'}
+            locations={'https://grill-house-three.vercel.app'}
+            technologies={['HTML', 'CSS', 'JS', 'REACT']} 
+          />
         </div>
       </div>
     </section>
@@ -85,10 +94,3 @@ const Projects = () => {
 }
 
 export default Projects;
-
-
-const Technologies ={
-  Scaloneta: {
-    language1 : 'HTML'
-  }
-}

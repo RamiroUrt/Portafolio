@@ -63,7 +63,11 @@
         "Coquette": {
             "title": "Coquette",
             "description": "Galería 'Coquette' estudio de moda"
-            }
+        },
+        "Grill": {
+          "title": "Grill House",
+          "description": "Catálogo online de restaurante"
+        }
       }
     },
     "contact": {
