@@ -38,7 +38,10 @@ html, body{
 }
 .dark html, body {
     cursor: url('./svg/cursorOrange.svg'), pointer;
-  }
+}
+.dark body{
+    background: radial-gradient(at center top, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
+}
 
 *::selection{
     background-color: var( --font-ligth) !important;
@@ -55,6 +58,7 @@ html::-webkit-scrollbar-thumb{
 }
 body {
     font-family: "Poppins", sans-serif;
+    background: radial-gradient(at center top, rgb(252, 252, 252), rgb(215, 218, 224), rgb(75, 85, 99));
 }
 p{
     color: var(--ligth-gray);

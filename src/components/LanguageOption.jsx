@@ -13,7 +13,7 @@ const LanguageOption = ({ closeMenu }) => {
   };
 
   return (
-    <div className="wrapper dark:-bg--light-black--">
+    <div className="wrapper">
       <div className="option">
         <input
           checked={i18next.language === 'en'}
