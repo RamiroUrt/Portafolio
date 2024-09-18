@@ -494,6 +494,8 @@ img{
     .desktop-nav{
         display: none;
     }
+    .contain-nav-mobile{
+    }
     .hamburger-nav{
         display: flex;
     }
@@ -519,7 +521,10 @@ img{
         transition-property: all;
         transition-duration: 500ms;
         z-index: 50;
-        background-color: var(--ligth-white);
+        background: radial-gradient(at center top, rgb(252, 252, 252), rgb(215, 218, 224), rgb(75, 85, 99));
+    }
+    .dark .nav-links-hamburger{
+        background: radial-gradient(at center top, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
     }
     .about{
         margin-bottom: 30rem;

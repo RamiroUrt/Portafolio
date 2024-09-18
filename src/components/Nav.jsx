@@ -48,7 +48,7 @@ const Nav = () => {
           </ul>
         </div>
       </nav>
-      <nav className="hamburger-nav dark:-text--light-white dark:-bg--light-black-- -bg--light-white">
+      <nav className="hamburger-nav dark:-text--light-white">
         <div className="logo">
         <a className='dark:-text--light-white dark:hover:-text--light-gray-- hover:no-underline'><span>{t('nav.name')}</span></a>        </div>
         <ThemeChange />
@@ -62,7 +62,7 @@ const Nav = () => {
         </div>
         {isMenuOpen && (
           <>
-            <ul className="nav-links-hamburger dark:-text--light-white dark:-bg--light-black--">
+            <ul className="nav-links-hamburger dark:-text--light-white">
               <li><a href="#about" onClick={closeMenu} className='dark:-text--light-white'>{t('nav.about')}</a></li>
               <li><a href="#experience" onClick={closeMenu} className='dark:-text--light-white'>{t('nav.experience')}</a></li>
               <li><a href="#projects" onClick={closeMenu} className='dark:-text--light-white'>{t('nav.projects')}</a></li>
