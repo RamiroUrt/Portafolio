@@ -24,13 +24,15 @@ export default {
 
       'jr-card-1': '#27272A',
       'jr-card-2': '#404040',
-      'jr-text': '#F59E0B'
+      'jr-text': '#F59E0B',
     },
     extend: {
       fontFamily: {
         sans: ['Poppins', 'sans-serif'],
       },
     },
+  },
+  variants: {
   },
   plugins: [],
 }

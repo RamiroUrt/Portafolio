@@ -29,7 +29,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className="desktop-nav dark:-bg--light-black-- -bg--light-white">
+      <nav className="desktop-nav">
         <div className="logo dark:-text--light-white" id='logo-desk'>
           <a className='dark:-text--light-white dark:hover:-text--light-gray-- hover:no-underline'><span>{t('nav.name')}</span></a>
         </div>

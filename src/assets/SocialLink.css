@@ -6,7 +6,6 @@
   }
   
   .button {
-    cursor: pointer;
     text-decoration: none;
     color: var(--ligth-white);
     width: 40px;
@@ -16,6 +15,11 @@
     border: 2px solid var(--ligth-black--);
   }
   
+
+  .a:hover, .button:hover {
+    transform: rotate(45deg);
+  }
+
   .button:hover {
     transform: rotate(360deg);
     transform-origin: center center;

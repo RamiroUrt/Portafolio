@@ -40,7 +40,7 @@ const ArrowUp = () => {
   return (
     
     <>
-    <article className="arrows       ">
+    <article className="arrows">
         <a href="#!" onClick={handleScrollUp}>
           <ChevronsUp size={40} className='dark:-text--light-white' />
         </a>

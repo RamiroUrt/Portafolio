@@ -11,7 +11,6 @@
 
 .ui-switch input {
   display: none;
-  cursor: pointer;
 }
 
 .slider {
@@ -20,7 +19,6 @@
   background: var(--switch-bg);
   border-radius: 999px;
   position: relative;
-  cursor: pointer;
 }
 
 .slider .circle {

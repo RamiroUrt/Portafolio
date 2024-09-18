@@ -21,8 +21,8 @@
     --bg-color: #fff;
     --main-color: #323232;
     --secondary-color: #505050;
-}
 
+}
 
 *{
     margin: 0;
@@ -31,10 +31,19 @@
     text-decoration: none;
     list-style: none;
 }
-html{
+html, body{
+    cursor: url('./svg/cursorWhite.svg'), pointer;
     scroll-behavior: smooth;
-    transition: background-color 0.9s ease, color 0.9s ease;
+    /* transition: background-color 0.9s ease, color 0.9s ease; */
 }
+.dark html, body {
+    cursor: url('./svg/cursorOrange.svg'), pointer;
+  }
+
+*::selection{
+    background-color: var( --font-ligth) !important;
+}
+
 
 html::-webkit-scrollbar{
     width: 5px;
@@ -50,10 +59,41 @@ body {
 p{
     color: var(--ligth-gray);
 }
-a, .btn{
+.dark a,
+.dark .wrapper,
+.dark .option,
+.dark .a,
+.dark .button,
+.dark .btn,
+.dark button,
+.dark span,
+.dark input,
+.dark svg,
+.dark g,
+.dark path{
+    cursor: url('./svg/cursorOrangePointer.svg')30 10, default;
+}
+
+a,
+.arrows,
+.wrapper,
+.option,
+.a,
+.button,
+.btn, 
+button,
+span, 
+input,
+svg,
+g,
+path{
+    cursor: url('./svg/cursorWhitePointer.svg')30 10, default;
     transition: all 300ms ease;
     text-decoration: none;
 }
+
+
+
 nav, .nav-links{
     display: flex;
 }
@@ -72,7 +112,6 @@ nav{
 }
 span{
     font-size: 1.2rem;
-    cursor: default;
     z-index: 90;
 }
 
@@ -113,6 +152,7 @@ a:hover{
     gap: 6rem;
     height: 80vh;
     display: flex;
+
 }
 .section_pic{
     display: flex;
