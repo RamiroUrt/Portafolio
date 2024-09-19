@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import '../assets/ThemeChange.css';
 
 const ThemeChange = () => {
-  const [theme, setTheme] = useState('light');
+  const [theme, setTheme] = useState('dark');
 
   useEffect(() => {
     if (theme === 'dark') {

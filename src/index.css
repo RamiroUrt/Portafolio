@@ -358,7 +358,6 @@ img{
   .show {
     animation: fadeIn 0.5s forwards, rotateIn 0.5s forwards;
   }
-/*Animacion bounce*/
 
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {

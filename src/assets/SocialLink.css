@@ -32,4 +32,14 @@
     justify-content: center;
     align-items: center;
   }
+  .btn-svg{
+    fill: black;
+    color: black;
+    stroke: black;
+  }
   
+  .dark .btn-svg{
+    fill: white;
+    color: white;
+    stroke: white;
+  }
