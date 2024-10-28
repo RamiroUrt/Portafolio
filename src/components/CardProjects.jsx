@@ -2,7 +2,7 @@
 
 import BtnBlack from "../components/BtnBlack";
 import BtnWhite from "../components/BtnWhite";
-import '../assets/CardCont.css';
+import '../assets/css/CardCont.css';
 import ButtonDescription from "./ButtonDescription";
 
 // eslint-disable-next-line react/prop-types

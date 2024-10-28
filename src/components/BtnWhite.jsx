@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-import '../assets/BtnWhite.css';
+import '../assets/css/BtnWhite.css';
 
 
 const BtnWhite = ({ text, location, className }) => {

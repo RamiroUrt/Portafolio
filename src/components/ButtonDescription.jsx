@@ -1,5 +1,5 @@
 
-import '../assets/CardCont.css'
+import '../assets/css/CardCont.css'
 
 
 // eslint-disable-next-line react/prop-types

@@ -37,6 +37,21 @@
     flex-wrap: wrap;
     overflow: hidden;
 }
+
+.details_container_skills{
+    padding: 1.5rem;
+    background-color: transparent;
+    border-radius: 2rem;
+    border: var(--ligth-gray--) 0.1rem solid;
+    border-color: var(--ligth-gray--);
+    text-align: center;
+    align-items: center;
+    display: grid;
+    max-width: 800px;
+    grid-template-rows: auto 1fr auto;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
 .details_container_about{
     position: relative;
     padding: 1.5rem;
@@ -66,7 +81,14 @@
     align-items: center;
     flex-direction: column;
 }
-
+.article_exp > img{
+    width: 50px;
+    height: 100px;
+    transition: transform 0.3s ease;
+}
+.article_exp > img:hover{
+    transform: scale(1.5);
+}
 .color-container{
     margin-top: 10rem;
     margin-bottom: 10rem;
@@ -126,7 +148,6 @@ span{
 /*Project card*/
 .article-container {
   position: relative;
-  width: 100%;
   overflow: hidden;
 }
 

@@ -32,12 +32,8 @@
     list-style: none;
 }
 html, body{
-    cursor: url('./svg/cursorWhite.svg'), pointer;
     scroll-behavior: smooth;
     /* transition: background-color 0.9s ease, color 0.9s ease; */
-}
-.dark html, body {
-    cursor: url('./svg/cursorOrange.svg'), pointer;
 }
 .dark body{
     background: radial-gradient(at center top, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
@@ -63,40 +59,6 @@ body {
 p{
     color: var(--ligth-gray);
 }
-.dark a,
-.dark .wrapper,
-.dark .option,
-.dark .a,
-.dark .button,
-.dark .btn,
-.dark button,
-.dark span,
-.dark input,
-.dark svg,
-.dark g,
-.dark path{
-    cursor: url('./svg/cursorOrangePointer.svg')30 10, default;
-}
-
-a,
-.arrows,
-.wrapper,
-.option,
-.a,
-.button,
-.btn, 
-button,
-span, 
-input,
-svg,
-g,
-path{
-    cursor: url('./svg/cursorWhitePointer.svg')30 10, default;
-    transition: all 300ms ease;
-    text-decoration: none;
-}
-
-
 
 nav, .nav-links{
     display: flex;
@@ -320,10 +282,10 @@ img{
     flex-direction: column;
 }
 .container_project{
-    display: flex;
-    gap: 5rem;
-    justify-content: center;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, auto); 
+    gap: 50px;
 }
 .themeChange{
     display: block;
@@ -484,6 +446,9 @@ img{
         overflow: visible;
         z-index: 300;
     }
+    .container_project{
+        grid-template-columns: 1fr;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -543,5 +508,14 @@ img{
     }
     .text_content{
         margin-top: 4rem;
+    }
+    .container_project{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width: 800px){
+    .container_project{
+        grid-template-columns: 1fr;
     }
 }

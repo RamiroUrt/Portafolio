@@ -1,4 +1,4 @@
-import '../assets/LanguageOption.css';
+import '../assets/css/LanguageOption.css';
 import { useTranslation } from 'react-i18next';
 import i18next from 'i18next';
 

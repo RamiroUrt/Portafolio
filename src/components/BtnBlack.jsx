@@ -1,6 +1,6 @@
 /* eslint-disable react/prop-types */
 
-import '../assets/BtnBlack.css';
+import '../assets/css/BtnBlack.css';
 
 
 const BtnBlack = ({ text, locations }) => {

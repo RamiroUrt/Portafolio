@@ -1,8 +1,8 @@
 import { Mail } from 'lucide-react';
 import { Linkedin } from 'lucide-react';
-import '../assets/CardCont.css';
+import '../assets/css/CardCont.css';
 import LanguageOption from '../components/LanguageOption';
-import '../assets/LanguageOption.css';
+import '../assets/css/LanguageOption.css';
 import { useTranslation } from 'react-i18next';
 
 const Contact = () => {

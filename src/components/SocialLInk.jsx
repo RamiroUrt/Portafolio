@@ -1,4 +1,4 @@
-import '../assets/SocialLink.css'
+import '../assets/css/SocialLink.css'
 
 const SocialLInk = () => {
   return (

@@ -1,5 +1,5 @@
 /* eslint-disable react/prop-types */
-import '../assets/CardCont.css'
+import '../assets/css/CardCont.css'
 
 const CardCont = ({ Icon, title, description, details }) => {
   return (

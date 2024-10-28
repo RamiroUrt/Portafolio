@@ -20,16 +20,13 @@
         "description": "Desarrollador Frontend",
         "details": ""
       },
-      "textContent": "👋 Hola, soy Ramiro. Como entusiasta de la tecnología y desarrollador web, me he centrado en adquirir conocimientos para convertirme en Desarrollador Frontend. Aunque mi educación incluye cursos en Python, Django y Java enfocados en el desarrollo Back End, mi verdadera pasión radica en crear experiencias de usuario interactivas y atractivas.<br/> No solo estoy buscando oportunidades de trabajo, sino también la oportunidad de seguir aprendiendo y creciendo en la industria tecnológica. Mi objetivo es aplicar tanto mi conocimiento académico como mis habilidades autodidactas a proyectos del mundo real. Creo firmemente que el aprendizaje continuo es clave para mantenerse actualizado en un entorno tan dinámico como el desarrollo web.<br/>Aunque me doy cuenta de que mi experiencia técnica aún es débil en este mundo en constante evolución y crecimiento, he descubierto el valor de las conexiones y asociaciones con otros expertos. A veces, la respuesta a una pregunta no está solo en el código, sino también en la comunidad de la que formamos parte. En este sentido, estoy dispuesto a compartir mi experiencia y ansioso por beneficiarme de cualquier comentario constructivo. ❤"
+      "textContent": "👋 Hola, soy Ramiro. Como entusiasta de la tecnología y desarrollador web, me he centrado en adquirir conocimientos para convertirme en Desarrollador Frontend. Aunque mi educación incluye cursos en Python, Django y Java enfocados en el desarrollo Back End, mi verdadera pasión radica en crear experiencias de usuario interactivas y atractivas.<br/> No solo estoy buscando oportunidades de trabajo, sino también la oportunidad de seguir aprendiendo y creciendo en la industria tecnológica. Mi objetivo es aplicar tanto mi conocimiento académico como mis habilidades autodidactas a proyectos del mundo real. Creo firmemente que el aprendizaje continuo es clave para mantenerse actualizado en un entorno tan dinámico como el desarrollo web.<br/> En este mundo en constante evolución y crecimiento, he descubierto el valor de las conexiones y asociaciones con otros expertos. A veces, la respuesta a una pregunta no está solo en el código, sino también en la comunidad de la que formamos parte. En este sentido, estoy dispuesto a compartir mi experiencia y ansioso por beneficiarme de cualquier comentario constructivo. ❤"
     },
     "experience": {
       "exploreMy": "Explora mi",
       "title": "Experiencia",
       "frontend": {
-        "title": "Desarrollo Frontend"
-      },
-      "backend": {
-        "title": "Desarrollo Backend"
+        "title": "Habilidades"
       }
     },
     "projects": {
