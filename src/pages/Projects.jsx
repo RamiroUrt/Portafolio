@@ -9,7 +9,7 @@ import BikeShop from '../../public/img/BikeShop.png';
 import VideoConverter from '../../public/img/VideoConverter.png';
 import CoquettePortada from '../../public/img/Coquette.png'
 import GrillHouse from '../../public/img/GrillHouse.png'
-
+import Educatina from '../../public/img/Educatina.png'
 
 import { useTranslation } from 'react-i18next';
 
@@ -21,7 +21,31 @@ const Projects = () => {
       <p className="section_text_p text-center dark:-text--light-white">{t('projects.browseMyRecent')}</p>
       <h1 className="title dark:-text--light-white">{t('projects.title')}</h1>
       <div className="color-container flex flex-wrap">
-        <div className="container_project">
+        <div className="container_project ">
+        <CardProjects 
+            img={CoquettePortada} 
+            title={t('projects.cards.Coquette.title')} 
+            description={t('projects.cards.Coquette.description')}
+            location={'https://github.com/RamiroUrt/Coquette'}
+            locations={'https://coquette.vercel.app'}
+            technologies={['HTML', 'CSS', 'JS', 'REACT']} 
+          />
+          <CardProjects 
+            img={GrillHouse} 
+            title={t('projects.cards.Grill.title')} 
+            description={t('projects.cards.Grill.description')}
+            location={'https://github.com/RamiroUrt/Grill-House'}
+            locations={'https://grill-house-three.vercel.app'}
+            technologies={['HTML', 'CSS', 'JS', 'REACT']} 
+          />
+          <CardProjects 
+            img={Educatina} 
+            title={t('projects.cards.Edu.title')} 
+            description={t('projects.cards.Edu.description')}
+            location={'https://github.com/RamiroUrt/Educatina'}
+            locations={'https://educatina.vercel.app'}
+            technologies={['HTML', 'CSS', 'JS', 'REACT']} 
+          />
           <CardProjects 
             img={Scaloneta} 
             title={t('projects.cards.scaloneta.title')} 
@@ -70,22 +94,6 @@ const Projects = () => {
             location={'https://github.com/RamiroUrt/ConverterToMp3'}
             locations={'https://convertertomp3.onrender.com'}
             technologies={['HTML', 'CSS', 'JS', 'NODEJS', 'EXPRESS']}  
-          />
-            <CardProjects 
-            img={CoquettePortada} 
-            title={t('projects.cards.Coquette.title')} 
-            description={t('projects.cards.Coquette.description')}
-            location={'https://github.com/RamiroUrt/Coquette'}
-            locations={'https://coquette.vercel.app'}
-            technologies={['HTML', 'CSS', 'JS', 'REACT']} 
-          />
-          <CardProjects 
-            img={GrillHouse} 
-            title={t('projects.cards.Grill.title')} 
-            description={t('projects.cards.Grill.description')}
-            location={'https://github.com/RamiroUrt/Grill-House'}
-            locations={'https://grill-house-three.vercel.app'}
-            technologies={['HTML', 'CSS', 'JS', 'REACT']} 
           />
         </div>
       </div>

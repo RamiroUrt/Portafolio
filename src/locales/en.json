@@ -64,6 +64,10 @@
         "Grill": {
           "title": "Grill House",
           "description": "Restaurant online catalog"
+        },
+        "Edu": {
+          "title": "Educatina",
+          "description": "Academia LandingPage"
         }
       }
     },
