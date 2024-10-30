@@ -10,7 +10,6 @@ import nodeSvg from '../assets/svg/nodejs-svg.svg';
 import mongoSvg from '../assets/svg/mongodb-svg.svg';
 import mySQLSvg from '../assets/svg/mysql-svg.svg';
 import pythonSvg from '../assets/svg/python-svg.svg';
-import javaSvg from '../assets/svg/java-svg.svg';
 import csharpSvg from '../assets/svg/csharp-svg.svg';
 import dotnetSvg from '../assets/svg/dotnet-svg.svg';
 
@@ -32,7 +31,6 @@ const ArticleExp = () => {
       <CardExp tech={"MongoDB"} svg={mongoSvg} />
       <CardExp tech={"mySQL"} svg={mySQLSvg} />
       <CardExp tech={"Python"} svg={pythonSvg} />
-      <CardExp tech={"Java"} svg={javaSvg} />
       <CardExp tech={"C#"} svg={csharpSvg} />
       <CardExp tech={"Dotnet"} svg={dotnetSvg} />
     </div>
