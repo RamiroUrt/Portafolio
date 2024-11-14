@@ -1,9 +1,19 @@
 
 
+
 import BtnBlack from "../components/BtnBlack";
 import BtnWhite from "../components/BtnWhite";
 import '../assets/css/CardCont.css';
 import ButtonDescription from "./ButtonDescription";
+
+
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init({
+  duration: 600,
+  easing: 'ease',
+  once: false,
+});
 
 // eslint-disable-next-line react/prop-types
 const CardProjects = ({ img, title, description, isFirst, location, locations, technologies = [] }) => {
@@ -11,7 +21,10 @@ const CardProjects = ({ img, title, description, isFirst, location, locations, t
 
   return (
     <>
-      <article className="details_container">
+      <article className="details_container"
+          data-aos="fade-up"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
         <div className="article-container">
           <div className="project-img">
             <img src={img} alt="" className="rounded-3xl object-cover" />            <div className="contenido-tec">

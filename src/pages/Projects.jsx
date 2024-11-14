@@ -13,16 +13,32 @@ import Educatina from '../../public/img/Educatina.png'
 
 import { useTranslation } from 'react-i18next';
 
+
+
+import Auris from "../components/Auris";
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+AOS.init({
+  duration: 900,
+});
 const Projects = () => {
   const { t } = useTranslation();
 
   return (
-    <section id='projects' className="projects">
+    <>
+    <section id='projects' className="projects relative">
       <p className="section_text_p text-center dark:-text--light-white">{t('projects.browseMyRecent')}</p>
       <h1 className="title dark:-text--light-white">{t('projects.title')}</h1>
       <div className="color-container flex flex-wrap">
         <div className="container_project ">
-        <CardProjects 
+    <div
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+     className="auris-background">
+      <Auris/>
+    </div>
+        <CardProjects
             img={CoquettePortada} 
             title={t('projects.cards.Coquette.title')} 
             description={t('projects.cards.Coquette.description')}
@@ -98,6 +114,7 @@ const Projects = () => {
         </div>
       </div>
     </section>
+    </>
   );
 }
 

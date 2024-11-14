@@ -1,6 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Nav from "../components/Nav";
-import Perfil from '../../public/img/Perfil.jpg';
+import Perfil from '../../public/img/avtar.png';
 import BtnWhite from "../components/BtnWhite";
 import BtnBlack from "../components/BtnBlack";
 import SocialLInk from "../components/SocialLInk";

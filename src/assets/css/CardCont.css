@@ -146,10 +146,6 @@ span{
 }
 
 /*Project card*/
-.article-container {
-  position: relative;
-  overflow: hidden;
-}
 
 .project-img {
   width: 100%;

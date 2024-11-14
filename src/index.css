@@ -33,6 +33,7 @@
 }
 html, body{
     scroll-behavior: smooth;
+    overflow-x: hidden;
     /* transition: background-color 0.9s ease, color 0.9s ease; */
 }
 .dark body{
@@ -125,8 +126,8 @@ a:hover{
     /* height: 4000px; */
 }
 img{
-    border-radius: 14% 86% 56% 44% / 30% 30% 70% 70%  ;
-    width: 330px;
+    border-radius: 14% 86% 56% 70% / 30% 30% 70% 30%  ;
+    width: 380px;
     height: 380px;
     margin: 0 auto;
     position: relative;
@@ -252,7 +253,30 @@ img{
     border-color: rgb(163, 163, 163);
     border-radius: 2rem;
 } */
-
+.mate-background{
+    position: absolute;
+    top: -80px;
+    right: 20em; 
+    z-index: -1; 
+    width: 400px;
+    height: auto; 
+}
+.auris-background{
+    position: absolute;
+    left: 80px;
+    right: 20em; 
+    z-index: -1; 
+    width: 400px;
+    height: auto;
+}
+.carta-background{
+    position: absolute;
+    left: 60em;
+    right: 20em; 
+    z-index: -1; 
+    width: 700px;
+    height: auto;
+}
 .article-container {
     display: flex;
     flex-direction: space-around;
@@ -262,6 +286,7 @@ img{
     align-items: stretch;
     flex-wrap: wrap;
     transition: transform 0.3s ease;
+    position: relative;
 }
 
 .experience_sub_title{
@@ -272,6 +297,7 @@ img{
 }
 .experience{
     margin-bottom: 15rem;
+    position: relative;
 }
 .projects{
     display: flex;
@@ -348,8 +374,6 @@ img{
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        margin-top: 21rem;
-        margin-bottom: 50rem;
     }
     .section_pic{
         margin: 0 auto;
@@ -381,13 +405,12 @@ img{
     .about{
         text-align: center;
         flex-direction: column;
-        margin-bottom: 50rem;
+        margin-bottom: 20rem;
         display: flex;
         justify-self: center;
         align-items: center;
         text-align: center;
         margin: 0 auto;
-        margin-bottom: 30rem;
     }
     .about_container{
         display: block;
@@ -453,7 +476,7 @@ img{
 
 @media screen and (max-width: 1200px){
     #profile{
-        margin-bottom: 40rem;
+        margin-bottom: 10rem;
     }
     .desktop-nav{
         display: none;
@@ -490,9 +513,6 @@ img{
     .dark .nav-links-hamburger{
         background: radial-gradient(at center top, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
     }
-    .about{
-        margin-bottom: 30rem;
-    }
     .card-junior{
         display: flex;
         align-items: center;
@@ -512,10 +532,30 @@ img{
     .container_project{
         grid-template-columns: repeat(2, 1fr);
     }
+    .carta-background{
+        left: 10em;
+    }
 }
 
 @media screen and (max-width: 800px){
     .container_project{
         grid-template-columns: 1fr;
+    }
+    .mate-background{
+        right: 1px;
+    }
+    .carta-background{
+        left: 1em;
+    }
+
+
+}
+
+@media screen and (min-width: 900px) and (max-width: 1600px){
+    .mate-background{
+        right: 5em;
+    }
+    .carta-background{
+        left: 30em;
     }
 }

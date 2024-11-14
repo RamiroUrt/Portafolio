@@ -31,7 +31,7 @@ const Nav = () => {
     <>
       <nav className="desktop-nav">
         <div className="logo dark:-text--light-white" id='logo-desk'>
-          <a className='dark:-text--light-white dark:hover:-text--light-gray-- hover:no-underline'><span>{t('nav.name')}</span></a>
+          <a className='dark:-text--light-white dark:hover:-text--light-gray-- hover:no-underline fixed'><span>{t('nav.name')}</span></a>
         </div>
         <div className="flex gap-10 cont-center">
           <div className="theme">
