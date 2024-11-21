@@ -30,13 +30,15 @@ const Projects = () => {
       <p className="section_text_p text-center dark:-text--light-white">{t('projects.browseMyRecent')}</p>
       <h1 className="title dark:-text--light-white">{t('projects.title')}</h1>
       <div className="color-container flex flex-wrap">
-        <div className="container_project ">
-    <div
-          data-aos="fade-left"
-          data-aos-offset="300"
-          data-aos-easing="ease-in-sine"
-     className="auris-background">
-      <Auris/>
+        <div className="container_project relative ">
+    <div className="auris-contain">
+      <div
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+       className="auris-background">
+        <Auris/>
+      </div>
     </div>
         <CardProjects
             img={CoquettePortada} 

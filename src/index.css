@@ -22,6 +22,8 @@
     --main-color: #323232;
     --secondary-color: #505050;
 
+    --orange-color: #F59E0B;
+
 }
 
 *{
@@ -41,7 +43,7 @@ html, body{
 }
 
 *::selection{
-    background-color: var( --font-ligth) !important;
+    background-color: var( --orange-color) !important;
 }
 
 
@@ -86,6 +88,7 @@ a{
     color: var(--ligth-black);
     text-decoration-color: var(--ligth-white)
 }
+
 a:hover{
     color: var(--ligth-gray);
     text-decoration: underline;
@@ -137,7 +140,7 @@ img{
     width: 331px;
     height: 400px;
     background-color: var(--ligth-gray--);
-    border-radius: 87% 47% 81% 31% / 60% 35% 100% 69%  ;
+    border-radius: 87% 47% 81% 31% / 60% 25% 100% 79%;
     z-index: -1;
 }
 .section_text{
@@ -253,26 +256,56 @@ img{
     border-color: rgb(163, 163, 163);
     border-radius: 2rem;
 } */
-.mate-background{
+.contain-mate{
     position: absolute;
     top: -80px;
-    right: 20em; 
+    right: 20em;
+    position: absolute;
+    width: 331px;
+    height: 400px;
+    background-color: var(--ligth-gray--);
+    border-radius: 87% 47% 81% 31% / 60% 25% 100% 79%;
     z-index: -1; 
+}
+.mate-background{
+    position: relative;
+    top: -80px;
+    right: 1em;  
     width: 400px;
-    height: auto; 
+    height: auto;
+}
+.auris-contain{
+    position: absolute;
+    top: -80px;
+    right: 70em;
+    width: 331px;
+    height: 400px;
+    background-color: var(--ligth-gray--);
+    border-radius: 87% 47% 81% 31% / 60% 25% 100% 79%;
+    z-index: -1; 
 }
 .auris-background{
     position: absolute;
     left: 80px;
-    right: 20em; 
+    right: 30em; 
     z-index: -1; 
     width: 400px;
     height: auto;
 }
+.carta-contain{
+    position: absolute;
+    left: 70em;
+    right: 20em; 
+    width: 331px;
+    height: 400px;
+    background-color: var(--ligth-gray--);
+    border-radius: 87% 47% 81% 31% / 60% 25% 100% 79%;
+    z-index: -1;
+}
 .carta-background{
     position: absolute;
-    left: 60em;
-    right: 20em; 
+    left: -10em;
+    right: 30em; 
     z-index: -1; 
     width: 700px;
     height: auto;
@@ -547,8 +580,18 @@ img{
     .carta-background{
         left: 1em;
     }
-
-
+    .auris-background{
+        left: 1em;
+    }
+    .auris-contain{
+        left: 1em;
+    }
+    .carta-background{
+        left: 1em;
+    }
+    .carta-contain{
+        left: 3em;
+    }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1600px){
@@ -556,6 +599,18 @@ img{
         right: 5em;
     }
     .carta-background{
+        left: 30em;
+    }
+    .auris-background{
+        left: 10em;
+    }
+    .auris-contain{
+        left: 20em;
+    }
+    .carta-background{
+        left: 1em;
+    }
+    .carta-contain{
         left: 30em;
     }
 }

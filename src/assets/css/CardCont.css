@@ -27,8 +27,8 @@
     padding: 1.5rem;
     background-color: transparent;
     border-radius: 2rem;
-    border: var(--ligth-gray--) 0.1rem solid;
-    border-color: var(--ligth-gray--);
+    border: var(--ligth-black) 0.1rem solid;
+    border-color: var(--ligth-black);
     text-align: center;
     align-items: center;
     display: grid;
@@ -42,8 +42,8 @@
     padding: 1.5rem;
     background-color: transparent;
     border-radius: 2rem;
-    border: var(--ligth-gray--) 0.1rem solid;
-    border-color: var(--ligth-gray--);
+    border: var(--ligth-black) 0.1rem solid;
+    border-color: var(--ligth-black);
     text-align: center;
     align-items: center;
     display: grid;
@@ -57,8 +57,8 @@
     padding: 1.5rem;
     background-color: transparent;
     border-radius: 2rem;
-    border: var(--ligth-gray--) 0.1rem solid;
-    border-color: var(--ligth-gray--);
+    border: var(--ligth-black) 0.1rem solid;
+    border-color: var(--ligth-black);
     text-align: center;
     align-items: center;
     display: flex;

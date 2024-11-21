@@ -14,13 +14,15 @@ const Contact = () => {
       <section className="contact relative" id="contact">
         <p className="section_text_p text-center dark:-text--light-white">{t('contact.getInTouch')}</p>
         <h1 className="title dark:-text--light-white">{t('contact.title')}</h1>
-          <div
-            data-aos="fade-left"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
-      className="carta-background">
-        <Carta />
-      </div>
+          <div className="carta-contain">
+            <div
+              data-aos="fade-left"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+                  className="carta-background">
+                    <Carta />
+                  </div>
+          </div>
         <div className="container mt-[4rem]">
           <div className="details_container mt-8 max-w-[500px]">
             <div className="contact-info break-all dark:-text--light-white">
