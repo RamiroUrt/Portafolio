@@ -33,13 +33,7 @@ const Nav = () => {
         <div className="logo dark:-text--light-white" id='logo-desk'>
           <a className='dark:-text--light-white dark:hover:-text--light-gray-- hover:no-underline fixed'><span>{t('nav.name')}</span></a>
         </div>
-        <div className="flex gap-10 cont-center">
-          <div className="theme">
-            <ThemeChange />
-          </div>
-          <LanguageOption/>
-        </div>
-        <div className="dark:-text--light-white">
+        <div className="dark:-text--light-white contain-nav">
           <ul className="nav-links dark:-text--light-white">
             <li><a href="#about" className='dark:-text--light-white'>{t('nav.about')}</a></li>
             <li><a href="#experience" className='dark:-text--light-white'>{t('nav.experience')}</a></li>
@@ -47,6 +41,14 @@ const Nav = () => {
             <li><a href="#contact" className='dark:-text--light-white'>{t('nav.contact')}</a></li>
           </ul>
         </div>
+          <div className="contain-options">
+            <div className="flex gap-10 cont-center">
+              <div className="theme">
+                <ThemeChange />
+              </div>
+              <LanguageOption/>
+            </div>
+          </div>
       </nav>
       <nav className="hamburger-nav dark:-text--light-white">
         <div className="logo">
