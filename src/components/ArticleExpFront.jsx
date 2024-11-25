@@ -36,7 +36,7 @@ const ArticleExp = () => {
         <CardExp tech={"Python"} svg={pythonSvg} />
         <CardExp tech={"Java"} svg={javaSvg} />
         <CardExp tech={"C#"} svg={csharpSvg} />
-        <CardExp tech={"Dotnet"} svg={dotnetSvg} />
+        <CardExp tech={".Net Core"} svg={dotnetSvg} />
       </Fade>
     </div>
     </>
