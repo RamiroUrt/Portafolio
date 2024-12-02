@@ -33,7 +33,7 @@ const Nav = () => {
         <div className="logo dark:-text--light-white" id='logo-desk'>
           <a className='dark:-text--light-white dark:hover:-text--light-gray-- hover:no-underline fixed'><span>{t('nav.name')}</span></a>
         </div>
-        <div className="dark:-text--light-white contain-nav">
+        <div className="dark:-text--light-white contain-nav z-[-300]">
           <ul className="nav-links dark:-text--light-white">
             <li><a href="#about" className='dark:-text--light-white'>{t('nav.about')}</a></li>
             <li><a href="#experience" className='dark:-text--light-white'>{t('nav.experience')}</a></li>

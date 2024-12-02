@@ -65,6 +65,7 @@ p{
 
 nav, .nav-links{
     display: flex;
+
 }
 nav{
     display: flex;
@@ -81,9 +82,11 @@ nav{
     font-size: 1.5rem;
 }
 .contain-nav {
-    flex: 1;
+    margin:0 auto;
     display: flex;
     justify-content: center;
+    align-items: center;
+    text-align: center;
   }
   .contain-options {
     position: fixed;
@@ -368,6 +371,9 @@ img{
     overflow: visible;
     z-index: 300;
 }
+.languaje{
+    display: none;
+}
 /* Animación de opacidad */
 @keyframes fadeIn {
     from { opacity: 0; }
@@ -415,7 +421,7 @@ img{
   }
 
 @media screen and (max-width: 700px){
-    .language{
+    .languaje{
         display: flex;
     }
     #profile{

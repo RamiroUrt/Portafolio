@@ -38,7 +38,7 @@ const Contact = () => {
           </div>
         </div>
       </section>
-      <div className="language">
+      <div className="languaje">
         <LanguageOption />
       </div>
       <section className="nav_contact">
