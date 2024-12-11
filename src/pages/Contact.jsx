@@ -5,7 +5,7 @@ import LanguageOption from '../components/LanguageOption';
 import '../assets/css/LanguageOption.css';
 import { useTranslation } from 'react-i18next';
 import Carta from '../components/Carta';
-
+import ButtonCopy from '../components/ButtonCopy';
 const Contact = () => {
   const { t } = useTranslation();
 
@@ -27,8 +27,13 @@ const Contact = () => {
           <div className="details_container mt-8 max-w-[500px]">
             <div className="contact-info break-all dark:-text--light-white">
               <div className="mail flex gap-2 ">
+                <div className="copy">
                 <Mail />
-                <p><a href="mailto:urteagaramiro33@gmail.com" className='dark:-text--light-white'>{t('contact.email')}</a></p>
+                  <p>
+                    <a href="mailto:urteagaramiro33@gmail.com" className='dark:-text--light-white'>{t('contact.email')}</a>
+                  </p>
+                    <ButtonCopy/>
+                </div>
               </div>
               <div className="linkedin flex gap-2">
                 <Linkedin />

@@ -374,6 +374,12 @@ img{
 .languaje{
     display: none;
 }
+.copy{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
 /* Animación de opacidad */
 @keyframes fadeIn {
     from { opacity: 0; }

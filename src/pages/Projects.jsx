@@ -39,7 +39,7 @@ const Projects = () => {
         <CardProjects
           key={index}
           img={project.img}
-          title={t(project.titleKey)}
+          title={t(project.title)}
           description={t(project.descriptionKey)}
           location={project.location}
           locations={project.locations}
