@@ -14,7 +14,7 @@ const Experience = () => {
 
   return (
     <>
-      <section className="experience mt-[15rem]" id="experience">
+      <section className="experience mt-[10em]" id="experience">
         <p className="section_text_p text-center dark:-text--light-white">{t('experience.exploreMy')}</p>
         <h1 className="title dark:-text--light-white">{t('experience.title')}</h1>
         

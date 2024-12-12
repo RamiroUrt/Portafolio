@@ -1,9 +1,10 @@
 import { useTranslation } from 'react-i18next';
-import Nav from "../components/Nav";
+import Nav from "../components/layout/Nav";
 import Perfil from '../../public/img/avtar.png';
 import BtnWhite from "../components/BtnWhite";
 import BtnBlack from "../components/BtnBlack";
 import SocialLInk from "../components/SocialLInk";
+import ScrollButton from "../components/ScrollButton";
 
 const Header = () => {
   const { t } = useTranslation();
@@ -35,6 +36,9 @@ const Header = () => {
           </div>
         </div>
       </section>
+      <div className="mx-0 flex text-center justify-center">
+        <ScrollButton />
+      </div>
     </>
   );
 };

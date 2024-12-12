@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react';
 import { Ellipsis, X } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 
-import LanguageOption from './LanguageOption';
-import '../assets/css/LanguageOption.css';
-import ThemeChange from './ThemeChange';
-import '../assets/css/ThemeChange.css';
+import LanguageOption from '../LanguageOption';
+import '../../assets/css/LanguageOption.css';
+import ThemeChange from '../ThemeChange';
+import '../../assets/css/ThemeChange.css';
 
 const Nav = () => {
   const { t } = useTranslation();

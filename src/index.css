@@ -132,7 +132,6 @@ a:hover{
 /*Section*/
 #profile{
     padding-top: 6vh;
-    margin-bottom: 20rem;
     box-sizing: border-box;
     min-height: fit-content;
     display: flex;
@@ -214,6 +213,7 @@ img{
     align-items: center;
     flex-direction: column;
     margin-bottom: 3rem;
+    margin-top: 10em;
     display: flex;
 }
 .about_container{

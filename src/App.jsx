@@ -16,8 +16,8 @@ function App() {
       {/* <Arrows /> */}
         <Header />
         <About />
-        <Experience />
         <Projects />
+        <Experience />
         <Contact />
     </html>
     </>
