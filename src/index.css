@@ -353,6 +353,7 @@ img{
     position: relative;
 }
 .projects{
+    margin-bottom: 10em;
     display: flex;
     gap: 2rem;
     justify-content: center;
