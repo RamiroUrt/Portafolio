@@ -24,7 +24,7 @@ const Contact = () => {
                   </div>
           </div>
         <div className="container mt-[4rem]">
-          <div className="details_container mt-8 max-w-[500px]">
+          <div className="details_container overflow-visible mt-8 max-w-[500px] px-[10em] py-2">
             <div className="contact-info break-all dark:-text--light-white">
               <div className="mail flex gap-2 ">
                 <div className="copy">

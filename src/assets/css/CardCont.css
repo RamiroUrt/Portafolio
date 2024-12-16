@@ -115,16 +115,12 @@
     flex-wrap: wrap;
 }
 .contact-info{
-    margin: 0 auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding: 1rem;
-    flex-wrap: wrap;
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
+    align-items: flex-start;
+    gap: 2rem;
+} 
 
 
 .nav_contact{
