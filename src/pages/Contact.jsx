@@ -57,9 +57,6 @@ const Contact = () => {
           </div>
         </nav>
       </section>
-      <div className="footer">
-        <p className='text-center'>{t('contact.footer')}</p>
-      </div>
     </>
   );
 }
