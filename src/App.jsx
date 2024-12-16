@@ -1,24 +1,42 @@
 
-import About from "./layout/About"
-import Contact from "./layout/Contact"
-import Experience from "./layout/Experience"
-import Header from "./layout/Header"
-import Projects from "./layout/Projects"
+import { useState, useEffect } from "react"
+import About from "./views/About"
+import Contact from "./views/Contact"
+import Experience from "./views/Experience"
+import Header from "./views/Header"
+import Projects from "./views/Projects"
+import Loader from "./components/module/loader/BallLoader"
 // import Arrows from './components/Arrows'
 
 
 
 function App() {
 
+  const [isloading, setIsLoading] = useState(true);
+  
+  useEffect(() =>{
+    const timer = setTimeout(() =>{
+      setIsLoading(false)
+    },1500);
+
+    return () => clearTimeout(timer);
+  },[]);
+
   return (
     <>
-    <html className="dark:cursor-[url('./svg/cursorOrange.svg')]">
+    {isloading ? (
+        <section className="html">
+          <Loader />
+        </section>
+    ): (
+    <html className="">
         <Header />
         <About />
         <Projects />
         <Experience />
         <Contact />
     </html>
+  )}
     </>
   )
 }
