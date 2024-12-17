@@ -31,7 +31,7 @@ const About = () => {
             />
           </div>
           <div className="text_content text_p_About">
-            <p className="dark:-text--light-white" dangerouslySetInnerHTML={{ __html: t('about.textContent') }}></p>
+            <p className="dark:text-light-white p-about" dangerouslySetInnerHTML={{ __html: t('about.textContent') }}></p>
           </div>
         </div>
       </section>

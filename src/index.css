@@ -65,7 +65,6 @@ p{
 
 nav, .nav-links{
     display: flex;
-
 }
 nav{
     display: flex;
@@ -81,6 +80,9 @@ nav{
     gap: 2rem;
     font-size: 1.5rem;
 }
+/* a:hover{
+    color: #F59E0B;
+} */
 .contain-nav {
     margin:0 auto;
     display: flex;
@@ -112,11 +114,39 @@ a:hover{
     color: var(--ligth-gray);
     text-decoration: underline;
     text-underline-offset: 1rem;
-    text-decoration-color: var(--ligth-gray--) ;
+    text-decoration-color: var(--orange-color) ;
 }
 .text_p_About{
-    font-family: "Zilla Slab", sans-serif;
+    font-family: "Poppins",sans-serif;
     font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.10em;
+    word-spacing: 0.25em;
+    line-height: 1.8;
+    display: flex;
+    flex-direction: column;
+    gap: 0.4em;
+}
+span {
+    font-size: 14px;
+    white-space: nowrap;
+    margin: 0;          
+    padding: 0;           
+    display: inline;
+    color: #F59E0B;
+    font-weight: 900; 
+  }
+  span:active,
+  .text_content>p:active{
+    color: #F59E0B
+}
+.text_p_About>p::selection,
+span::selection{
+    color:#1A1A1A;
+    background-color: #fff !important;
+}
+.dark .p-about{
+    color: var(--bg-color);
 }
 /*Hamburger menu*/
 

@@ -9,7 +9,7 @@ const CardCont = ({ Icon, title, description, details }) => {
         <div className="section_pic_cont">
           {Icon && <Icon className='icono' />}
         </div>
-              <h2 className='font-medium'>{title}</h2>
+              <h2 className='font-medium text-jr-text'>{title}</h2>
               <p className=' dark:-text--light-white' dangerouslySetInnerHTML={{ __html: description }}></p>
               <p className=' dark:-text--light-white' dangerouslySetInnerHTML={{ __html: details }}></p>
         </div>
