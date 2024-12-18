@@ -11,7 +11,9 @@ const BtnWhite = ({ text, location, className }) => {
       dark:-text--light-white
 
 
-      dark:-border--light-gray`} id='btn_white'>
+      dark:-border--light-gray`}
+      data-cursor="block"
+       id='btn_white'>
         {text}
       </button>
     </a>

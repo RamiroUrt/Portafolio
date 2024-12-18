@@ -15,13 +15,13 @@ const Experience = () => {
   return (
     <>
       <section className="experience mt-[10em]" id="experience">
-        <p className="section_text_p text-center dark:-text--light-white">{t('experience.exploreMy')}</p>
-        <h1 className="title dark:-text--light-white">{t('experience.title')}</h1>
+        <p data-cursor="text" className="section_text_p text-center dark:-text--light-white">{t('experience.exploreMy')}</p>
+        <h1 data-cursor="text" className="title dark:-text--light-white">{t('experience.title')}</h1>
         
         <div className="experience_details_container">
           <div className="about_details">
             <div className="details_container_skills">
-              <h2 className="experience_sub_title dark:-text--light-white">{t('experience.frontend.title')}</h2>
+              <h2 data-cursor="text" className="experience_sub_title dark:-text--light-white">{t('experience.frontend.title')}</h2>
         <div className="contain-mate ">
           <div
             data-aos="fade-left"

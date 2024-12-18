@@ -9,9 +9,9 @@ const About = () => {
 
   return (
     <>
-      <section className="about" id="about">
-        <p className="section_text_p text-center dark:-text--light-white">{t('about.getToKnow')}</p>
-        <h1 className="title dark:-text--font-light">{t('about.aboutMe')}</h1>
+      <section className="about" id="about" >
+        <p data-cursor="text" className="section_text_p text-center dark:-text--light-white">{t('about.getToKnow')}</p>
+        <h1 data-cursor="text" className="title dark:-text--font-light">{t('about.aboutMe')}</h1>
         <div className="about_container">
           <div className="card-junior">
             <CardJr />
@@ -31,7 +31,7 @@ const About = () => {
             />
           </div>
           <div className="text_content text_p_About">
-            <p className="dark:text-light-white p-about" dangerouslySetInnerHTML={{ __html: t('about.textContent') }}></p>
+            <p data-cursor="text" className="dark:text-light-white p-about" dangerouslySetInnerHTML={{ __html: t('about.textContent') }}></p>
           </div>
         </div>
       </section>

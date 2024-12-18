@@ -18,9 +18,9 @@ const Header = () => {
           <div className="back-pic dark:-bg--light-gray-- dark:-z-[-2]"></div>
         </div>
         <div className="section_text ">
-          <p className="section_text_p dark:-text--light-white">{t('profile.hello')}</p>
-          <h1 className="title dark:-text--light-white">{t('profile.name')}</h1>
-          <p className="section_text_p bouncy-text text-jr-text">{t('profile.role')}</p>
+          <p data-cursor="text" className="section_text_p dark:-text--light-white">{t('profile.hello')}</p>
+          <h1 data-cursor="text" className="title dark:-text--light-white">{t('profile.name')}</h1>
+          <p data-cursor="text" className="section_text_p bouncy-text text-jr-text">{t('profile.role')}</p>
           <div className="btn_container">
             {/*btn white*/}
             <BtnWhite text={t('profile.downloadCV')} location={'https://drive.google.com/file/d/19veeQf8BciTijE3UatUKmEqCTrzjxywY/view?usp=sharing'} />
@@ -29,7 +29,7 @@ const Header = () => {
               <BtnBlack text={t('profile.contactInfo')} />
             </a>
           </div>
-          <p className="section_text_p2 dark:-text--light-white">{t('profile.location')}</p>
+          <p data-cursor="text" className="section_text_p2 dark:-text--light-white">{t('profile.location')}</p>
           <div className="social_link">
             {/*Social Link*/}
             <SocialLInk />

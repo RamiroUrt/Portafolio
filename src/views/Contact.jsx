@@ -12,8 +12,8 @@ const Contact = () => {
   return (
     <>
       <section className="contact relative" id="contact">
-        <p className="section_text_p text-center dark:-text--light-white">{t('contact.getInTouch')}</p>
-        <h1 className="title dark:-text--light-white">{t('contact.title')}</h1>
+        <p data-cursor="text" className="section_text_p text-center dark:-text--light-white">{t('contact.getInTouch')}</p>
+        <h1 data-cursor="text" className="title dark:-text--light-white">{t('contact.title')}</h1>
           <div className="carta-contain">
             <div
               data-aos="fade-left"
@@ -29,7 +29,7 @@ const Contact = () => {
               <div className="mail flex gap-2 ">
                 <div className="copy">
                 <Mail />
-                  <p>
+                  <p data-cursor="text">
                     <a href="mailto:urteagaramiro33@gmail.com" className='dark:-text--light-white'>{t('contact.email')}</a>
                   </p>
                     <ButtonCopy/>
@@ -37,7 +37,7 @@ const Contact = () => {
               </div>
               <div className="linkedin flex gap-2">
                 <Linkedin />
-                <p><a target='_blank' href="https://www.linkedin.com/in/ramiro-urteaga-b32430242/" className='dark:-text--light-white'>{t('contact.linkedin')}</a></p>
+                <p data-cursor="text" ><a target='_blank' href="https://www.linkedin.com/in/ramiro-urteaga-b32430242/" className='dark:-text--light-white'>{t('contact.linkedin')}</a></p>
               </div>
             </div>
           </div>
@@ -50,10 +50,10 @@ const Contact = () => {
         <nav className="">
           <div className="links ">
           <a className='dark:-text--light-white dark:hover:-text--light-gray-- hover:no-underline'><span>{t('nav.name')}</span></a>
-            <li><a href="#about" className='dark:-text--light-white'>{t('contact.nav.about')}</a></li>
-            <li><a href="#experience" className='dark:-text--light-white'>{t('contact.nav.experience')}</a></li>
-            <li><a href="#projects" className='dark:-text--light-white'>{t('contact.nav.projects')}</a></li>
-            <li><a href="#contact" className='dark:-text--light-white'>{t('contact.nav.contact')}</a></li>
+            <li><a data-cursor="text" href="#about" className='dark:-text--light-white'>{t('contact.nav.about')}</a></li>
+            <li><a data-cursor="text" href="#experience" className='dark:-text--light-white'>{t('contact.nav.experience')}</a></li>
+            <li><a data-cursor="text" href="#projects" className='dark:-text--light-white'>{t('contact.nav.projects')}</a></li>
+            <li><a data-cursor="text" href="#contact" className='dark:-text--light-white'>{t('contact.nav.contact')}</a></li>
           </div>
         </nav>
       </section>

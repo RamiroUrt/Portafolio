@@ -4,8 +4,8 @@ import '../assets/css/CardCont.css'
 const CardExp = ({svg, tech}) => {
   return (
     <article className="article_exp">
-        <img src={svg} alt="" />
-        <h1>{tech}</h1>
+        <img src={svg} alt="" className='img-svg'/>
+        <h1 data-cursor="text" className='text'>{tech}</h1>
     </article>
   )
 }

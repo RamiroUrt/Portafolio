@@ -22,8 +22,8 @@ const Projects = () => {
   return (
     <>
     <section id='projects' className="projects relative">
-      <p className="section_text_p text-center dark:-text--light-white">{t('projects.browseMyRecent')}</p>
-      <h1 className="title dark:-text--light-white">{t('projects.title')}</h1>
+      <p data-cursor="text" className="section_text_p text-center dark:-text--light-white">{t('projects.browseMyRecent')}</p>
+      <h1 data-cursor="text" className="title dark:-text--light-white">{t('projects.title')}</h1>
       <div className="color-container flex flex-wrap">
         <div className="container_project relative ">
     <div className="auris-contain">

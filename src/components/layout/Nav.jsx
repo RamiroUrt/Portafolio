@@ -35,10 +35,10 @@ const Nav = () => {
         </div>
         <div className="dark:-text--light-white contain-nav z-[-300]">
           <ul className="nav-links dark:-text--light-white">
-            <li><a href="#about" className='dark:-text--light-white'>{t('nav.about')}</a></li>
-            <li><a href="#experience" className='dark:-text--light-white'>{t('nav.experience')}</a></li>
-            <li><a href="#projects" className='dark:-text--light-white'>{t('nav.projects')}</a></li>
-            <li><a href="#contact" className='dark:-text--light-white'>{t('nav.contact')}</a></li>
+            <li><a data-cursor="text" href="#about" className='dark:-text--light-white'>{t('nav.about')}</a></li>
+            <li><a data-cursor="text" href="#experience" className='dark:-text--light-white'>{t('nav.experience')}</a></li>
+            <li><a data-cursor="text" href="#projects" className='dark:-text--light-white'>{t('nav.projects')}</a></li>
+            <li><a data-cursor="text" href="#contact" className='dark:-text--light-white'>{t('nav.contact')}</a></li>
           </ul>
         </div>
           <div className="contain-options">
@@ -65,10 +65,10 @@ const Nav = () => {
         {isMenuOpen && (
           <>
             <ul className="nav-links-hamburger dark:-text--light-white">
-              <li><a href="#about" onClick={closeMenu} className='dark:-text--light-white'>{t('nav.about')}</a></li>
-              <li><a href="#experience" onClick={closeMenu} className='dark:-text--light-white'>{t('nav.experience')}</a></li>
-              <li><a href="#projects" onClick={closeMenu} className='dark:-text--light-white'>{t('nav.projects')}</a></li>
-              <li><a href="#contact" onClick={closeMenu} className='dark:-text--light-white'>{t('nav.contact')}</a></li>
+              <li><a data-cursor="text" href="#about" onClick={closeMenu} className='dark:-text--light-white'>{t('nav.about')}</a></li>
+              <li><a data-cursor="text" href="#experience" onClick={closeMenu} className='dark:-text--light-white'>{t('nav.experience')}</a></li>
+              <li><a data-cursor="text" href="#projects" onClick={closeMenu} className='dark:-text--light-white'>{t('nav.projects')}</a></li>
+              <li><a data-cursor="text" href="#contact" onClick={closeMenu} className='dark:-text--light-white'>{t('nav.contact')}</a></li>
               <div className="pt-[2rem]">
                 <LanguageOption  closeMenu={closeMenu}/>
               </div>

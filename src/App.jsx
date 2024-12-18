@@ -8,9 +8,14 @@ import Projects from "./views/Projects"
 import Loader from "./components/module/loader/BallLoader"
 // import Arrows from './components/Arrows'
 
+import { IPadCursorProvider, useIPadCursor } from "ipad-cursor/react";
+
 
 
 function App() {
+
+  const config = {}; // Se elimina la tipificación explícita
+  useIPadCursor();
 
   const [isloading, setIsLoading] = useState(true);
   
@@ -30,11 +35,13 @@ function App() {
         </section>
     ): (
     <html className="">
-        <Header />
-        <About />
-        <Projects />
-        <Experience />
-        <Contact />
+    <IPadCursorProvider config={config}>
+            <Header />
+            <About />
+            <Projects />
+            <Experience />
+            <Contact />
+          </IPadCursorProvider>
     </html>
   )}
     </>

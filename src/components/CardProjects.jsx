@@ -36,8 +36,8 @@ const CardProjects = ({ img, title, description, isFirst, location, locations, t
                 )}
                 </div>
           </div>
-        <h2 className="project-title mt-4 font-bold dark:-text--light-white text-2xl">{title}</h2>
-        <p className="section_text_p text-center mt-3 dark:-text--light-white text-sm " dangerouslySetInnerHTML={{ __html: description }}></p>
+        <h2 data-cursor="text" className="project-title mt-4 font-bold text-jr-text text-2xl">{title}</h2>
+        <p data-cursor="text" className="section_text_p text-center mt-3 dark:-text--light-white text-sm " dangerouslySetInnerHTML={{ __html: description }}></p>
         <div className="btn_container mt-5">
           <div>
             {isFirst ? (

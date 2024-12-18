@@ -28,7 +28,6 @@
     background-color: var(--button-bg);
     color: var(--button-text-color);
     border: none;
-    cursor: pointer;
     position: relative;
     outline: none;
   }

@@ -27,7 +27,7 @@
     padding: 1.5rem;
     background-color: transparent;
     border-radius: 2rem;
-    border: var(--ligth-black) 0.1rem solid;
+    border: var(--ligth-black) 0.2em solid;
     border-color: var(--ligth-black);
     text-align: center;
     align-items: center;
@@ -42,7 +42,7 @@
     padding: 1.5rem;
     background-color: transparent;
     border-radius: 2rem;
-    border: var(--ligth-black) 0.1rem solid;
+    border: var(--ligth-black) 0.2rem solid;
     border-color: var(--ligth-black);
     text-align: center;
     align-items: center;
@@ -57,7 +57,7 @@
     padding: 1.5rem;
     background-color: transparent;
     border-radius: 2rem;
-    border: var(--ligth-black) 0.1rem solid;
+    border: var(--ligth-black) 0.2rem solid;
     border-color: var(--ligth-black);
     text-align: center;
     align-items: center;
