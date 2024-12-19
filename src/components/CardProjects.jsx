@@ -16,7 +16,7 @@ AOS.init({
 });
 
 // eslint-disable-next-line react/prop-types
-const CardProjects = ({ img, title, description, isFirst, location, locations, technologies = [] }) => {
+const CardProjects = ({ img, title, alt, description, isFirst, location, locations, technologies = [] }) => {
 
 
   return (
@@ -27,8 +27,9 @@ const CardProjects = ({ img, title, description, isFirst, location, locations, t
           data-aos-easing="ease-in-sine">
         <div className="article-container">
           <div className="project-img">
-            <img src={img} alt="" className="rounded-3xl object-cover" />            <div className="contenido-tec">
-              </div>
+            <img src={img} alt={alt} className="rounded-3xl object-cover" />            
+            <div className="contenido-tec">
+            </div>
           </div>
                 <div className="menu flex flex-col gap-4">
                 {technologies.map((tech, index) => 
@@ -58,5 +59,3 @@ const CardProjects = ({ img, title, description, isFirst, location, locations, t
 };
 
 export default CardProjects;
-
-

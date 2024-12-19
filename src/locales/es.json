@@ -36,39 +36,48 @@
       "cards": {
         "scaloneta": {
           "title": "Scaloneta",
-          "description": "Credencial:<br> estudiante@guayerd.com <br> 123456"
+          "description": "Credencial:<br> estudiante@guayerd.com <br> 123456",
+          "alt": "Scaloneta"
         },
         "aloha": {
           "title": "Aloha Aromas",
-          "description": "E-commerce sobre aromas"
+          "description": "E-commerce sobre aromas",
+          "alt": "ALoha"
         },
         "wingu": {
           "title": "Wingu",
-          "description": "Web de donación/envío"
+          "description": "Web de donación/envío",
+          "alt": "Wingu"
         },
         "tresDeseos": {
           "title": "3Deseos",
-          "description": "Web para suministros de impresión 3D"
+          "description": "Web para suministros de impresión 3D",
+          "alt": "3Deseos"
         },
         "bikeShop": {
           "title": "BikeShop",
-          "description": "Sitio web de suministros para ciclismo"
+          "description": "Sitio web de suministros para ciclismo",
+          "alt": "BikeShop"
         },
         "VideoConverter": {
           "title": "VideoConverter",
-          "description": "Convertidor YouTube Video ID a Mp3"
+          "description": "Convertidor YouTube Video ID a Mp3",
+          "alt": "VideoConverter"
           },
         "Coquette": {
             "title": "Coquette",
-            "description": "Galería 'Coquette' estudio de moda"
+            "description": "Galería 'Coquette' estudio de moda",
+            "alt": "Coquette"
         },
         "Grill": {
           "title": "Grill House",
-          "description": "Catálogo online de restaurante"
+          "description": "Catálogo online de restaurante",
+          "alt": "Grill House"
         },
         "Edu": {
           "title": "Educatina",
-          "description": "LandingPage academia"
+          "description": "LandingPage academia",
+          "alt": "Educatina"
         }
       }
     },

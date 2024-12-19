@@ -5,7 +5,7 @@ import '../assets/css/BtnWhite.css';
 
 const BtnWhite = ({ text, location, className }) => {
   return (
-    <a target="_blank" href={location}>
+    <a target="_blank" href={location} download>
       <button className={`btn_white ${className} 
       dark:hover:-text--light-white
       dark:-text--light-white

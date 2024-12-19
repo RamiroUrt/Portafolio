@@ -39,6 +39,7 @@ const Projects = () => {
         <CardProjects
           key={index}
           img={project.img}
+          alt={t(project.alt)}
           title={t(project.title)}
           description={t(project.descriptionKey)}
           location={project.location}
@@ -54,3 +55,4 @@ const Projects = () => {
 }
 
 export default Projects;
+
