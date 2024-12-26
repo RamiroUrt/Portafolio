@@ -34,6 +34,7 @@ export default {
   },
   variants: {
   },
-  plugins: [],
-  
+  // eslint-disable-next-line no-undef
+  plugins: [require("tailwindcss-animate")],
+
 }

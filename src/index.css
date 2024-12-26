@@ -197,6 +197,8 @@ img{
 .section_text{
     align-self: center;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .section_text_p{
     font-weight: 600;
