@@ -26,9 +26,11 @@ const Header = () => {
         <BlockRevealAnimation delay={0.5} duration={1} color="#F59E0B">
           <h1 data-cursor="text" className="title dark:-text--light-white">{t('profile.name')}</h1>
         </BlockRevealAnimation>
-        <BlockRevealAnimation delay={1} duration={1} color="#F59E0B">  
-          <p data-cursor="text" className="section_text_p bouncy-text text-jr-text">{t('profile.role')}</p>
-          </BlockRevealAnimation>
+        <div className="w-auto">
+          <BlockRevealAnimation delay={1} duration={1} color="#F59E0B">
+            <p data-cursor="text" className="w-[auto] section_text_p bouncy-text text-jr-text">{t('profile.role')}</p>
+            </BlockRevealAnimation>
+        </div>
           <div className="btn_container">
             {/*btn white*/}
             <BtnWhite text={t('profile.downloadCV')} location={PDF} />
@@ -37,9 +39,11 @@ const Header = () => {
               <BtnBlack text={t('profile.contactInfo')} />
             </a>
           </div>
-          <BlockRevealAnimation delay={1} duration={1} color="#F59E0B">  
-            <p data-cursor="text" className="section_text_p2 dark:-text--light-white">{t('profile.location')}</p>
-          </BlockRevealAnimation>
+          <div className="w-auto">
+            <BlockRevealAnimation delay={1} duration={1} color="#F59E0B">
+              <p data-cursor="text" className="section_text_p2 dark:-text--light-white">{t('profile.location')}</p>
+            </BlockRevealAnimation>
+          </div>
           <div className="social_link">
             {/*Social Link*/}
             <SocialLInk />
