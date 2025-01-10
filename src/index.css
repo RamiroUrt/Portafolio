@@ -7,13 +7,13 @@
 @tailwind utilities;
 
 :root{
-    --ligth-gray: rgb(85, 85, 85);
+    --ligth-gray: #545454;
     --ligth-black : black;
     --ligth-white: white;
     --ligth-gray--: rgb(181, 181, 181) ;
     --ligth-black--: #1A1A1A;
     --ligt-border:rgb(53, 53, 53);
-    --font-ligth: rgb(104, 104, 104);
+    --font-ligth: #686868;
     --font-black: rgb(32, 32, 32);
 
     --font-color-dark: #323232;
@@ -33,11 +33,7 @@
     text-decoration: none;
     list-style: none;
 }
-html, body{
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-    /* transition: background-color 0.9s ease, color 0.9s ease; */
-}
+
 .dark body{
     background: radial-gradient(at center top, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
 }
@@ -80,6 +76,10 @@ nav{
     gap: 2rem;
     font-size: 1.5rem;
 }
+.logo{
+    display: flex;
+    margin-left: 10em;
+}
 /* a:hover{
     color: #F59E0B;
 } */
@@ -97,9 +97,6 @@ nav{
     align-items: center;
     gap: 10px; 
     z-index: -100;
-  }
-  .logo {
-    margin-left: 10em; 
   }
 span{
     font-size: 1.2rem;
@@ -162,6 +159,7 @@ span::selection{
     display: none;
 }
 
+
 /*Section*/
 #profile{
     padding-top: 6vh;
@@ -173,7 +171,6 @@ span::selection{
     gap: 6rem;
     height: 80vh;
     display: flex;
-
 }
 .section_pic{
     display: flex;
@@ -252,8 +249,8 @@ img{
     display: flex;
 }
 .about_container{
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    width: 60%;
+    margin: 0 auto !important;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -469,7 +466,15 @@ img{
     .languaje{
         display: flex;
     }
+    .hamburger-nav{
+        display: flex;
+        justify-content: space-around;
+        margin-left: 20px;
+        margin-left: 20px;
+    }
+
     #profile{
+        padding-top: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -570,6 +575,14 @@ img{
     .container_project{
         grid-template-columns: 1fr;
     }
+    .text_content{
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 1200px){
@@ -579,7 +592,8 @@ img{
     .desktop-nav{
         display: none;
     }
-    .contain-nav-mobile{
+    .logo{
+        margin: 0;
     }
     .hamburger-nav{
         display: flex;
@@ -633,17 +647,25 @@ img{
     .carta-background{
         left: 10em;
     }
+    .text_content{
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+    }
 }
 
 @media screen and (max-width: 800px){
+    .hamburger-nav{
+        width: 90%;
+    }
     .container_project{
         grid-template-columns: 1fr;
     }
     .mate-background{
         right: 1px;
-    }
-    .carta-background{
-        left: 1em;
     }
     .auris-background{
         left: 1em;
@@ -652,14 +674,29 @@ img{
         left: 1em;
     }
     .carta-background{
-        left: 1em;
+        width: 100%;
     }
     .carta-contain{
-        left: 3em;
+        overflow: hidden;
+        left: 1em;
+        width: 100%;
+    }
+    .carta-contain>img{
+        width: 100%;
+        height: 100%;
+    }
+    .text_content{
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
     }
 }
 
 @media screen and (min-width: 900px) and (max-width: 1600px){
+
     .mate-background{
         right: 5em;
     }
@@ -677,5 +714,21 @@ img{
     }
     .carta-contain{
         left: 30em;
+    }
+}
+
+@media screen and (max-width:500px){
+    .text_content{
+        margin-top: 4rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 80%;
+        margin: 0 auto;
+    }
+    .back-pic{
+        margin: 0 auto;
+        width: 70%;
     }
 }
