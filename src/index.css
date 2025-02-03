@@ -10,7 +10,7 @@
     --ligth-gray: #545454;
     --ligth-black : black;
     --ligth-white: white;
-    --ligth-gray--: rgb(181, 181, 181) ;
+    --ligth-gray--: #b5b5b5 ;
     --ligth-black--: #1A1A1A;
     --ligt-border:rgb(53, 53, 53);
     --font-ligth: #686868;
@@ -412,6 +412,7 @@ img{
     justify-content: center;
     align-items: center;
     gap: 1em;
+    flex-wrap: wrap;
 }
 .img-svg{
     filter: drop-shadow(1px 2px 2px rgba(172, 172, 172, 0.719));
@@ -645,7 +646,12 @@ img{
         grid-template-columns: repeat(2, 1fr);
     }
     .carta-background{
-        left: 10em;
+        left: 10;
+        overflow: hidden;
+    }
+    .carta-contain{
+        overflow: hidden;
+        display: none !important;
     }
     .text_content{
         margin-top: 4rem;
@@ -675,6 +681,7 @@ img{
     }
     .carta-background{
         width: 100%;
+        overflow: hidden;
     }
     .carta-contain{
         overflow: hidden;
@@ -719,13 +726,26 @@ img{
 
 @media screen and (max-width:500px){
     .text_content{
-        margin-top: 4rem;
+        margin-top: 10em;
+        padding-top: 4em;
+        margin-bottom: 2em;
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
+    }
+    .about_container{
+        padding-top: 10em;
+        padding-bottom: 2em;
+        width: 76%;
+    }
+    .p-about{
+        width: 100%;
+    }
+    .p-about>span{
+        flex-wrap: wrap;
     }
     .back-pic{
         margin: 0 auto;
