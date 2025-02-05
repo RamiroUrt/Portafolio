@@ -10,9 +10,8 @@ import ButtonDescription from "./ButtonDescription";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init({
-  duration: 500,
+  duration: 300,
   easing: 'ease',
-  once: false,
 });
 
 // eslint-disable-next-line react/prop-types
