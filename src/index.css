@@ -10,7 +10,7 @@
     --ligth-gray: #545454;
     --ligth-black : black;
     --ligth-white: white;
-    --ligth-gray--: #b5b5b5 ;
+    --ligth-gray--: rgb(181, 181, 181) ;
     --ligth-black--: #1A1A1A;
     --ligt-border:rgb(53, 53, 53);
     --font-ligth: #686868;
@@ -84,19 +84,18 @@ nav{
     color: #F59E0B;
 } */
 .contain-nav {
-    margin:0 auto;
+    margin:0;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
   }
   .contain-options {
-    position: fixed;
-    right: 20px; 
+    position: sticky;
     display: flex;
     align-items: center;
-    gap: 10px; 
-    z-index: -100;
+    gap: 10px;
+    padding-right: 60px; 
   }
 span{
     font-size: 1.2rem;
@@ -402,7 +401,7 @@ img{
 .themeChange{
     display: block;
     overflow: visible;
-    z-index: 300;
+    z-index: -321300;
 }
 .languaje{
     display: none;

@@ -13,6 +13,7 @@
     "aos": "^3.0.0-beta.6",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "gsap": "^3.12.7",
     "i18next": "^23.11.5",
     "i18next-http-backend": "^2.5.2",
     "ipad-cursor": "^0.5.2",
@@ -23,7 +24,7 @@
     "react-block-reveal-animation": "^1.0.1",
     "react-dom": "^18.3.1",
     "react-i18next": "^14.1.2",
-    "styled-components": "^6.1.13",
+    "styled-components": "^6.1.14",
     "tailwind-merge": "^2.6.0",
     "tailwindcss-animate": "^1.0.7"
   },

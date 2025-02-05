@@ -10,7 +10,7 @@ import ButtonDescription from "./ButtonDescription";
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 AOS.init({
-  duration: 600,
+  duration: 500,
   easing: 'ease',
   once: false,
 });

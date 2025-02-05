@@ -80,6 +80,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    position: relative;
 }
 .article_exp > img{
     display: block;
@@ -92,16 +93,19 @@
 .article_exp > img:hover{
     transform: scale(1.5);
 }
-.article_exp>h1{
-    z-index: 12;
+
+.text:hover{
     transition: color 0.5s ease-in-out;
 }
 .article_exp:hover 
 .text{
     color: #F59E0B;
-    letter-spacing: 2px;
-    font-weight: 500;
+    z-index: 12;
+    letter-spacing: 1px;
+    font-weight: 900;
+    font-size: 20px;
     text-shadow: 1px 1px 1px black;
+    transition: letter-spacing, font-size, 0.4s ease-in-out;
   }
 
 .color-container{
