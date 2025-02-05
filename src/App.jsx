@@ -99,7 +99,7 @@ const Loading = styled.div`
   align-items: center;
   position: absolute;
   top: 0;
-  background-color: #121212;
+  background: radial-gradient(at center top, rgb(55, 65, 81), rgb(17, 24, 39), rgb(0, 0, 0));
   visibility: visible; 
 `;
 const Follow = styled.div`

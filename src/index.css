@@ -75,6 +75,7 @@ nav{
 .nav-links{
     gap: 2rem;
     font-size: 1.5rem;
+    padding-left: 200px;
 }
 .logo{
     display: flex;
