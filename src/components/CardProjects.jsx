@@ -15,7 +15,6 @@ AOS.init({
   startEvent: 'DOMContentLoaded',
   delay: 0, 
   offset: 120,
-
 });
 
 // eslint-disable-next-line react/prop-types

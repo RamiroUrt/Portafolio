@@ -29,10 +29,9 @@ function App() {
     const t1 = gsap.timeline({
       onComplete: () => {
         console.log("completed");
-        // Ocultar el contenedor Loading al finalizar la animación
         gsap.to(".loading-container", {
-          visibility: "hidden", // Oculta el contenedor
-          display: "none", // Asegura que no ocupe espacio
+          visibility: "hidden", 
+          display: "none", 
           duration: 0,
         });
       },

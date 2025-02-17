@@ -6,7 +6,7 @@ import BtnBlack from "../components/BtnBlack";
 import SocialLInk from "../components/SocialLInk";
 import ScrollButton from "../components/ScrollButton";
 
-import PDF from '../assets/download/CV_Ramiro_Urteaga.pdf';
+import PDF from '../assets/download/Cv_RAMIRO_URTEAGA.pdf';
 
 import BlockRevealAnimation from 'react-block-reveal-animation';
 
