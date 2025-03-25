@@ -77,6 +77,11 @@
           "title": "Educatina",
           "description": "Academia LandingPage",
           "alt": "Educatina"
+        },
+        "Urbanblock": {
+          "title": "Urbanblock",
+          "description": "Constructora LandingPage",
+          "alt": "Urbanblock"
         }
       }
     },

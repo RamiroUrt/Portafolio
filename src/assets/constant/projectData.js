@@ -7,7 +7,7 @@ import Wingu from '../../../public/img/Wingu.png';
 import TresDESEOS from '../../../public/img/TresDESEOS.png';
 import BikeShop from '../../../public/img/BikeShop.png';
 import VideoConverter from '../../../public/img/VideoConverter.png';
-
+import Urbanblock from '../../../public/img/Urbanblock.png';
 
 export const projectData = [
     {
@@ -17,6 +17,14 @@ export const projectData = [
       location: 'https://github.com/RamiroUrt/Coquette',
       locations: 'https://coquette.vercel.app',
       technologies: ['HTML', 'CSS', 'JS', 'REACT'],
+    },
+    {
+      img: Urbanblock,
+      title: 'projects.cards.Urbanblock.title',
+      descriptionKey: 'projects.cards.Urbanblock.description',
+      location: 'https://github.com/RamiroUrt/Urbanblock',
+      locations: 'https://urbanblock.vercel.app/',
+      technologies: ['HTML', 'CSS', 'REACT'],
     },
     {
       img: GrillHouse,
