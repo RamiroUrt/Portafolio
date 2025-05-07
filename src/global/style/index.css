@@ -864,10 +864,10 @@ footer>p{
     gap: 10px;
     margin-bottom: 9em;
 }
-.front-page-contain>img{
+.image-container>img{
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 20px;
 }
 
