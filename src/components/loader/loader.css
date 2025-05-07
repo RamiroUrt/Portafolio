@@ -1,5 +1,9 @@
 
 @import url('https://fonts.cdnfonts.com/css/sf-pro-display');
+@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 *, body{
     box-sizing: border-box;
