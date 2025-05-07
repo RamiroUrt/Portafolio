@@ -982,7 +982,7 @@ footer>p{
     display: none;
 }
 
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 1000px) {
     .sidebar{
         display: none;
     }
