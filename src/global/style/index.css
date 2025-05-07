@@ -223,8 +223,11 @@ button:hover{
     display: flex;
     gap: 0.5em;
 }
-
 .location>a{
+    width: 25px;
+    height: 25px;
+}
+.location>a>img{
     width: 25px;
     height: 25px;
 }
@@ -243,6 +246,8 @@ button:hover{
     color: var(--orange-color);
     padding: 5px;
     border-radius: 20px;
+    border:none;
+    background-color: transparent;
 }
 .dark .icon-btn{
     color: #007AFF;
@@ -250,6 +255,7 @@ button:hover{
 .social-button:hover{
     background-color: var(--ligth-gray--);
     transform: scale(1.1);
+    border-radius: 20px;
 }
 .download-contain{
     width: 100%;
@@ -864,7 +870,7 @@ footer>p{
     gap: 10px;
     margin-bottom: 9em;
 }
-.front-page-contain>img{
+.image-container>img{
     width: 100%;
     height: 100%;
     object-fit: cover;
