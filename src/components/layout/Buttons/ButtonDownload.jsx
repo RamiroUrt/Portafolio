@@ -9,7 +9,7 @@ const ButtonDownload = () => {
   return (
  <a href={PDF} target="_blank" download className='download-contain'>
     <button
-  className="cursor-pointer flex justify-between  rounded-full text-(--orange-color) tracking-wider shadow-xl hover:scale-105 duration-500 hover:ring-1 w-[auto] hover:bg-var(--ligth-gray--)"
+  className="cursor-pointer  rounded-full text-(--orange-color) tracking-wider shadow-xl hover:scale-105 duration-500 hover:ring-1 hover:bg-var(--ligth-gray--)"
 >
    <span className='download'>{t('download')}</span>
     <svg
@@ -18,7 +18,7 @@ const ButtonDownload = () => {
       viewBox="0 0 24 24"
       stroke-width="2"
       stroke="currentColor"
-      className="w-5 h-5 animate-bounce"
+      className="animate-bounce"
       color='var(--orange-color)'
       style={{ color: ".dark:#007AFF" }}
     >

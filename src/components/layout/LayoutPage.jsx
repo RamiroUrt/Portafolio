@@ -33,7 +33,7 @@ const LayoutPage = ({ children }) => {
         <div className="contact-info">
           <h3 className='title'>{t('profile.contact')}</h3>
           <div className="text-secondary contact-text">
-            <div className="flex gap-3 items-center">
+            <div className="flex items-center">
               <p className='text-secondary'>******@gmail.com</p>
               <ButtonCopy />
             </div>
@@ -49,12 +49,12 @@ const LayoutPage = ({ children }) => {
         <div className="social-links">
           <button className="icon-btn">
             <a target="_blank"  href="https://www.linkedin.com/in/ramiro-urteaga-b32430242/">
-              <LinkedinIcon />
+              <LinkedinIcon darkMode={darkMode} />
             </a>
           </button>
           <button className="icon-btn">
             <a href="https://github.com/RamiroUrt" target="_blank">
-              <GitHubIcon />
+              <GitHubIcon darkMode={darkMode} />
             </a>
           </button>
         </div>

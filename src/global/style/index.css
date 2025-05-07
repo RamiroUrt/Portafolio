@@ -217,7 +217,7 @@ button:hover{
     flex-direction: column;
     align-items: flex-start;
     width: 100%;
-    gap: 10px;
+    gap: 20px;
 }
 .location{
     display: flex;
@@ -242,39 +242,63 @@ button:hover{
     flex-direction: row;
     gap: 3em;
 }
+
 .icon-btn{
-    color: var(--orange-color);
+    fill: var(--orange-color);
     padding: 5px;
     border-radius: 20px;
     border:none;
     background-color: transparent;
 }
 .dark .icon-btn{
-    color: #007AFF;
+    fill: #007AFF;
+}
+
+a{
+    text-decoration: none;
 }
 .social-button:hover{
     background-color: var(--ligth-gray--);
     transform: scale(1.1);
     border-radius: 20px;
 }
+
 .download-contain{
     width: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
     margin-top: 1em;
+    text-decoration: none;
 }
 .download-contain>button:hover{
     background-color: var(--ligth-gray--);
 }
 .download{
     font-family: var(--font-text);
+    text-decoration: none;
+    width: 100px;
+    height: 40px;
+    display: flex;
+}
+.animate-bounce{
+    animation: bounce 2s infinite;
+    width: 30px;
+    height: 30px;
 }
 .download-contain>button{
     padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #1A1A1A;
     gap: 10px;
     border: 1px solid var(--orange-color);
+}
+.download-contain>button>span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .dark .download-contain>button{
         background-color: var(--whithe-dark);
@@ -843,6 +867,12 @@ footer>p{
     padding: 5px 10px 5px 10px;
     border: 1px solid var(--orange-color);
     font-family: var(--font-text);
+}
+.buttons-detail>button>a{
+    color: var(--orange-color);
+}
+.dark .buttons-detail>button>a{
+    color: #007AFF;
 }
 
 .dark .buttons-detail>button{

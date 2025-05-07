@@ -110,6 +110,11 @@
     border-radius: 0.5rem;
     cursor: pointer;
     transition: all 0.2s;
+    text-decoration: none;
+    color: var(--orange-color);
+  }
+  .dark .timeline-button {
+    color: var(--orange-color);
   }
 
   
@@ -119,10 +124,14 @@
     color: #9ca3af; /* dark:text-gray-400 */
     border-color: #4b5563; /* dark:border-gray-600 */
   }
-  
+  .timeline-button:hover {
+
+    box-shadow: none;
+  }
   .dark .timeline-button:hover {
     color: white;
     background-color: #374151; 
+    box-shadow: none;
   }
   
   .timeline-button-icon {

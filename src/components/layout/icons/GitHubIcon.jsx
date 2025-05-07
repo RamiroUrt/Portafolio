@@ -39,7 +39,7 @@ const tailVariants = {
   },
 };
 
-const GitHubIcon = forwardRef(({ onMouseEnter, onMouseLeave, className, size = 28, ...props }, ref) => {
+const GitHubIcon = forwardRef(({ onMouseEnter, onMouseLeave, className, size = 28, darkMode = false, ...props }, ref) => {
   const bodyControls = useAnimation();
   const tailControls = useAnimation();
   const isControlledRef = useRef(false);
@@ -91,7 +91,7 @@ const GitHubIcon = forwardRef(({ onMouseEnter, onMouseLeave, className, size = 2
         height={size}
         viewBox="0 0 24 24"
         fill="none"
-        stroke="currentColor"
+        stroke={darkMode ? "#007AFF" : "#F59E0B"}
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
