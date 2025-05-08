@@ -1019,7 +1019,7 @@ footer>p{
     }
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1300px) {
     .sidebar{
         display: none;
     }
@@ -1142,6 +1142,8 @@ footer>p{
         overflow: hidden;
         text-overflow: ellipsis;
       }
+    
+///
     nav, .windows-bar{
         display: none;
     }
