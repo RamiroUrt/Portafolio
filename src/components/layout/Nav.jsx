@@ -261,12 +261,12 @@ const Nav = ({ currentSection, onChangeSection }) => {
           <div className="buttons-social-mobile">
           <button className="icon-btn">
             <a target="_blank"  href="https://www.linkedin.com/in/ramiro-urteaga-b32430242/">
-              <LinkedinIcon />
+              <LinkedinIcon darkMode={darkMode} />
             </a>
           </button>
           <button className="icon-btn">
             <a href="https://github.com/RamiroUrt" target="_blank">
-              <GitHubIcon />
+              <GitHubIcon darkMode={darkMode} />
             </a>
           </button>
         </div>
