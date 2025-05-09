@@ -481,6 +481,7 @@ a{
     background-color: var(--ligth-gray);
 }
 .windows-content{
+    cursor:grab ;
     display: flex;
     align-items: center;
     justify-content: center;
