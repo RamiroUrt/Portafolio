@@ -46,6 +46,7 @@
     text-align: center;
     color: var(--font-color-dark);
     transition: all 0.3s ease-in-out;
+    transition: transform 0.2s ease-in-out;
 }
 .dark .box-badge{
     border: 1px solid #007AFF;
@@ -58,6 +59,23 @@
 .dark .box-badge:hover{
     box-shadow: 0px 0px 6px 0px #007AFF;
 }
+.box-badge:not(:hover) {
+    animation: bounceBack 0.4s ease-in-out;
+  }
+@keyframes bounceBack {
+    0% {
+      transform: scale(1.1);
+    }
+    40% {
+      transform: scale(0.95);
+    }
+    70% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
 .icon-skills{
     width: 50px;
     height: 50px;

@@ -18,7 +18,7 @@ const Project = () => {
     <section className='project layout-main'>
       <Title title={t("sections.projects")} />
       <div className="project-slider-container">
-        <ReactGlider onSlideChange={handleSlideChange} />
+        <ReactGlider onSlideChange={handleSlideChange}  />
       </div>
       
       {activeIndex !== null ? (
