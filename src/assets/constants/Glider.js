@@ -80,7 +80,7 @@ export const gliderItems = [
     id: 3,
     title: "Coquette",
     description: "Este proyecto es una galería digital para Coquette Studio, un estudio de moda especializado en alta costura y diseño de vestidos de gala. La página está diseñada para reflejar elegancia, minimalismo y modernidad, alineándose con la identidad visual del estudio.",
-    alt: Coquette,
+    alt: "Coquette",
     image: Coquette,
     tech: ["React", "JavaScript", "CSS", "Tailwind"],
     ...getCaptures("Coquette"),

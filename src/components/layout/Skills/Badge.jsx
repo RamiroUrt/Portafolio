@@ -1,11 +1,11 @@
-import React from 'react'
 
-const Badge = ({icon, text}) => {
+
+const Badge = ({icon, text, alt}) => {
   return (
     <>
     <div className="box-badge">
         <div className="icon-skills">
-            <img src={icon} alt="" loading='lazy'/>
+            <img src={icon} alt={alt} loading='lazy' title={alt}/>
         </div>
             <div className="box-text">{text}</div>
     </div>

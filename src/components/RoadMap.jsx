@@ -12,7 +12,7 @@ const RoadMap = () => {
        <Title title={t("experience.Fundamentals")} />
        <div className="badge-contain">
        {technologies.fundamentos.map(tech => (
-          <Badge key={tech.id} icon={tech.icon} text={tech.text} />
+          <Badge key={tech.id} icon={tech.icon} text={tech.text} alt={tech.alt} />
         ))}
        </div>
        <Title title="- Fronted" />

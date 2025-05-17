@@ -86,6 +86,14 @@
     height: 100%;
     object-fit: cover;
 }
+.box-badge:hover .icon-skills>img{
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 1px var(--orange-color));
+}
+.dark .box-badge:hover .icon-skills>img{
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 1px #007AFF);
+}
 .box-text{
     font-family: 'San Francisco';
     text-transform: uppercase;

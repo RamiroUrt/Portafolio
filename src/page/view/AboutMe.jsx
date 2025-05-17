@@ -11,7 +11,7 @@ const AboutMe = () => {
         <Title title={t("sections.about_me")} />
       <div className="main-about">
         <div className="picture">
-          <img src={Avatar} alt="Profile" className="profile-img" loading='lazy' />
+          <img src={Avatar} alt="Profile Ramiro Urteaga" title='Ramiro Urteaga' className="profile-img" loading='lazy' />
         </div>
         <div className="text-main-about">
         <p 

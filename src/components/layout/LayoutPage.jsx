@@ -71,7 +71,7 @@ const LayoutPage = ({ children }) => {
     <>
       <aside className="sidebar">
         <div className="profile">
-          <img src={Avatar} alt="Profile" className="profile-img" loading='lazy' />
+          <img src={Avatar} alt="Profile" title='Ramiro Urteaga' className="profile-img" loading='lazy' />
         </div>
         <div className="profile-text">
           <h1 className='title'>{t('profile.name')}</h1>

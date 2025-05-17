@@ -28,6 +28,7 @@ const ProjectContain = ({ activeIndex, darkmode }) => {
           className="selected-project"
           src={activeProject.image}
           alt={activeProject.alt}
+          title={activeProject.alt}
           loading='lazy'
         />
         
