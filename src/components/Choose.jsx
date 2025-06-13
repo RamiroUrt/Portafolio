@@ -9,6 +9,7 @@ const Choose = () => {
   const { t } = useI18n();
 
   return (
+    <>
     <div className='chose flex'>
       <img 
         src={darkMode ? ChooseDark : ChooseLight} 
@@ -18,6 +19,7 @@ const Choose = () => {
       />
       <h1 className='title-chose'>{t("projects.choose")}</h1>
     </div>
+    </>
   );
 };
 

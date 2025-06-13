@@ -80,6 +80,12 @@
       },
       "11": {
         "description": "Grill House, a grilled food restaurant, offers a unique and authentic dining experience. Our landing page is designed to provide visitors with an attractive and professional experience, highlighting our values, services, and completed projects."
+      },
+                  "12": {
+        "description": "I developed this chess game as a personal project to strengthen my skills in key web development technologies. The interface was built with React.js, using TypeScript for better code type safety and maintainability. The game engine and rules were programmed in Python and connected through an API developed with Node.js, enabling backend logic and potential expansions like online multiplayer or game history storage. I also used plain JavaScript to handle specific animations and board events. This project not only helped me reinforce core concepts but also allowed me to integrate multiple technologies into a complete application.."
+      },
+            "13": {
+        "description": "I developed this web scraper as a personal project to strengthen my skills in automation and web scraping using Python. I used Selenium to dynamically interact with the page, handling scrolling and clicking 'load more' buttons, while BeautifulSoup was essential for parsing HTML and extracting product data. The script navigates through multiple pages, collecting information such as title, price, and image for each item, and saves it into a JSON file. This project helped me understand how to combine automation with structured parsing, while also improving my flow control and error-handling logic."
       }
     }
   },

@@ -47,11 +47,13 @@ const ProjectContain = ({ activeIndex, darkmode }) => {
     />
           
           <div className="buttons-detail">
+          {activeProject.demo && (
             <button>
               <a href={activeProject.demo} target="_blank" rel="noopener noreferrer">
                 {t("projects.buttonText1")}
               </a>
             </button>
+            )}
             {activeProject.github && (
               <button>
                 <a href={activeProject.github} target="_blank" rel="noopener noreferrer">

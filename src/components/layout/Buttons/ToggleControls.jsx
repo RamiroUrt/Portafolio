@@ -1,7 +1,7 @@
 import ToggleButton from '../Buttons/ToggleButton';
 import Moon from '../../../assets/svg/Moon.jsx';
 import Sunset from '../../../assets/svg/Sunset.jsx';
-import Spain from '../../../assets/img/icons8-españa-96.webp';
+import Argentina from '../../../assets/img/icons8-argentina-96.webp';
 import Usa from '../../../assets/img/icons8-estados-unidos-96.webp';
 import { useTheme } from '../../../context/ThemeContext';
 import { useI18n } from '../../../context/I18nContext';
@@ -23,7 +23,7 @@ const ToggleControls = () => {
         <Sunset alt="Lightmode" darkMode={darkMode} className="toggle-icon" loading='lazy' />
       </div>
       <div className="theme-toggle">
-        <img src={Spain} alt="Spanish flag" className="toggle-icon" loading='lazy' />
+        <img src={Argentina} alt="Spanish flag" className="toggle-icon" loading='lazy' />
         <ToggleButton checked={locale === 'en'} onChange={toggleLanguage} />
         <img src={Usa} alt="USA flag" className="toggle-icon" loading='lazy' />
       </div>

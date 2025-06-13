@@ -24,7 +24,9 @@ const Project = () => {
       {activeIndex !== null ? (
         <ProjectContain activeIndex={activeIndex} />
       ) : (
+        <>
         <Choose onSelectProject={() => setActiveIndex(0)} />
+      </>
       )}
     </section>
   );

@@ -12,7 +12,8 @@ import VideoConverter from './../img/project/VideoConverter.webp';
 import TresDeseos from './../img/project/TresDESEOS.webp';
 import GrillHouse from './../img/project/GrillHouse.webp';
 import Aloha from './../img/project/Aloha.webp';
-
+import Chess from './../img/project/Chess.png';
+import Scrapper from './../img/project/Scrapper.png';
 
 //Importar TODAS las capturas agrupadas
 const allCaptures = import.meta.glob('../img/project/Capture/*/*.{png,jpeg,jpg,webp}', { /**/
@@ -29,7 +30,7 @@ Object.entries(allCaptures).forEach(([path, img]) => {
   groupedCaptures[projectName].push(img);
 });
 
-//Función para obtener hasta 4 capturas
+//Función para obtener hasta 7 capturas
 const getCaptures = (project) => {
   const caps = groupedCaptures[project] || [];
   return {
@@ -174,6 +175,28 @@ export const gliderItems = [
     ...getCaptures("GrillHouse"),
     demo: 'https://grill-house-three.vercel.app',
     github: 'https://github.com/RamiroUrt/Grill-House'
+  },
+  {
+    id: 12,
+    title: "Chess Game",
+    description: "Chess asdasdasdGame.",
+    alt: "ChessGame",
+    image: Chess,
+    tech: ["Python", "JavaScript", "React.js","Typescript", "Node.js", "HTML", "CSS"],
+    ...getCaptures("Chess"),
+    demo: '',
+    github: 'https://github.com/RamiroUrt/Chess-App'
+  },
+  {
+    id: 13,
+    title: "Scrapper",
+    description: "sasdasd",
+    alt: "Scrapper",
+    image: Scrapper,
+    tech: ["Python",],
+    ...getCaptures("Scrapper"),
+    demo: '',
+    github: 'https://github.com/RamiroUrt/Web-Scraper/tree/main'
   }
 ];
 

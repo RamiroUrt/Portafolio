@@ -79,6 +79,12 @@
       },
       "11": {
         "description": "Grill House, un restaurante de comida a la parrilla, ofrece una experiencia gastronómica única y auténtica. Nuestra landing page está diseñada para brindar a los visitantes una experiencia atractiva y profesional, destacando nuestros valores, servicios y proyectos realizados."
+      },
+            "12": {
+        "description": "Desarrollé este juego de ajedrez como proyecto personal para reforzar mis conocimientos en tecnologías clave del desarrollo web. La interfaz fue construida con React.js, utilizando TypeScript para una mejor tipificación del código y mayor mantenibilidad. El motor del juego y las reglas fueron programadas en Python y conectadas mediante una API desarrollada con Node.js, permitiendo lógica en el backend y posibles expansiones como juego en línea o almacenamiento de partidas.También utilicé JavaScript puro para manipular ciertas animaciones y eventos del tablero. Este proyecto no solo me permitió consolidar conceptos fundamentales, sino también integrar múltiples tecnologías en una aplicación completa."
+      },
+            "13": {
+        "description": "Desarrollé este scraper web como proyecto personal para reforzar mis conocimientos en automatización y scraping con Python. Utilicé Selenium para interactuar dinámicamente con la página, hacer scroll y clics en botones de carga, mientras que BeautifulSoup fue clave para parsear el HTML y extraer los datos de cada producto. El script navega por múltiples páginas, obtiene información como título, precio e imagen de cada ítem, y guarda todo en un archivo JSON. Este proyecto me permitió entender cómo combinar automatización con parsing estructurado, además de fortalecer mi lógica de control de flujo y manejo de errores."
       }
     }
   },
