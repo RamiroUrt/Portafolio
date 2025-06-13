@@ -1,0 +1,222 @@
+{
+  "sections": {
+    "about_me": "About Me",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "education": "Education",
+    "pdf": "Resume"
+  },
+  "profile": {
+    "name": "Ramiro Urteaga",
+    "role": "-Frontend Developer-",
+    "contact": "Contact"
+  },
+  "download": "Download CV",
+  "about": {
+    "text": "👋 <g>Hi! I'm Ramiro</g>, and I love what I do. <span>I fell in love with programming</span> from the very first moment, and since then, I haven't stopped exploring the world of technology. I surround myself with others who are passionate about this universe, and without a doubt, I am one of them.).<br><br>Since I was a kid, I always had that <span>curiosity</span> to understand how things worked. I would take apart any toy, device, or game that came into my hands just to discover what made it <span>work</span> and then try to put it back together (with more or less success 😆).<br><br>Today, as a <span>web developer</span>, I specialize in Frontend. I love continuing to learn, sharing knowledge, and receiving feedback that helps me improve.).<br><br>And, of course, there's no code without a <span>good mate</span>. For me, the best moments come with one—whether it's chatting with friends or long hours of programming. Because if there's something that's always present, it's mate and the desire to keep creating and growing. 🚀🧉"
+  },
+  "experience": {
+    "Fundamentals": "- Fundamentals",
+    "Databases": "- Databases",
+    "timeline": [
+      {
+        "id": "exp1",
+        "iconPath": "M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z",
+        "badge": "Graphic Designer | E-Academy",
+        "date": "November 2023 – January 2024",
+        "description": "I worked as a graphic designer at E-Academy, where I was responsible for creating flyers and graphic materials aimed at capturing the public's attention and increasing course sales. Additionally, I took on Community Manager tasks, managing social media platforms, interacting with the community, and developing content strategies to strengthen the academy's digital presence. I also provided assistance with administrative duties, collaborating in organizing and managing registrations, customer service, and other operational tasks.",
+        "button": {
+          "text": "LINKEDIN",
+          "link": "https://www.linkedin.com/company/e-academyit/posts/?feedView=all",
+          "iconPaths": [
+            "M20.5 2h-17a1.5 1.5 0 0 0-1.5 1.5v17a1.5 1.5 0 0 0 1.5 1.5h17a1.5 1.5 0 0 0 1.5-1.5v-17a1.5 1.5 0 0 0-1.5-1.5zM8 19H5v-11h3zM6.5 8.25a1.75 1.75 0 1 1 0-3.5 1.75 1.75 0 0 1 0 3.5zM19 19h-3v-5.5c0-1.5-.5-2.5-2-2.5s-2 1-2 2.5V19h-3v-11h3v1.5s1-1.5 3.5-1.5 3.5 2 3.5 4z"
+          ]
+        }
+      },
+      {
+        "id": "exp2",
+        "badge": "Hardware and Software Repair",
+        "date": "March 2018 – Present",
+        "description": "Self-employed in a personal venture focused on the repair and maintenance of electronic devices. I work independently repairing Android and iOS phones, as well as desktop computers and laptops. My tasks include diagnostics, hardware and software repair, system installation and optimization, data recovery, and general maintenance. This experience has helped me develop key skills such as problem-solving, technical analysis, and attention to detail, which I apply in my programming projects to deliver efficient and well-structured solutions.",
+        "iconPath": "M20 4a2 2 0 0 0-2-2h-2V1a1 1 0 0 0-2 0v1h-3V1a1 1 0 0 0-2 0v1H6V1a1 1 0 0 0-2 0v1H2a2 2 0 0 0-2 2v2h20V4ZM0 18a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V8H0v10Zm5-8h10a1 1 0 0 1 0 2H5a1 1 0 0 1 0-2Z"
+      }
+    ]
+  },
+  "projects": {
+    "choose": "Choose one project",
+    "buttonText1": "Demo",
+    "buttonText2": "GitHub",
+    "items": {
+      "1": {
+        "description": "This project is an online store specialized in the sale of mates, thermoses, bombillas, and personalized combos, designed for those who enjoy the mate ritual.<br>The site features a main Home, where the best deals, top-selling products, and a visual summary of the various available categories are highlighted. From there, users can quickly access the different sections of the store.<br>On the products page, users can explore the entire catalog, with the option to filter by category, price, or product type.<br>Each item has its own product detail page, offering a full description, high-quality images, and purchase options. Additionally, similar products and suggestions for combining with other items are displayed, allowing users to build a more complete and personalized cart.<br>The store is integrated with Mercado Pago, enabling customers to make secure, fast, and reliable payments using credit cards, bank transfers, or account balance."
+      },
+      "2": {
+        "description": "This project is a landing page developed with React, JavaScript, and CSS, designed for a construction company. Its goal is to provide a modern, intuitive, and fully responsive interface so that clients can learn about the company's services and get in touch easily."
+      },
+      "3": {
+        "description": "This project is a digital gallery for Coquette Studio, a fashion studio specialized in haute couture and gala dress design. The page is designed to reflect elegance, minimalism, and modernity, aligning with the studio's visual identity."
+      },
+      "4": {
+        "description": "This project is a landing page developed for a bicycle shop, focused on the sale, repair, and maintenance of bicycles. The design aims to convey dynamism, modernity, and a passion for cycling, ensuring a smooth experience for customers."
+      },
+      "5": {
+        "description": "This project is a landing page designed for an online academy, focused on the sale and management of educational courses. Its goal is to offer an intuitive, professional, and engaging experience for students, making it easy to navigate and purchase courses."
+      },
+      "6": {
+        "description": "This project was my first work in web design, where I developed an interactive application about the Argentina National Football Team. The main idea is to display an interactive map showing the players' birthplaces, along with a grid containing their essential information.<br>Credentials:<br>Email: estudiante@guayerd.com<br>Password: 123456"
+      },
+      "7": {
+        "description": "This project is a donation website designed to facilitate contributions to charitable causes. It allows users to find physical donation locations or make online transfers. Additionally, it features a login system and a donation selection option, where users receive a thank-you email after completing their donation."
+      },
+      "8": {
+        "description": "This project is a YouTube-to-MP3 conversion application built with Python. It allows users to enter a YouTube link and quickly and easily download the audio in MP3 format."
+      },
+      "9": {
+        "description": "Aloha is an online store specialized in the sale of fragrances, incense, essential oils, and products related to wellness and harmony. The platform allows customers to browse the product catalog, while the administrator has access to inventory management features through a login system."
+      },
+      "10": {
+        "description": "3Deseos is a web platform where users can explore, rate, and comment on 3D designs focused on prosthetics. It also allows the download of models for 3D printing, making personalized solutions more accessible to those in need."
+      },
+      "11": {
+        "description": "Grill House, a grilled food restaurant, offers a unique and authentic dining experience. Our landing page is designed to provide visitors with an attractive and professional experience, highlighting our values, services, and completed projects."
+      },
+                  "12": {
+        "description": "I developed this chess game as a personal project to strengthen my skills in key web development technologies. The interface was built with React.js, using TypeScript for better code type safety and maintainability. The game engine and rules were programmed in Python and connected through an API developed with Node.js, enabling backend logic and potential expansions like online multiplayer or game history storage. I also used plain JavaScript to handle specific animations and board events. This project not only helped me reinforce core concepts but also allowed me to integrate multiple technologies into a complete application.."
+      },
+            "13": {
+        "description": "I developed this web scraper as a personal project to strengthen my skills in automation and web scraping using Python. I used Selenium to dynamically interact with the page, handling scrolling and clicking 'load more' buttons, while BeautifulSoup was essential for parsing HTML and extracting product data. The script navigates through multiple pages, collecting information such as title, price, and image for each item, and saves it into a JSON file. This project helped me understand how to combine automation with structured parsing, while also improving my flow control and error-handling logic."
+      }
+    }
+  },
+  "education": {
+    "certificates": [
+      {
+        "id": 1,
+        "iconPath": "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253",
+        "badge": "Int. C# - Web Programming with .Net Core",
+        "date": "EducacionIT (January 2024 - April 2024)",
+        "description": "Int. C# - Web Programming with .Net Core",
+        "button": {
+          "text": "CERTIFICATE",
+          "link": "https://drive.google.com/drive/u/1/folders/1_lz2HH50grQlIBUVGcgVAECtbceBT6Yt",
+          "iconPaths": [
+            "M4 2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v12h16V4H4zm8 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 8 2 2 2-2 2 2 2-2"
+          ]
+        }
+      },
+      {
+        "id": 2,
+        "iconPath": "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253",
+        "badge": "Fundamentals of Design and User Experience",
+        "date": "Coursera | Google (2023-2024)",
+        "description": "Coursera | Google",
+        "button": {
+          "text": "CERTIFICATE",
+          "link": "https://drive.google.com/drive/u/1/folders/1_lz2HH50grQlIBUVGcgVAECtbceBT6Yt",
+          "iconPaths": [
+            "M4 2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v12h16V4H4zm8 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 8 2 2 2-2 2 2 2-2"
+          ]
+        }
+      },
+      {
+        "id": 3,
+        "iconPath": "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253",
+        "badge": "Full Stack Web Development MERN Training | Interpersonal Skills Training",
+        "date": "Salesforce | Pescar Foundation | EducacionIT (June 2023 - December 2023)",
+        "description": "HTML | CSS | JavaScript | Git | Node.JS | React.JS | MongoDB",
+        "button": {
+          "text": "CERTIFICATE",
+          "link": "https://drive.google.com/drive/u/0/folders/1OpgihF2KKpHBuAxrHpsEE3SucBPsXEcV",
+          "iconPaths": [
+            "M4 2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v12h16V4H4zm8 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 8 2 2 2-2 2 2 2-2"
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "iconPath": "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253",
+        "badge": "Full Stack Web Development",
+        "date": "UTN Buenos Aires | Incluyeme (June 2023 - November 2023)",
+        "description": "HTML | CSS | JavaScript | Git | Node.JS | Express.JS",
+        "button": {
+          "text": "CERTIFICATE",
+          "link": "https://drive.google.com/drive/u/0/folders/1ih26KNk7bsefebzcp0GNcFlZvWNO6kkP",
+          "iconPaths": [
+            "M4 2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v12h16V4H4zm8 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 8 2 2 2-2 2 2 2-2"
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "iconPath": "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253",
+        "badge": "Programming Technician",
+        "date": "Universidad Siglo XXI | Teclab Technical College (March 2021 - January 2024)",
+        "description": "HTML | CSS | JavaScript | React | SQL | MySQL | AWS | JSON API",
+        "button": {
+          "text": "CERTIFICATE",
+          "link": "https://drive.google.com/drive/u/0/folders/1Svp6XB6_SbWIxZQ5B-vXH-0rtXD5HX-w",
+          "iconPaths": [
+            "M4 2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v12h16V4H4zm8 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 8 2 2 2-2 2 2 2-2"
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "iconPath": "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253",
+        "badge": "Salesforce Developer",
+        "date": "Guayerd (2022-2023)",
+        "description": "HTML | CSS | JavaScript | Salesforce | Apex",
+        "button": {
+          "text": "CERTIFICATE",
+          "link": "https://drive.google.com/drive/u/0/folders/1BsZnA48w1fhppHU2ASfhwkZ_Lfba-Inw",
+          "iconPaths": [
+            "M4 2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v12h16V4H4zm8 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 8 2 2 2-2 2 2 2-2"
+          ]
+        }
+      },
+      {
+        "id": 7,
+        "iconPath": "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253",
+        "badge": "Initial Programming with Java (208 hours)",
+        "date": "Codo a codo 4.0 (December 2022)",
+        "description": "Initial programming with Java",
+        "button": {
+          "text": "CERTIFICATE",
+          "link": "https://drive.google.com/drive/u/0/folders/1TL10L_ILIkmNOOcL1yVnIB7sA-kozYwT",
+          "iconPaths": [
+            "M4 2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v12h16V4H4zm8 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 8 2 2 2-2 2 2 2-2"
+          ]
+        }
+      },
+      {
+        "id": 8,
+        "iconPath": "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253",
+        "badge": "Introduction to Robotics (12 hours)",
+        "date": "@serte (November 2022)",
+        "description": "Introduction to robotics",
+        "button": {
+          "text": "CERTIFICATE",
+          "link": "https://drive.google.com/drive/u/0/folders/1OLdKx2MRCvHlWofbM4wKdCpMKpPnKzx9",
+          "iconPaths": [
+            "M4 2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v12h16V4H4zm8 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 8 2 2 2-2 2 2 2-2"
+          ]
+        }
+      },
+      {
+        "id": 9,
+        "iconPath": "M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253",
+        "badge": "First Steps in Python and OOP (16 hours)",
+        "date": "Arrow Academy (2021)",
+        "description": "Introduction to programming with Python",
+        "button": {
+          "text": "CERTIFICATE",
+          "link": "https://drive.google.com/drive/u/0/folders/1OLdKx2MRCvHlWofbM4wKdCpMKpPnKzx9",
+          "iconPaths": [
+            "M4 2h16a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm0 2v12h16V4H4zm8 3a3 3 0 1 1 0 6 3 3 0 0 1 0-6zm0 8 2 2 2-2 2 2 2-2"
+          ]
+        }
+      }
+    ]
+  }
+}

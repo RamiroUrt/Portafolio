@@ -1,0 +1,110 @@
+.roadmap-container{
+    padding: 10px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skill-title{
+    width: 100%;
+    color: var(--orange-color);
+    font-size: 30px;
+    font-family: 'San FranciscoTitle';
+}
+.dark .skill-title{
+    color: #007AFF;
+}
+.underline{
+    width: 100%;
+    height: 2px;
+    background-color: var(--font-ligth);
+}
+.badge-contain{
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 10px;
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+.box-badge{
+    width: 200px;
+    background-color: #6868681f;
+    height: 60px;
+    max-width: 300px;
+    max-height: 100px;
+    border: 1px solid var(--orange-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 20px;
+    text-align: center;
+    color: var(--font-color-dark);
+    transition: all 0.3s ease-in-out;
+    transition: transform 0.2s ease-in-out;
+}
+.dark .box-badge{
+    border: 1px solid #007AFF;
+    color: #007AFF;
+}
+ .box-badge:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 6px 0px var(--orange-color);
+}
+.dark .box-badge:hover{
+    box-shadow: 0px 0px 6px 0px #007AFF;
+}
+.box-badge:not(:hover) {
+    animation: bounceBack 0.4s ease-in-out;
+  }
+@keyframes bounceBack {
+    0% {
+      transform: scale(1.1);
+    }
+    40% {
+      transform: scale(0.95);
+    }
+    70% {
+      transform: scale(1.05);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+.icon-skills{
+    width: 50px;
+    height: 50px;
+}
+.icon-skills>img{
+    transition: transform 0.3s ease, filter 0.3s ease;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box-badge:hover .icon-skills>img{
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 1px var(--orange-color));
+}
+.dark .box-badge:hover .icon-skills>img{
+    transform: scale(1.1);
+    filter: drop-shadow(0px 0px 1px #007AFF);
+}
+.box-text{
+    font-family: 'San Francisco';
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: var(--font-ligth);
+}
+.box-badge:hover .box-text{
+    color: var(--orange-color);
+}
+.dark .box-badge:hover .box-text{
+    color: #007AFF;
+}

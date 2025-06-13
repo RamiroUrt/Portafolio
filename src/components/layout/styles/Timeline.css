@@ -1,0 +1,158 @@
+
+.timeline {
+    position: relative;
+    list-style: none;
+    padding-left: 0;
+    border-left: 1px solid var(--orange-color);
+  }
+  
+  .dark .timeline {
+    border-left-color: #374151; 
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 2.5rem; 
+    padding-left: 1.5rem;
+  }
+  .timeline-bullet {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 1.5rem; 
+    height: 1.5rem; 
+    background-color: var(--orange-color);
+    border-radius: 9999px;
+    left: -0.75rem; 
+    z-index: 10;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .timeline-bullet::after {
+    content: '';
+    position: absolute;
+    width: 2rem; 
+    height: 2rem;
+    background-color: var(--orange-color); 
+    border-radius: 9999px;
+    z-index: -1;
+  }
+
+  .timeline-item:hover .timeline-bullet{ 
+    transform: scale(1.5);
+  }
+  .dark .timeline-bullet::after {
+    background-color: #007AFF; 
+  }
+  .timeline-icon {
+    width: 0.625rem;
+    height: 0.625rem; 
+    color: var(--color-black); 
+  }
+  .timeline-icon:hover{
+    transform: scale(1.1);
+  }
+  .dark .timeline-icon {
+    color:  #007AFF;
+  }
+  .timeline-title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.25rem;
+  }
+  
+
+  
+  /* Badge */
+  .timeline-badge {
+    margin-left: 0.75rem; 
+    padding: 0.125rem 0.625rem;
+    font-size: 1.5rem; 
+    font-weight: 500;
+    background-color: var(--ligth-gray); 
+    border-radius: 5px;
+  }
+  .dark .timeline-badge {
+    background-color: #374151; 
+  }
+  
+  .timeline-date {
+    display: block;
+    margin-bottom: 0.5rem; 
+    font-size: 1rem;
+  }
+  .dark .timeline-date {
+    color: #6b7280;
+  }
+  .timeline-description {
+    letter-spacing: 1px;
+    margin-bottom: 1rem;
+    font-size: 1.1em;
+  }
+  
+  /* Dark mode description */
+  .dark .timeline-description {
+    color: #9ca3af; 
+  }
+  
+  /* Timeline Button */
+  .timeline-button {
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 40px;
+    font-size: 1rem; 
+    background-color: var(--ligth-gray); 
+    border: 1px solid var(--orange-color);
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    text-decoration: none;
+    color: var(--orange-color);
+  }
+  .dark .timeline-button {
+    color: var(--orange-color);
+  }
+
+  
+  /* Dark mode button */
+  .dark .timeline-button {
+    background-color: #1f2937; /* dark:bg-gray-800 */
+    color: #9ca3af; /* dark:text-gray-400 */
+    border-color: #4b5563; /* dark:border-gray-600 */
+  }
+  .timeline-button:hover {
+
+    box-shadow: none;
+  }
+  .dark .timeline-button:hover {
+    color: white;
+    background-color: #374151; 
+    box-shadow: none;
+  }
+  
+  .timeline-button-icon {
+    width: 0.875rem; /* w-3.5 */
+    height: 0.875rem; /* h-3.5 */
+    margin-right: 0.625rem; /* me-2.5 */
+  }
+
+  .icon-education{
+    overflow: visible;
+    padding-right: 23px;
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+ }
+ .icon-button-education{
+  overflow: visible;
+  width: 22px;
+  height: 22px;
+ }
