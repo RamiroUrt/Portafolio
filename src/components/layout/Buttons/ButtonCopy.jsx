@@ -1,13 +1,15 @@
 import '../styles/ButtonCopy.css';
+import { useSound } from '../../../context/UseSound'
 
-
-
-const ButtonCopy = () => {
-
+const ButtonCopy = ({onCopy }) => {
+  const playCopySound = useSound("/sound/copy.mp3", 0.5);
+  const textToCopy = "urteagaramiro33@gmail.com";
 
   const copyToClipboard = (text) => {
     navigator.clipboard.writeText(text)
       .then(() => {
+        if (onCopy) onCopy();
+        else playCopySound();
         alert("Texto copiado al portapapeles");
       })
       .catch((error) => {
@@ -15,7 +17,6 @@ const ButtonCopy = () => {
         alert("Error al copiar texto");
       });
   };
-  const textToCopy = "urteagaramiro33@gmail.com";
 
   const handleCopy = () => {
     copyToClipboard(textToCopy);
