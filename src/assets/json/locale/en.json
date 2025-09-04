@@ -86,6 +86,9 @@
       },
             "13": {
         "description": "I developed this web scraper as a personal project to strengthen my skills in automation and web scraping using Python. I used Selenium to dynamically interact with the page, handling scrolling and clicking 'load more' buttons, while BeautifulSoup was essential for parsing HTML and extracting product data. The script navigates through multiple pages, collecting information such as title, price, and image for each item, and saves it into a JSON file. This project helped me understand how to combine automation with structured parsing, while also improving my flow control and error-handling logic."
+      },
+      "14":{
+        "description": "This project is a website under development built with Next.js. It is currently under construction: the main sections and the data system with JSON Server have been implemented, and the integration of new features such as an AI-powered chatbox is still pending."
       }
     }
   },

@@ -14,6 +14,7 @@ import GrillHouse from './../img/project/GrillHouse.webp';
 import Aloha from './../img/project/Aloha.webp';
 import Chess from './../img/project/Chess.png';
 import Scrapper from './../img/project/Scrapper.png';
+import FullCheck from './../img/project/FullCheck.png';
 
 //Importar TODAS las capturas agrupadas
 const allCaptures = import.meta.glob('../img/project/Capture/*/*.{png,jpeg,jpg,webp}', { /**/
@@ -53,6 +54,17 @@ export const gliderItems = [
     description: "",
     alt: "",
     image: EmptyImg, 
+  },
+    {
+    id: 14,
+    title: "🚧Full Check - Proyecto en Construcción",
+    description: "Este proyecto es una landing page desarrollada con Next.js, JavaScript y CSS, diseñada para taller mecanico. Su objetivo es proporcionar una interfaz moderna, intuitiva y completamente responsiva para que los clientes puedan conocer los servicios de la empresa y contactarse fácilmente.",
+    alt: "Full Check",
+    image: FullCheck,
+    tech: ["Next.js", "Tailwind","JavaScript", "CSS", "Leaflet.js", "Json-Server"],
+    ...getCaptures("FullCheck"),
+    demo: '',
+    github: ''
   },
   {
     id: 1,
