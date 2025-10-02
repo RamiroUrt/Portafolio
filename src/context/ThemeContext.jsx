@@ -1,9 +1,8 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 
-// 1. Primero creamos el contexto
+
 const ThemeContext = createContext();
 
-// 2. Creamos el Provider
 export const ThemeProvider = ({ children }) => {
   const [darkMode, setDarkMode] = useState(() => {
     if (typeof window !== 'undefined') {
@@ -33,8 +32,6 @@ export const ThemeProvider = ({ children }) => {
     </ThemeContext.Provider>
   );
 };
-
-// 3. Finalmente creamos el hook personalizado
 export const useTheme = () => {
   const context = useContext(ThemeContext);
   if (!context) {

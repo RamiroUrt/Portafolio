@@ -37,6 +37,7 @@ const PDFViewer = () => {
               viewerRef={viewerRef} 
               usePDFSlickStore={usePDFSlickStore} 
             />
+            <h1>Contratame para liberar mi potencial</h1>
           </div>
           
         </div>
