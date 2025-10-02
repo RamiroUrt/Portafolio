@@ -5,6 +5,30 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.interaction-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.8);
+  color: white;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 2rem;
+}
+
+.interaction-text {
+  animation: blink 1.2s infinite;
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.3; }
+}
+
 *, body{
     box-sizing: border-box;
     padding: 0;

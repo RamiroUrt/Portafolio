@@ -11,19 +11,12 @@ const App = () => {
   const [loading, setLoading] = useState(true);
   const [currentSection, setCurrentSection] = useState("About Me");
 
-  useEffect(() => {
-    const timer = setTimeout(() => {
-      setLoading(false);
-    }, 5000);
-    return () => clearTimeout(timer);
-  }, []);
-
   return (
     <ThemeProvider>
       <I18nProvider>
         <Suspense fallback={<div className="lock-screen"></div>}>
           {loading ? (
-            <Loader />
+            <Loader onFinish={() => setLoading(false)} />
           ) : (
             <Layout>
               <Nav

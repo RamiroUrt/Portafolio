@@ -6,7 +6,6 @@ import gliderItems from '../assets/constants/Glider';
 
 const ProjectContain = ({ activeIndex, darkmode }) => {
   const { t } = useI18n();
-
   const activeProject = gliderItems[activeIndex];
 
   if (!activeProject || !activeProject.id) {
@@ -18,8 +17,18 @@ const ProjectContain = ({ activeIndex, darkmode }) => {
       </div>
     );
   }
- 
+
   const projectDescription = t(`projects.items.${activeProject.id}.description`);
+
+  const captures = [
+    activeProject.capture,
+    activeProject.capture2,
+    activeProject.capture3,
+    activeProject.capture4,
+    activeProject.capture5,
+    activeProject.capture6,
+    activeProject.capture7
+  ].filter(capture => capture && capture !== '');
 
   return (
     <div className="project-contain">
@@ -41,23 +50,23 @@ const ProjectContain = ({ activeIndex, darkmode }) => {
             ))}
           </div>
           
-    <div 
-      className="description text-secondary"
-      dangerouslySetInnerHTML={{ __html: projectDescription }}
-    />
+          <div 
+            className="description text-secondary"
+            dangerouslySetInnerHTML={{ __html: projectDescription }}
+          />
           
           <div className="buttons-detail">
-          {activeProject.demo && (
-            <button>
-              <a href={activeProject.demo} target="_blank" rel="noopener noreferrer">
-                {t("projects.buttonText1")}
-              </a>
-            </button>
+            {activeProject.demo && (
+              <button>
+                <a href={activeProject.demo} target="_blank" rel="noopener noreferrer">
+                  {t("projects.buttonText1")}
+                </a>
+              </button>
             )}
             {activeProject.github && (
               <button>
                 <a href={activeProject.github} target="_blank" rel="noopener noreferrer">
-                {t(`projects.buttonText2`)}
+                  {t(`projects.buttonText2`)}
                 </a>
               </button>
             )}
@@ -66,13 +75,13 @@ const ProjectContain = ({ activeIndex, darkmode }) => {
       </div>
       
       <div className="front-page-contain">
-        {activeProject.capture && <ImageProject src={activeProject.capture} alt={`${activeProject.title} Captura 1`} />}
-        {activeProject.capture2 && <ImageProject src={activeProject.capture2} alt={`${activeProject.title} Captura 2`} />}
-        {activeProject.capture3 && <ImageProject src={activeProject.capture3} alt={`${activeProject.title} Captura 3`} />}
-        {activeProject.capture4 && <ImageProject src={activeProject.capture4} alt={`${activeProject.title} Captura 4`} />}
-        {activeProject.capture4 && <ImageProject src={activeProject.capture5} alt={`${activeProject.title} Captura 5`} />}
-        {activeProject.capture4 && <ImageProject src={activeProject.capture6} alt={`${activeProject.title} Captura 6`} />}
-        {activeProject.capture4 && <ImageProject src={activeProject.capture7} alt={`${activeProject.title} Captura 7`} />}
+        {captures.map((capture, index) => (
+          <ImageProject 
+            key={index} 
+            src={capture} 
+            alt={`${activeProject.title} Captura ${index + 1}`} 
+          />
+        ))}
       </div>
     </div>
   );
