@@ -63,8 +63,8 @@ export const gliderItems = [
     image: FullCheck,
     tech: ["Next.js", "Tailwind","JavaScript", "CSS", "Leaflet.js", "Json-Server"],
     ...getCaptures("FullCheck"),
-    demo: '',
-    github: ''
+    demo: 'https://full-check.vercel.app/home',
+    github: 'https://github.com/RamiroUrt/Full_Check'
   },
   {
     id: 1,
