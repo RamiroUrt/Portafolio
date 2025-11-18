@@ -24,4 +24,7 @@ export default defineConfig({
   css: {
     postcss: './postcss.config.mjs', 
   },
+  build: {
+    chunkSizeWarningLimit: 1000, 
+  },
 });
