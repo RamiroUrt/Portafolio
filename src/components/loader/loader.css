@@ -50,7 +50,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: url('https://4kwallpapers.com/images/wallpapers/macos-monterey-wwdc-21-stock-5k-5120x2880-5584.jpg');
+    background: url('/macos.webp');
     background-size: cover;
     background-position: center;
     user-select: none;
