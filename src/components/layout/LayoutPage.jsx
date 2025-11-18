@@ -8,10 +8,13 @@ import ButtonCopy from './Buttons/ButtonCopy.jsx';
 import Avatar from '../../assets/img/AvatarIA2.webp';
 import ToggleControls from './Buttons/ToggleControls.jsx';
 import { useState, useEffect, useCallback } from 'react';
+import { useSound } from '../../context/UseSound';
 
 const titles = ['-Frontend Developer-', '-Web Developer-', '-UI Designer-',];
 const LayoutPage = ({ children }) => {
   
+  const playCopySound = useSound("/sound/copy.mp3", 0.4);
+
   const { darkMode, toggleTheme } = useTheme();
   const { locale, setLocale } = useI18n();
   const { t } = useI18n();
@@ -84,7 +87,7 @@ const LayoutPage = ({ children }) => {
           <h3 className='title'>{t('profile.contact')}</h3>
           <div className="text-secondary contact-text">
             <div className="flex items-center text-center justify-center">
-              <ButtonCopy textToCopy={emailReal} />
+              <ButtonCopy textToCopy={emailReal} onCopy={playCopySound} />
               <p className='text-secondary text-center justify-center w-full email-display'>
                 {maskedEmail}
               </p>

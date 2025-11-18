@@ -138,7 +138,7 @@ export const gliderItems = [
     description: "Este proyecto es una aplicación de conversión de videos de YouTube a MP3 utilizando Python. Permite a los usuarios ingresar un enlace de YouTube y descargar el audio en formato MP3 de manera rápida y sencilla.",
     alt: "VideoConverter",
     image: VideoConverter,
-    tech: ["Python", "Express.js", "HTML", "CSS"],
+    tech: ["HTML", "CSS", "JavaScript","Node.js", "Express.js",],
     ...getCaptures("VideoConverter"),
     demo: 'https://convertertomp3.onrender.com',
     github: 'https://github.com/RamiroUrt/ConverterToMp3'
