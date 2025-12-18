@@ -11,7 +11,7 @@ const Experience = () => {
   const timelineItems = t("experience.timeline", { returnObjects: true });
   
   return (
-    <div className='experience layout-main '>
+    <div className='experience '>
       <Title title={t("sections.experience")} />
       <div className="timeline-container">
         <div className="timeline-contain">

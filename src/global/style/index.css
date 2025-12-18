@@ -642,7 +642,7 @@ footer>p{
 }
 .main-about{
     width: 90%;
-    height: 80%;
+    height: 100%;
     display: flex;
     gap: 3em;
     justify-content: space-between;
@@ -716,10 +716,12 @@ footer>p{
     * !EXPERIENCE *
     ***************/
     .experience{
+        margin: 0 auto;
         width: 100%;
         height: 90vh;
         display: flex;
         flex-direction: column;
+        align-items: center;
         padding-top: 100px;
     }
 .timeline-container{
@@ -959,7 +961,7 @@ footer>p{
     **************/
     .skills{
         width: 100%;
-        height: 94vh;
+        height: 95vh;
         overflow: hidden;
     }
     .main-skills{
@@ -1315,8 +1317,9 @@ footer>p{
     height: 100vh;
  }
  .experience{
-    overflow-y: auto;
     width: 100%;
+    width: 100%;
+    height: 140vh;
  }
  .timeline-container{
      width: 100%;
@@ -1432,6 +1435,7 @@ footer>p{
     .about{
         margin-top: 30em;
         margin-bottom: 25em;
+        min-height: 100vh;
     }
 
 }
@@ -1452,6 +1456,7 @@ footer>p{
         height: 100vh;
         min-height: 100vh;
         flex: 1;
+        min-height: 100vh;
     }
     .layout-page{
         min-height: 100vh;
@@ -1517,7 +1522,9 @@ footer>p{
         margin-top: 0;
         width: 100%;
         height: auto;
+        min-height: 100vh;
         padding: 0;
+        margin-bottom: 2em;
     }
     .main-skills{
         width: 100%;
@@ -1625,6 +1632,7 @@ footer>p{
     .layout-main{
         overflow: hidden;
         height: auto;
+        min-height: 100vh;
     }
     .layout-page{
         height: auto;
@@ -1634,6 +1642,7 @@ footer>p{
         width: 100%;
         overflow-y: hidden;
         height: auto;
+        min-height: 100vh;
     }
     .about{
         padding-top: 0;
@@ -1641,6 +1650,7 @@ footer>p{
         height: auto;
         position: relative;
         overflow-y: hidden;
+        min-height: 100vh;
     }
     .picture>img{
         width: 100%;

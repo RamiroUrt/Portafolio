@@ -1,6 +1,6 @@
 import './layout/styles/Timeline.css';
 
-const Timeline = ({ items, isEducation = false }) => {
+const Timeline = ({  items, isEducation = false }) => {
   return (
     <ol className="timeline">
       {items.map((item) => (

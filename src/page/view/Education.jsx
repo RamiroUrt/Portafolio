@@ -1,25 +1,25 @@
-import Timeline from "../../components/Timeline"
-import Title from "../../components/layout/Title"
-import { useI18n } from '../../context/I18nContext';
+import Timeline from "../../components/Timeline";
+import Title from "../../components/layout/Title";
+import { useI18n } from "../../context/I18nContext";
 
+import educationDataEn from "../../assets/json/locale/EducationDataEN";
+import educationDataEs from "../../assets/json/locale/EducationDataES";
 const Education = () => {
+  const { t, locale } = useI18n();
+  console.log("LANGUAGE:", locale);
 
-  const { t } = useI18n();
-
-  const title = t("sections.education");
-
-  const TimelineItems = t("education.certificates", { returnObjects: true });
-  
+  const educationData =
+    locale === "es" ?  educationDataEs : educationDataEn;
   return (
-    <section className='education layout-main'>
-    <Title title={title} />
-    <div className="education-container">
-      <div className="education-timeline-contain">
-        <Timeline items={TimelineItems} isEducation={true}/>
+    <section className="education layout-main">
+      <Title title={t("sections.education")} />
+      <div className="education-container">
+        <div className="education-timeline-contain">
+          <Timeline items={educationData} isEducation />
+        </div>
       </div>
-    </div>
-  </section>
-  )
-}
+    </section>
+  );
+};
 
-export default Education
+export default Education;

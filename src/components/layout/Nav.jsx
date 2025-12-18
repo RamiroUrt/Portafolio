@@ -74,7 +74,7 @@ const Nav = ({ currentSection, onChangeSection }) => {
 
   // Update input value when activeWindow changes
   useEffect(() => {
-    setInputValue(`http://localhost:5173/${activeWindow.replace(/\s+/g, '')}`);
+    setInputValue(`https://wwww.ramirourteaga.online/${activeWindow.replace(/\s+/g, '')}`);
   }, [activeWindow]);
 
   useEffect(() => {
