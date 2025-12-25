@@ -92,7 +92,7 @@ export const gliderItems = [
   },
   {
     id: 16,
-    title: "Entre Amigos",
+    title: "PDF Converter",
     description: "",
     alt: "PDFConverter",
     image: PDFConverter,
