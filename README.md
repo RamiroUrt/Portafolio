@@ -1,75 +1,34 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Logo](https://i.postimg.cc/qqhQRLxh/og-Image.png)
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+# Portfolio OS Experience
 
-## React Compiler
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+Este es un portafolio de alta fidelidad diseñado bajo un concepto de **Sistema Operativo / Navegador interactivo**. El proyecto no solo muestra mis trabajos, sino que demuestra habilidades avanzadas en arquitectura de software, gestión de estado y experiencia de usuario (UX).
 
-Note: This will impact Vite dev & build performances.
+## 🚀 Filosofía de Desarrollo: AI-First
+Este proyecto ha sido desarrollado siguiendo una mentalidad **AI-First**, integrando automatización y flujos de trabajo impulsados por IA para optimizar la lógica y la eficiencia del código.
 
-## Expanding the ESLint configuration
+## 🛠️ Arquitectura del Proyecto
+El código está organizado siguiendo el principio de **Separación de Responsabilidades (SoC)** para garantizar que sea escalable y fácil de mantener:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 📂 Estructura de Carpetas
+* **`/views`**: El núcleo del contenido. Cada sección (Education, Experience, Projects, Resume) es un módulo independiente que separa su lógica principal de sus estilos específicos, facilitando la edición y escalabilidad.
+* **`/components`**: Implementación de diseño atómico.
+    * `layout/`: Estructura principal como `BrowserWindow` y `Header`.
+    * `ui/`: Componentes básicos reutilizables (botones, inputs, iconos).
+* **`/hooks`**: Lógica de negocio extraída en funciones personalizadas como `useNavigation` y `useTabOrder` para desacoplar la funcionalidad de la interfaz visual.
+* **`/context`**: Gestión de estado global mediante Context API (Theme, I18n).
+* **`/assets`**: Repositorio central de recursos estáticos (SVGs), constantes y configuración de internacionalización.
+* **`/styles`**: Arquitectura CSS modular y organizada para soportar el sistema de diseño oscuro o fonts de manera consistente.
+* **`/types`**: Definiciones de TypeScript organizadas y separadas en carpetas para una modularización total y tipado fuerte.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
-
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🎨 Características Principales
+* **Navegación Lineal**: Sistema de pestañas interactivo con soporte para adelante/atrás que respeta el orden dinámico.
+* **Drag & Drop**: Reordenamiento dinámico de pestañas mediante `react-dnd`.
+* **Barra de Direcciones Funcional**: Navegación interna mediante entrada de URL, seleccionando automáticamente el contenido al hacer foco.
+* **Estética Minimalista**: Diseño sofisticado basado en temas oscuros con acentos vibrantes, optimizado para una experiencia de escritorio premium.
