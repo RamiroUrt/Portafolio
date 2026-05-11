@@ -1,0 +1,52 @@
+/* ToggleBtn.css */
+.ui-toggle {
+  position: relative;
+  width: 60px;
+  height: 30px; 
+  --off: #28292c;
+  --on: #f59e0a;
+  --light: #eeebe4;
+}
+.ui-toggle__input:checked ~ .ui-toggle__slider {
+  background-color: var(--light);
+}
+
+
+.ui-toggle__label {
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background-color: var(--off);
+  border-radius: 15px; 
+  cursor: pointer;
+  border: 2px solid var(--on);
+}
+
+.ui-toggle__input {
+  display: none;
+}
+
+.ui-toggle__slider {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.ui-toggle__slider::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 6px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background-color: var(--light);
+  transition: 0.3s;
+}
+
+.ui-toggle__input:checked ~ .ui-toggle__slider::before {
+  transform: translateX(30px);
+  background-color: var(--on);
+}

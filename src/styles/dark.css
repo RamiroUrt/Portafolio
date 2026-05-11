@@ -1,0 +1,101 @@
+/* 
+&En este archivo solo se maneja el modo DARK de los elementos en mi portafolio 
+*/
+
+.dark {
+  --bg-dark-deep: #222222;  
+  --bg-dark-sidebar: #252526;    
+  --bg-dark-elevated: #3c3d3e;   
+  --bg-dark-card: #2a2e3871;    
+  --bg-dark-hover: #323236;    
+  
+  --color-border-dark: #7c7d7e;
+  --color-border-accent: #f39c12; 
+  --color-text-dark: #f6f3ec;    
+}
+/* ESTRUCTURA Y NAVEGACIÓN */
+.dark .layout-view, 
+.dark footer {
+  background-color: var(--bg-dark-deep);
+}
+
+.dark .sidebar {
+  background-color: var(--bg-dark-sidebar);
+  border-right: 1px solid var(--color-border-dark);
+}
+
+.dark .browseWindows-header, 
+.dark .tabs-bar {
+  background-color: var(--bg-dark-elevated);
+  border-color: var(--color-border-dark);
+}
+
+.dark .address-bar {
+  background-color: #6d6e6f; 
+  border: 1px solid var(--color-border-dark);
+}
+
+.dark .address-bar:hover {
+  border-color: #8F00FF;
+}
+
+/* COMPONENTES DE INTERACCIÓN (Tabs, Botones, Nav) */
+.dark .tab.active,
+.dark .new-tab-btn:hover,
+.dark .tab:hover,
+.dark .nav-btn:hover,
+.dark .item-content .item-contact:first-child:hover,
+.item-contact:last-child:hover {
+  background-color: var(--color-border-dark);
+}
+
+/* TARJETAS Y CONTENEDORES (Agrupación Masiva) */
+.dark .timeline-card,
+.dark .card-contain-projects,
+.dark .card-hor-contain,
+.dark .card-ver-contain,
+.dark .contain-card-education,
+.dark .sing,
+.dark .circle-avatar {
+  background-color: var(--bg-dark-card);
+  border: 1px solid var(--color-border-dark);
+}
+
+/* ESTADOS HOVER DE TARJETAS */
+.dark .timeline-card:hover,
+.dark .card-contain-projects:hover,
+.dark .card-hor-contain:hover,
+.dark .card-ver-contain:hover,
+.dark .contain-card-education:hover,
+.dark .sing:hover {
+  border-color: var(--color-border-accent);
+}
+
+/* TIPOGRAFÍA Y ELEMENTOS INTERNOS */
+.dark h2, .dark p, 
+.dark .role-title, 
+.dark .description-text,
+.dark .icon-dark,
+.dark .icons-muted,
+.dark .subtitle:hover,
+.dark .icon-dark > svg,
+.dark .download:hover .icon-download{
+  color: var(--color-text-dark);
+}
+.dark .date-text,
+.dark .icon-download{
+  color: var(--color-border-accent);
+}
+.dark .social-container>a,
+.dark .card-title,
+.dark .floating-container {
+  background-color: #2a2e38; 
+}
+.dark .social-container>a:hover{
+  background-color: var(--color-border-accent);
+}
+
+.dark .sing > span,
+.dark .download {
+  background-color: var(--bg-dark-hover);
+}

@@ -1,0 +1,136 @@
+{
+  "nav": {
+    "tabs": {
+      "About": "About Me",
+      "Experience": "Experience",
+      "Projects": "Projects",
+      "Skills": "Skills",
+      "Education": "Education",
+      "Resume": "Resume"
+    }
+  },
+  "sidebar": {
+    "job_title": "Frontend Developer",
+    "download_cv": "Download CV",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About Me",
+    "full_bio": "Hi! I'm Ramiro, and I love what I do. <strong>I fell in love with programming</strong> from the very first moment, and since then I haven't stopped exploring the world of technology. I surround myself with people passionate about this universe, and without a doubt, I am one of them.<br />Since I was a child, I always had that <strong>curiosity</strong> to understand how things work. I would take apart any toy, device, or game that came my way just to discover what made it <strong>work</strong> and then try to put it back together (with more or less success).<br />Today, as a <strong>web developer</strong>, I specialize in Frontend. I love to keep learning, sharing knowledge, and receiving feedback that helps me improve.<br />And of course, there is no code without a <strong>good mate</strong>. For me, the best moments are accompanied by one, whether chatting with friends or during long hours of programming.<br />Because if there's something that's always present, it's mate and <strong>the desire to keep creating and growing</strong>.",
+    "mate_signature": "\"A true believer that there is no code without a <strong>good mate</strong> by your side.\""
+    },
+    "experience": {
+    "title": "Experience",
+    "jobs": {
+      "exp3": {
+        "role": "Frontend Developer",
+        "date": "January 2026 – April 2026",
+        "description": "Development of web interfaces using Next.js and TypeScript, prioritizing reusable components, strict typing, and code scalability. Implementation of complete features and functionalities. Improved user experience through workflow optimization and visual feedback. Team collaboration using Git, pull requests, and code reviews."
+      },
+      "exp1": {
+        "role": "Graphic Designer & Community Manager",
+        "date": "November 2023 – January 2024",
+        "description": "Creation of flyers and graphic materials to attract new students. Management of social media and digital content strategies, along with administrative tasks."
+      },
+      "exp2": {
+        "role": "Hardware & Software Technician",
+        "date": "March 2018 – Present",
+        "description": "Diagnosis and repair of mobile devices (Android/iOS) and computers. System optimization and data recovery."
+      }
+    }
+  },
+    "projects": {
+    "title": "Projects",
+    "items": {
+      "14": {
+        "title": "Full Check",
+        "description": "This project is a landing page developed with Next.js, JavaScript, and CSS, designed for a mechanical workshop. Its goal is to provide a modern, intuitive, and fully responsive interface so customers can learn about the company's services and contact them easily."
+      },
+      "15": {
+        "title": "ImageConverter",
+        "description": "An image converter developed in Python using the Pillow (PIL) library. It allows converting single or multiple images within a folder to various popular formats."
+      },
+      "1": {
+        "title": "Entre Amigos",
+        "description": "Landing page for a construction company with a modern and responsive interface. It implements integration with payment gateways and 3D elements."
+      },
+      "2": {
+        "title": "Urbanblock",
+        "description": "Website for a construction company focused on architectural project visualization using Three.js for immersive experiences."
+      },
+      "13": {
+        "title": "Web Scrapper",
+        "description": "Automation script developed in Python for data extraction and processing from external sources."
+      },
+      "3": {
+        "title": "Coquette Studio",
+        "description": "High fashion digital gallery designed to reflect elegance and minimalism, optimized for exhibiting fashion designs."
+      },
+      "8": {
+        "title": "VideoConverter",
+        "description": "Utility tool for converting YouTube links to MP3 format processed in a Node.js environment."
+      },
+      "4": {
+        "title": "BikeShop",
+        "description": "Landing page for a professional bike shop, focusing on maintenance services and a product catalog with a dynamic design."
+      },
+      "5": {
+        "title": "Educatina",
+        "description": "Online course management platform with an intuitive navigation system and a design focused on academic conversion."
+      },
+      "6": {
+        "title": "Scaloneta ₓ Guayerd",
+        "description": "Interactive application with real-time maps and data grids about the Argentine National Team. My first firm step in web development."
+      },
+      "7": {
+        "title": "Wingu ₓ Guayerd",
+        "description": "Solidarity donation system with login integration and automatic post-donation email management through Apex."
+      },
+      "9": {
+        "title": "Aloha Aromas",
+        "description": "E-commerce specialized in wellness products with an admin panel for inventory and stock management."
+      },
+      "10": {
+        "title": "3Deseos",
+        "description": "Community for spreading and downloading 3D prosthesis models, integrating Firebase for comment and rating management."
+      },
+      "11": {
+        "title": "Grill House",
+        "description": "Gastronomic landing page highlighting the visual identity and services of a grill restaurant."
+      },
+      "12": {
+        "title": "Chess Game",
+        "description": "Functional chess application that tests programming logic and complex state management in React."
+      }
+    }
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "fundamentals": "Fundamentals",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Databases",
+      "tools": "Tools",
+      "soft_skills": "Soft Skills"
+    },
+    "social_items": {
+      "detail": "Attention to detail",
+      "learning": "Continuous learning",
+      "patience": "Patience",
+      "perseverance": "Perseverance",
+      "communication": "Clear communication",
+      "analytical": "Analytical thinking",
+      "collaboration": "Collaboration"
+    }
+  },
+  "resume": {
+    "title": "Resume",
+    "filename": "CV.Ramiro.Urteaga.EN.pdf"
+  },
+    "education": {
+    "title": "Education",
+    "certificates_title": "Certifications",
+    "view_certificate": "View Certificate"
+  }
+}

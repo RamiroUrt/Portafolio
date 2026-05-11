@@ -1,0 +1,136 @@
+{
+"nav": {
+    "tabs": {
+      "About": "Sobre Mi",
+      "Experience": "Experiencia",
+      "Projects": "Proyectos",
+      "Skills": "Habilidades",
+      "Education": "Educación",
+      "Resume": "CV"
+    }
+    },
+  "sidebar": {
+    "job_title": "Desarrollador Frontend",
+    "download_cv": "Descargar CV",
+    "contact": "Contacto"
+  },
+  "about": {
+    "title": "Sobre Mí",
+    "full_bio": "¡Hola! Soy Ramiro, y amo lo que hago. <strong>Me enamoré de la programación</strong> desde el primer momento, y desde entonces no he dejado de explorar el mundo de la tecnología. Me rodeo de personas apasionadas por este universo, y sin duda, soy uno de ellos.<br />Desde niño, siempre tuve esa <strong>curiosidad</strong> por entender cómo funcionan las cosas. Desarmaba cualquier juguete, dispositivo o juego que llegaba a mis manos solo para descubrir qué lo hacía <strong>funcionar</strong> y luego intentar armarlo de nuevo (con más o menos éxito).<br />Hoy, como <strong>desarrollador web</strong>, me especializo en Frontend. Me encanta seguir aprendiendo, compartir conocimiento y recibir feedback que me ayude a mejorar.<br />Y por supuesto, no hay código sin un <strong>buen mate</strong>. Para mí, los mejores momentos vienen acompañados de uno, ya sea charlando con amigos o en largas horas de programación.<br />Porque si hay algo que siempre está presente, es el mate y <strong>las ganas de seguir creando y creciendo</strong>.",
+    "mate_signature": "\"Fiel creyente de que no hay código sin un <strong>buen mate</strong> al lado.\""
+   },
+  "experience": {
+      "title": "Experiencia",
+      "jobs": {
+        "exp3": {
+          "role": "Frontend Developer",
+          "date": "Enero 2026 – Abril 2026",
+          "description": "Desarrollo de interfaces web utilizando Next.js y TypeScript, priorizando componentes reutilizables, tipado estricto y escalabilidad del código. Implementación de funcionalidades completas. Mejora de la experiencia de usuario mediante optimización de flujos y feedback visual. Colaboración en equipo usando Git, pull requests y revisión de código."
+        },
+        "exp1": {
+          "role": "Diseñador Gráfico & Community Manager",
+          "date": "Noviembre 2023 – Enero 2024",
+          "description": "Creación de flyers y materiales gráficos para captar alumnos. Gestión de redes sociales y estrategias de contenido digital junto con tareas administrativas."
+        },
+        "exp2": {
+          "role": "Técnico en Hardware y Software",
+          "date": "Marzo 2018 – Presente",
+          "description": "Diagnóstico y reparación de dispositivos móviles (Android/iOS) y computadoras. Optimización de sistemas y recuperación de datos."
+        }
+      }
+      },
+      "projects": {
+    "title": "Proyectos",
+    "items": {
+      "14": {
+        "title": "Full Check",
+        "description": "Este proyecto es una landing page desarrollada con Next.js, JavaScript y CSS, diseñada para taller mecanico. Su objetivo es proporcionar una interfaz moderna, intuitiva y completamente responsiva para que los clientes puedan conocer los servicios de la empresa y contactarse fácilmente."
+      },
+      "15": {
+        "title": "ImageConverter",
+        "description": "Un convertidor de imágenes desarrollado en Python utilizando la librería Pillow (PIL). Permite convertir una imagen individual o múltiples imágenes dentro de una carpeta a distintos formatos populares."
+      },
+      "1": {
+        "title": "Entre Amigos",
+        "description": "Landing page para una empresa constructora con interfaz moderna y responsiva. Implementa integración con pasarelas de pago y elementos en 3D."
+      },
+      "2": {
+        "title": "Urbanblock",
+        "description": "Sitio web para constructora enfocado en la visualización de proyectos arquitectónicos mediante el uso de Three.js para experiencias inmersivas."
+      },
+      "13": {
+        "title": "Web Scrapper",
+        "description": "Script de automatización desarrollado en Python para la extracción y procesamiento de datos desde fuentes externas."
+      },
+      "3": {
+        "title": "Coquette Studio",
+        "description": "Galería digital de alta costura diseñada para reflejar elegancia y minimalismo, optimizada para la exhibición de diseños de moda."
+      },
+      "8": {
+        "title": "VideoConverter",
+        "description": "Herramienta de utilidad para la conversión de enlaces de YouTube a formato MP3 procesada en un entorno Node.js."
+      },
+      "4": {
+        "title": "BikeShop",
+        "description": "Landing page para una bicicletería profesional, enfocada en servicios de mantenimiento y catálogo de productos con diseño dinámico."
+      },
+      "5": {
+        "title": "Educatina",
+        "description": "Plataforma de gestión de cursos en línea con sistema de navegación intuitivo y diseño enfocado en la conversión académica."
+      },
+      "6": {
+        "title": "Scaloneta ₓ Guayerd",
+        "description": "Aplicación interactiva con mapas en tiempo real y grillas de datos sobre la Selección Argentina. Mi primer paso firme en el desarrollo web."
+      },
+      "7": {
+        "title": "Wingu ₓ Guayerd",
+        "description": "Sistema de donaciones solidarias con integración de login y gestión de correos automáticos post-donación mediante Apex."
+      },
+      "9": {
+        "title": "Aloha Aromas",
+        "description": "E-commerce especializado en productos de bienestar con panel de administración para gestión de inventario y stock."
+      },
+      "10": {
+        "title": "3Deseos",
+        "description": "Comunidad para la difusión y descarga de modelos 3D de prótesis, integrando Firebase para la gestión de comentarios y calificaciones."
+      },
+      "11": {
+        "title": "Grill House",
+        "description": "Landing page gastronómica que destaca la identidad visual y servicios de un restaurante de comida a la parrilla."
+      },
+      "12": {
+        "title": "Chess Game",
+        "description": "Aplicación de ajedrez funcional que pone a prueba la lógica de programación y el manejo de estados complejos en React."
+      }
+    }
+  },
+"skills": {
+    "title": "Habilidades",
+    "categories": {
+      "fundamentals": "Fundamentos",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Databases",
+      "tools": "Herramientas",
+      "soft_skills": "Habilidades blandas"
+    },
+    "social_items": {
+      "detail": "Atención al detalle",
+      "learning": "Aprendizaje continuo",
+      "patience": "Paciencia",
+      "perseverance": "Constancia",
+      "communication": "Comunicación clara",
+      "analytical": "Pensamiento analítico",
+      "collaboration": "Colaboración"
+    }
+  },
+"resume": {
+    "title": "Currículum",
+    "filename": "CV.Ramiro.Urteaga.pdf"
+  },
+  "education": {
+    "title": "Educación",
+    "certificates_title": "Certificaciones",
+    "view_certificate": "Ver Certificado"
+}
+}
