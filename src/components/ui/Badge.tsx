@@ -1,6 +1,5 @@
 import Skeleton from "react-loading-skeleton";
 import type { BadgeProps } from "../../assets/types/badge.Types";
-import '../../styles/fonts.css';
 
 const Badge = ({ text, isLoading }: BadgeProps) => {
   return (

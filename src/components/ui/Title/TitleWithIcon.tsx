@@ -1,7 +1,6 @@
 import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
 import type { TitleWithIconProps } from "../../../assets/types/titles.Types";
-import '../../../styles/fonts.css';
 
 const TitleWithIcon = ({ text, icon, isLoading }: TitleWithIconProps) => {
   return (
@@ -15,7 +14,7 @@ const TitleWithIcon = ({ text, icon, isLoading }: TitleWithIconProps) => {
       {isLoading ? (
         <Skeleton width={200} height={20} />
       ) : (
-        <h1 className="text-xl font-bold">{text}</h1>
+        <h1 className="font-bold text-whit-icon">{text}</h1>
       )}
     </div>
   );

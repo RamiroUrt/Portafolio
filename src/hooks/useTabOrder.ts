@@ -1,7 +1,9 @@
 import { useState, useCallback, useEffect } from 'react';
+import { useTranslation } from 'react-i18next';
 
 export const useTabOrder = (initialTabs: string[], active: string, handleTabClick: (tab: string) => void) => {
   const [tabs, setTabs] = useState(initialTabs);
+  const { t } = useTranslation();
 
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -17,6 +19,26 @@ export const useTabOrder = (initialTabs: string[], active: string, handleTabClic
     });
   }, []);
 
+  // Lógica centralizada para abrir pestañas (Proyectos, 404 o Capturas)
+  const openTab = useCallback((tabId: string) => {
+    setTabs((prev) => prev.includes(tabId) ? prev : [...prev, tabId]);
+    handleTabClick(tabId);
+  }, [handleTabClick]);
+
+  // Lógica centralizada para cerrar pestañas
+  const closeTab = useCallback((tabId: string) => {
+    setTabs((prev) => {
+      const updated = prev.filter((t) => t !== tabId);
+      
+      // Si cerramos la activa, buscamos a cuál saltar
+      if (active === tabId) {
+        const nextTab = updated.length > 0 ? updated[updated.length - 1] : 'projects';
+        handleTabClick(nextTab);
+      }
+      return updated;
+    });
+  }, [active, handleTabClick]);
+
   const navigateLineally = useCallback((direction: 'forward' | 'back') => {
     const currentIndex = tabs.indexOf(active);
     if (direction === 'forward' && currentIndex < tabs.length - 1) {
@@ -26,18 +48,15 @@ export const useTabOrder = (initialTabs: string[], active: string, handleTabClic
     }
   }, [tabs, active, handleTabClick]);
 
-const handleUrlNavigation = useCallback((inputPath: string) => {
-    const cleanPath = inputPath.trim().toLowerCase();
-    const match = tabs.find(t => t.toLowerCase() === cleanPath);
-    
-    if (match) {
-      handleTabClick(match);
-    } else {
-      // Opcional: Podés resetear el valor para que no quede la URL "rota"
-      handleTabClick(active); 
-      console.warn("404: Path not found");
-    }
-  }, [tabs, handleTabClick, active]);
+  const handleUrlNavigation = useCallback((inputPath: string) => {
+    const cleanInput = inputPath.trim().toLowerCase();
+    const match = tabs.find(tabId => {
+      const translated = t(`nav.tabs.${tabId}`, { defaultValue: tabId });
+      const formatted = translated.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/\s+/g, "-");
+      return formatted === cleanInput || tabId.toLowerCase() === cleanInput;
+    });
+    handleTabClick(match || "404");
+  }, [tabs, t, handleTabClick]);
 
-  return { tabs, moveTab, navigateLineally, handleUrlNavigation, setTabs };
+  return { tabs, moveTab, navigateLineally, handleUrlNavigation, openTab, closeTab };
 };

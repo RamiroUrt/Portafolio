@@ -16,7 +16,7 @@ title={t('skills.categories.fundamentals')}
           data={SKILLS_DATA.fundamentals}
           isLoading={isLoading}
         />
-        <div className="flex items-stretch gap-2.5 w-full">
+        <div className="flex items-stretch gap-2.5 w-full mobile-card-hor">
           <CardVertical title="Frontend" data={SKILLS_DATA.frontend} isLoading={isLoading} />
           <CardVertical title="Backend" data={SKILLS_DATA.backend} isLoading={isLoading} />
           <CardVertical title="Databases" data={SKILLS_DATA.database} isLoading={isLoading} />

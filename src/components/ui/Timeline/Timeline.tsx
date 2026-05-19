@@ -4,7 +4,6 @@ import DateIcon from "../../../assets/icons/Svg/DateIcon";
 import WorkIcon from "../../../assets/icons/Svg/WorkIcon";
 import Badge from "../Badge";
 import type { TimelineProps, TimelineItem } from "../../../assets/types/timeline.types";
-import '../../../styles/fonts.css';
 import { useTranslation } from 'react-i18next';
 
 const TimelineSkeleton = () => (

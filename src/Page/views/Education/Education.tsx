@@ -12,7 +12,7 @@ const Education = () => {
 const { t } = useTranslation()
   return (
     <PageLayout title={t('education.title')} isLoading={isLoading}>
-      <div ref={containerRef}>
+      <div ref={containerRef} className="flex flex-col items-center w-full">
         <div className="education-header">
           {mainEducation.map((edu) => (
             <CardEducation 
@@ -26,7 +26,7 @@ const { t } = useTranslation()
 
         <div className="certificates flex flex-col items-center">
           <TitleWithIcon text={t('education.certificates_title')} icon={<Ribbon/>} isLoading={isLoading} />
-          <div className="main-card">
+          <div className="education-header w-full flex items-center certificated-container">
             {certifications.map((cert) => (
               <CardEducation 
                 key={cert.id}

@@ -5,48 +5,70 @@ import NavButtons from '../../ui/NavButtons/NavButtons';
 import AddressBar from '../../ui/NavButtons/AddresBar';
 import WindowControlsRight from '../../ui/NavButtons/WindowsControlsRight';
 import TrafficLights from '../../ui/NavButtons/TraficLights';
+import type { BrowserHeaderProps } from '../../../assets/types/navButtons.Types';
 
-interface BrowserHeaderProps {
-  tabs: string[];
-  active: string;
-  isLoading: boolean;
-  handleRefresh: () => void;
-  handleTabClick: (tab: string) => void;
-  moveTab: (dragIndex: number, hoverIndex: number) => void;
-  navigateLineally: (direction: 'forward' | 'back') => void;
-}
-
-const BrowserHeader = ({ 
-  tabs, active, isLoading, handleRefresh, handleTabClick, moveTab, navigateLineally 
+const BrowserHeader = ({
+  tabs,
+  active,
+  isLoading,
+  handleRefresh,
+  handleTabClick,
+  moveTab,
+  navigateLineally,
+  handleUrlNavigation,
+  handleNewTab,
+  onCloseTab,
+  showTabsOverlay,
+  onToggleTabsOverlay,
 }: BrowserHeaderProps) => {
   return (
     <header className="browseWindows-header">
-      <div className="toolbar">
+
+      {/* ── DESKTOP ── */}
+      <div className="toolbar desktop-only">
         <TrafficLights />
-        <NavButtons 
-          goBack={() => navigateLineally('back')} 
-          goForward={() => navigateLineally('forward')} 
-          handleRefresh={handleRefresh} 
+        <NavButtons
+          goBack={() => navigateLineally('back')}
+          goForward={() => navigateLineally('forward')}
+          handleRefresh={handleRefresh}
         />
-        <AddressBar isLoading={isLoading} active={active}  />
+        <AddressBar isLoading={isLoading} active={active} onNavigate={handleUrlNavigation} />
         <WindowControlsRight />
       </div>
 
       <DndProvider backend={HTML5Backend}>
-        <nav className="tabs-bar">
-          {tabs.map((tab, index) => (
+        <nav className="tabs-bar desktop-only">
+          {tabs.map((tabId, index) => (
             <SortableTab
-              key={tab}
-              tab={tab}
+              key={tabId}
+              tab={tabId}
               index={index}
-              isActive={active === tab}
+              isActive={active === tabId}
               onClick={handleTabClick}
               moveTab={moveTab}
+              onClose={onCloseTab}
             />
           ))}
-          {!isLoading && <button className="new-tab-btn">+</button>}
+          {!isLoading && (
+            <button className="new-tab-btn" onClick={handleNewTab}>+</button>
+          )}
         </nav>
       </DndProvider>
+
+      {/* ── MOBILE ── */}
+      <div className="mobile-toolbar-bar mobile-only">
+        <button className="nav-btn" onClick={() => navigateLineally('back')}>‹</button>
+        <button className="nav-btn" onClick={() => navigateLineally('forward')}>›</button>
+        <AddressBar isLoading={isLoading} active={active} onNavigate={handleUrlNavigation} />
+        <button
+          className={`tab-count-btn ${showTabsOverlay ? 'active' : ''}`}
+          onClick={onToggleTabsOverlay}
+        >
+          {tabs.length}
+        </button>
+        <button className="nav-btn" onClick={handleRefresh}>↻</button>
+      </div>
+
     </header>
   );
 };

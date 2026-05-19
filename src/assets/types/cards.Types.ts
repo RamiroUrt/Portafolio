@@ -31,4 +31,8 @@ export type CardProjectsProps = {
   description?: string;
   tags?: string[];
   isLoading?: boolean;
+  demo?: string;
+  github?: string;
+  folderName?: string;
+  screenshotCount?: number;
 };

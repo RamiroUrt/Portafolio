@@ -1,17 +1,16 @@
-import "./css/loader.css";
+import "./css/Loader.css";
 import { useEffect, useRef, useState } from 'react';
 import { gsap } from 'gsap';
 import Avatar from '../../../assets/icons/images/AvatarIA2.webp';
 import { useSound } from '../../../context/UseSound';
 import Arrow from "../../../assets/icons/Svg/Arrow";
 
-const Loader = ({ onFinish }) => {
+const Loader = ({ onFinish }: { onFinish: () => void }) => {
   const [started, setStarted] = useState(false);
-  const passwordInputRef = useRef(null);
-  const loadingRef = useRef(null);
-  
+const passwordInputRef = useRef<HTMLInputElement>(null);
+const loadingRef = useRef<HTMLDivElement>(null);   
   // Sonidos dentro del componente que los usa
-  const playTypingSound = useSound("/sound/typing.mp3", 1);
+  const playTypingSound = useSound("/sound/typing.mp3", 0.5);
   const playMacSound = useSound("/sound/apple-mac.mp3", 1);
 
   useEffect(() => {
@@ -52,17 +51,19 @@ const tl = gsap.timeline({
   }
 });
 
-      for (let i = 0; i <= maxAsterisks; i++) {
-        tl.to(passwordInputRef.current, {
-          duration: duration / maxAsterisks,
-          onStart: () => {
-            asterisks += '*';
+for (let i = 0; i <= maxAsterisks; i++) {
+      tl.to(passwordInputRef.current, {
+        duration: duration / maxAsterisks,
+        onStart: () => {
+          asterisks += '*';
+          if (passwordInputRef.current) {
             passwordInputRef.current.value = asterisks;
-            playTypingSound(); 
-          }
-        });
-      }
-    };
+          }          
+          playTypingSound(); 
+        }
+      });
+    }
+  }
 
     asteriskAnimation();
   // eslint-disable-next-line react-hooks/exhaustive-deps

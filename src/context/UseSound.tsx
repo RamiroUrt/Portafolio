@@ -1,11 +1,5 @@
 import { useRef, useEffect } from "react";
 
-/**
- * useSound Hook
- * @param src - Ruta del archivo de audio
- * @param volume - Volumen del audio (0 a 1)
- * @returns Función para reproducir el sonido
- */
 export const useSound = (src: string, volume: number = 1): () => void => {
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
@@ -16,7 +10,6 @@ export const useSound = (src: string, volume: number = 1): () => void => {
     audioRef.current = audio;
   }
 
-  // Opcional: Actualizar el volumen si cambia dinámicamente
   useEffect(() => {
     if (audioRef.current) {
       audioRef.current.volume = volume;

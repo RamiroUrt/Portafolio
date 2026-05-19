@@ -1,7 +1,6 @@
 
 
 import type { TitleProps } from "../../../assets/types/titles.Types";
-import '../../../styles/fonts.css';
 
 const Title = ({ text }: TitleProps) => (
   <h1 className="layout-title">{text}</h1>

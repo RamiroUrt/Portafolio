@@ -2,7 +2,7 @@ import type { ReactNode } from "react";
 
 export type DownloadBtnProps = {
   text: string;
-  icon: ReactNode;
+  icon?: ReactNode;
   fileUrl?: string;
 };
 
@@ -16,3 +16,15 @@ export type BaseIconProps = {
   icon: ReactNode;
   isLoading?: boolean;
 };
+
+export type ButtonWithLinksProps ={
+    text: string;
+    href?: string;
+    onClick?: React.MouseEventHandler<HTMLButtonElement>;
+}
+
+
+export type  CopyBtnProps = {
+  isCopied: boolean;
+  className?: string;
+}

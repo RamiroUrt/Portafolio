@@ -16,9 +16,10 @@
   },
   "about": {
     "title": "Sobre Mí",
-    "full_bio": "¡Hola! Soy Ramiro, y amo lo que hago. <strong>Me enamoré de la programación</strong> desde el primer momento, y desde entonces no he dejado de explorar el mundo de la tecnología. Me rodeo de personas apasionadas por este universo, y sin duda, soy uno de ellos.<br />Desde niño, siempre tuve esa <strong>curiosidad</strong> por entender cómo funcionan las cosas. Desarmaba cualquier juguete, dispositivo o juego que llegaba a mis manos solo para descubrir qué lo hacía <strong>funcionar</strong> y luego intentar armarlo de nuevo (con más o menos éxito).<br />Hoy, como <strong>desarrollador web</strong>, me especializo en Frontend. Me encanta seguir aprendiendo, compartir conocimiento y recibir feedback que me ayude a mejorar.<br />Y por supuesto, no hay código sin un <strong>buen mate</strong>. Para mí, los mejores momentos vienen acompañados de uno, ya sea charlando con amigos o en largas horas de programación.<br />Porque si hay algo que siempre está presente, es el mate y <strong>las ganas de seguir creando y creciendo</strong>.",
-    "mate_signature": "\"Fiel creyente de que no hay código sin un <strong>buen mate</strong> al lado.\""
-   },
+    "full_bio": "¡Hola! Soy <b>Ramiro Urteaga</b>, desarrollador Frontend con una mentalidad Full-Stack y <strong>una curiosidad innata por la tecnología.</strong> <br />Mi historia con el mundo digital comenzó mucho antes de escribir mi primera línea de código: de niño, mi pasatiempo favorito era desarmar juguetes y dispositivos electrónicos para entender la lógica detrás de su funcionamiento. Esa mentalidad analítica me llevó a fundar mi propio emprendimiento de reparación de hardware y software, una etapa que forjó mi <strong>autonomía, mi capacidad de diagnóstico crítico y una comunicación efectiva.</strong><br />Con el tiempo, esa pasión por los componentes físicos <strong>evolucionó</strong> hacia la arquitectura de software. Hoy, me desempeño como desarrollador con experiencia en el ecosistema moderno de la web. En el <strong>Frontend</strong>, me especializo utilizando TypeScript, React y Next.js.<br />En cuanto al Backend, cuento con versatilidad para trabajar en diversos entornos como Node.js, Python y C#. Esta base técnica se complementa con una sólida gestión de datos, manejando tanto bases de datos  específicamente MySQL y MongoDB. <strong>Esta combinación me permite tener una visión 360° de cada proyecto.</strong><br />Me motiva aportar en entornos que valoren la calidad del código y el desarrollo de soluciones funcionales con impacto real. Para mí, programar es un <strong>proceso</strong> creativo que fluye mejor con música de fondo y, por supuesto, un buen mate siempre a mano.",
+    "mate_signature": "\"Fiel creyente de que no hay código sin un <strong>buen mate</strong> al lado.\"",
+  "status_badge": "Disponible para trabajar"
+  },
   "experience": {
       "title": "Experiencia",
       "jobs": {
@@ -102,7 +103,10 @@
         "title": "Chess Game",
         "description": "Aplicación de ajedrez funcional que pone a prueba la lógica de programación y el manejo de estados complejos en React."
       }
-    }
+    },
+    "actions":{
+    "screens": "capturas"
+  }
   },
 "skills": {
     "title": "Habilidades",
@@ -132,5 +136,25 @@
     "title": "Educación",
     "certificates_title": "Certificaciones",
     "view_certificate": "Ver Certificado"
-}
+},
+"alerts": {
+    "welcome": {
+      "title": "¡Bienvenido!",
+"message": "Podés navegar por las secciones escribiendo directamente en la URL o utilizando las flechas de la barra del header.",      "button": "Entendido"
+    }
+  },
+  "notFound": {
+    "title": "404",
+    "secretTitle": "¡Hola, soy Simon!",
+    "dinoMessage": "Parece que esta página no existe. ¡Juega un poco mientras tanto!",
+    "backToGame": "Volver al juego",
+    "advancedOptions": "Opciones avanzadas",
+    "goHome": "Ir al Inicio",
+    "simonBio": {
+      "p1": "¡Hola! Soy el asistente de cuatro patas de Ramiro. La verdad es que me perdí un poco buscando un juguete y terminé aquí.",
+      "p2": "Mientras Ramiro arregla este enlace (o me lanza la pelota), podrías considerar darle un trabajo. Él es un genio con <1>React y TypeScript</1>, y yo soy un experto en asegurarme de que no se mueva de la silla hasta que termine el código. ¡Es un equipo ganador!",
+      "p3": "Dice Ramiro que es <1>desarrollador Frontend</1>, pero yo solo veo luces de colores en el monitor mientras duermo a sus pies. Contrátalo para que pueda seguir comprándome esos premios caros que tanto me gustan. Prometo no ladrar en las reuniones de Zoom.",
+      "alias": "Alias para donaciones de alimento:"
+    }
+  }
 }

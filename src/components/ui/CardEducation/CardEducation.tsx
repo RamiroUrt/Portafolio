@@ -1,7 +1,6 @@
 import Skeleton from 'react-loading-skeleton'
 import 'react-loading-skeleton/dist/skeleton.css'
 import DateIcon from "../../../assets/icons/Svg/DateIcon"
-import '../../../styles/fonts.css'
 
 import { type CardEducationProps } from "../../../assets/types/cards.Types"
 import { useTranslation } from 'react-i18next'
@@ -10,9 +9,9 @@ const CardEducation = ({ title, subtitle, date, description, icon, isLoading, li
   const { t } = useTranslation();
   
   return (
-    <div className="contain-card-education flex flex-col h-full bg-white border border-gray-100 rounded-xl p-5 shadow-sm">
+    <div className="contain-card-education">
       
-      <div className="main-card-header flex flex-col">
+      <div className="main-card-header">
         <div className="flex items-center justify-start gap-2.5">
           <span className="icon-cap icon-dark shrink-0 w-10 h-10 flex items-center justify-center">
             {isLoading ? <Skeleton circle height={50} width={50} /> : icon}

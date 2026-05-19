@@ -1,9 +1,6 @@
 import { useTranslation } from 'react-i18next';
 import Skeleton from 'react-loading-skeleton';
-
-interface BioTextProps {
-  isLoading: boolean;
-}
+import type { BioTextProps } from '../../../assets/types/about.Types'
 
 const BioText = ({ isLoading }: BioTextProps) => {
 
@@ -19,9 +16,7 @@ const BioText = ({ isLoading }: BioTextProps) => {
 
 return (
     <div className="about-text">
-      <div style={{ width: '100%' }}>
         <p className="text-about" dangerouslySetInnerHTML={{ __html: t('about.full_bio') }} />
-      </div>
     </div>
   );
 };

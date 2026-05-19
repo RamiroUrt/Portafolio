@@ -31,8 +31,8 @@ export const useNavigation = () => {
     setRefreshKey(prev => prev + 1);
   };
 
-  const handleTabClick = (tab) => {
-    if (active !== tab) {
+const handleTabClick = (tab: string) => {
+      if (active !== tab) {
       setIsLoading(true);
       setActive(tab);
     }

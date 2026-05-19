@@ -22,7 +22,7 @@ const PageLayout = ({ children, title, isLoading }: PageLayoutProps) => {
 
   <div className="layout-body">
     <div className="layout-header">
-      <LayoutTitle text={title} isLoading={isLoading} />
+      <LayoutTitle text={title ?? ""} isLoading={isLoading} />
     </div>
 
     {children}

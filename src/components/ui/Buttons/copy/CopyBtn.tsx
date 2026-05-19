@@ -1,9 +1,5 @@
 import "./css/Copy.css";
-
-interface CopyBtnProps {
-  isCopied: boolean;
-  className?: string;
-}
+import type { CopyBtnProps } from "../../../../assets/types/buttons.Types";
 
 const CopyBtn = ({ isCopied, className = "" }: CopyBtnProps) => {
   return (

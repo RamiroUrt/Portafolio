@@ -11,15 +11,15 @@ const AboutMe = () => {
   const { isLoading, containerRef } = useAnimateList('.avatar-wrapper, .about-text, .sing', {}, 600);
 
   return (
-<PageLayout title={t('about.title')} isLoading={isLoading}>
-      <div ref={containerRef}>
-        <div className="flex justify-between items-center w-full wrapper-about">
-          <AvatarAbout isLoading={isLoading} />
-          <BioText isLoading={isLoading} />
+  <PageLayout title={t('about.title')}isLoading={isLoading}>
+        <div className='' ref={containerRef}>
+          <div className="flex justify-between items-center wrapper-about">
+            <AvatarAbout isLoading={isLoading} />
+            <BioText isLoading={isLoading} />
+          </div>
+          <SignatureMate isLoading={isLoading} />
         </div>
-        <SignatureMate isLoading={isLoading} />
-      </div>
-    </PageLayout>
+      </PageLayout>
   )
 }
 

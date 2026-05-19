@@ -32,7 +32,7 @@
 
 .dark .address-bar {
   background-color: #6d6e6f; 
-  border: 1px solid var(--color-border-dark);
+  border: 2px solid var(--color-border-dark);
 }
 
 .dark .address-bar:hover {
@@ -58,7 +58,7 @@
 .dark .sing,
 .dark .circle-avatar {
   background-color: var(--bg-dark-card);
-  border: 1px solid var(--color-border-dark);
+  border: 2px solid var(--color-border-dark);
 }
 
 /* ESTADOS HOVER DE TARJETAS */
@@ -98,4 +98,7 @@
 .dark .sing > span,
 .dark .download {
   background-color: var(--bg-dark-hover);
+}
+.dark .footer-dark-mobile{
+ background-color: #00000000;
 }

@@ -1,8 +1,7 @@
 import type { SubTitleProps } from "../../../assets/types/titles.Types";
-import '../../../styles/fonts.css';
 
 const SubTitle = ({ text }: SubTitleProps) => (
-  <h2 className="subtitle">{text}</h2>
+  <h2 className="subtitle"><b>{text}</b></h2>
 );
 
 export default SubTitle;

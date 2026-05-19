@@ -16,25 +16,26 @@ export const SidebarFooter = () => {
 
   return (
     <>
-      <div className="one w-full flex justify-center">
-        <ContentToggle
-          variant="theme"
-          isActive={darkMode} 
-          onToggle={toggleTheme} 
-          leftIcon={<ThemeLigth />}
-          rightIcon={<ThemeDark />}
-        />
-      </div>
-
-      <div className="one w-full flex justify-center">
-        <ContentToggle
-          variant="language"
-          isActive={!!i18n.language?.startsWith('en')}
-          onToggle={toggleLanguage}
-          leftIcon={"ES"}
-          rightIcon={"EN"}
-        />
-      </div>
+      <footer className='flex flex-col gap-2.5 items-center w-full'>
+        <div className="one w-full flex justify-center">
+          <ContentToggle
+            variant="theme"
+            isActive={darkMode}
+            onToggle={toggleTheme}
+            leftIcon={<ThemeLigth />}
+            rightIcon={<ThemeDark />}
+          />
+        </div>
+        <div className="one w-full flex justify-center items-center">
+          <ContentToggle
+            variant="language"
+            isActive={!!i18n.language?.startsWith('en')}
+            onToggle={toggleLanguage}
+            leftIcon={"ES"}
+            rightIcon={"EN"}
+          />
+        </div>
+      </footer>
     </>
   );
 };
