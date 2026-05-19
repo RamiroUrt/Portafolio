@@ -1284,12 +1284,10 @@ EDUCATION
   transition: transform 0.3s ease;
   gap: var(--sp-5);
   display: flex;
-justify-content: flex-start; 
+  justify-content: flex-start; 
   align-items: center;
-  gap: var(--sp-5);
-  flex-direction: column;
-  
-    flex-wrap: wrap;
+  flex-direction: column;  
+    /* flex-wrap: wrap; */
 }
 .card-ver-contain:hover{
   border: var(--border-hover-color);
@@ -1307,12 +1305,14 @@ justify-content: flex-start;
 .container-vertical-item {
   width: 100%; 
   display: grid;
-  grid-template-columns: repeat(2, 1fr); 
+  /* grid-template-columns: repeat(2, 1fr);  */
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
   gap: var(--sp-8);
   padding: var(--sp-8);
   justify-items: center; 
   align-items: start;
 }
+
 .layout-body-resume{
   width: 100%;
 
@@ -1332,9 +1332,12 @@ justify-content: flex-start;
     align-items: center;
     text-align: center;
   }
-.mobile-card-hor{
-  flex-wrap: wrap;
-}
+.mobile-card-hor {
+    flex-direction: column !important;
+  }
+  .container-vertical-item {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 @media screen and (max-width: 800px){
   .timeline-container {
@@ -1535,7 +1538,7 @@ grid-template-columns: 0px 1fr;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 gap: 16px;
-  padding: 8px 16px 120px; /* Margen abajo para que no lo tape la barra de abajo */
+  padding: 8px 16px 120px; 
   overflow-y: auto;
   flex: 1;
 }
@@ -1547,7 +1550,6 @@ gap: 16px;
   cursor: pointer;
   background-color: #ffffff92;
   backdrop-filter: blur(20px); 
-  -webkit-backdrop-filter: blur(20px);
   display: flex;
   flex-direction: column;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); 
