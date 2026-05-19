@@ -102,3 +102,9 @@
 .dark .footer-dark-mobile{
  background-color: #00000000;
 }
+.dark .footer-dark-mobile{
+background: transparent; 
+}
+.dark{
+  
+}

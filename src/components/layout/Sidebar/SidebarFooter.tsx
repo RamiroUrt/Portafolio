@@ -16,7 +16,7 @@ export const SidebarFooter = () => {
 
   return (
     <>
-      <footer className='flex flex-col gap-2.5 items-center w-full'>
+      <footer className='flex flex-col gap-2.5 items-center w-full footer-dark-mobile'>
         <div className="one w-full flex justify-center">
           <ContentToggle
             variant="theme"

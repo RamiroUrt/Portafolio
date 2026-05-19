@@ -4,7 +4,7 @@ import { useNavigation } from "../../../hooks/useNavigaiton";
 import { useTabOrder } from "../../../hooks/useTabOrder";
 import TAB_COMPONENTS from "../../../assets/constant/tabs";
 import BrowserHeader from "./BrowserHeader";
-import MobileTabsOverlay from "./MovileTabOverlay";
+import MobileTabsOverlay from "./MobileTabOverlay";
 import GalleryView from "../GaleryView/GalleryView";
 import Projects from "../../../Page/views/Projects/Projects";
 import 'react-loading-skeleton/dist/skeleton.css';

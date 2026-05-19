@@ -1,4 +1,5 @@
 import { useTranslation } from 'react-i18next';
+import { SidebarFooter } from '../Sidebar/SidebarFooter';
 
 interface MobileTabsOverlayProps {
   tabs: string[];
@@ -16,7 +17,7 @@ const MobileTabsOverlay = ({
   onCloseTab, 
   onNewTab, 
   onClose 
-}: MobileTabsOverlayProps) => { // <-- Asignamos la interfaz acá
+}: MobileTabsOverlayProps) => {
   const { t } = useTranslation();
 
   return (
@@ -25,15 +26,15 @@ const MobileTabsOverlay = ({
         className="mobile-tabs-panel"
         onClick={(e) => e.stopPropagation()}
       >
-        {/* Header del Panel */}
+
         <div className="mobile-tabs-panel-header">
           <span>{tabs.length} {tabs.length === 1 ? 'pestaña' : 'pestañas'}</span>
           <button className="done-btn" onClick={onClose}>Listo</button>
         </div>
 
-        {/* Grilla de Pestañas */}
+
         <div className="mobile-tabs-grid">
-          {tabs.map((tabId: string) => ( // <-- Tipamos explícitamente el iterador del map
+          {tabs.map((tabId: string) => ( 
             <div
               key={tabId}
               className={`mobile-tab-card ${active === tabId ? 'is-active' : ''}`}
@@ -47,7 +48,7 @@ const MobileTabsOverlay = ({
                   }
                 </span>
                 
-                {/* Condición estricta para capturas */}
+
                 {tabId.startsWith('Screens: ') && (
                   <span
                     role="button"
@@ -67,9 +68,9 @@ const MobileTabsOverlay = ({
             </div>
           ))}
           
-          {/* Botón para nueva pestaña */}
           <button className="mobile-new-tab-card" onClick={onNewTab}></button>
         </div>
+        <SidebarFooter />
       </div>
     </div>
   );
