@@ -5,6 +5,7 @@ import Loader from "../components/ui/Loader/Loader";
 import AlertIOS from "../components/ui/Alert/Toast"; 
 import { ThemeProvider } from "../context/ThemeContext"; 
 import { TabProvider } from '../context/tabContex';
+import CustomCursor from "../context/CustomCursor";
 function App() {
   const [renderMain, setRenderMain] = useState(false);
   const [isLoaderVisible, setIsLoaderVisible] = useState(true);
@@ -28,6 +29,7 @@ function App() {
   return (
     <ThemeProvider>
       <TabProvider>
+      <CustomCursor/>
       {renderMain && (
         <main className="main-layout">
           <Aside />

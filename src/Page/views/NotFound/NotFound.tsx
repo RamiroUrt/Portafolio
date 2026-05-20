@@ -26,6 +26,7 @@ const NotFound = () => {
                 height="100%"
                 frameBorder="0"
                 scrolling="no"
+
               />
             </div>
           </div>

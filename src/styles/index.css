@@ -2,6 +2,10 @@
 & En este archivo solo se manejan las FUENTES
 ^tanto como Font-Family - color - weight - bold - margin
 */
+body, button, a, span, *, [role="button"], .tab, .mobile-tab-card {
+  cursor: none !important;
+}
+
 
 /* SF Pro Light */
 @font-face {
