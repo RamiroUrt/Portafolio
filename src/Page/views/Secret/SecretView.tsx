@@ -44,6 +44,10 @@ const SecretView = () => {
     Dice Ramiro que es <strong>desarrollador Frontend</strong>, pero yo solo veo luces de colores en el monitor mientras duermo a sus pies. Contrátalo para que pueda seguir comprándome esos premios caros que tanto me gustan. Prometo no ladrar en las reuniones de Zoom.
   </Trans>
   <br/><br />
+  <Trans i18nKey="notFound.simonBio.p4">
+    Diseñado y codeado desde cero con mucho cariño por Ramiro. Código optimizado a base de mate; UI testeada y aprobada por Simon💛
+  </Trans>
+    <br/><br />
   <b>{t('notFound.simonBio.alias')}</b> <span className="highlight"> r.urteaga</span>
   </p>
             )}

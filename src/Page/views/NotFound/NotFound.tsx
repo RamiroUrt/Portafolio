@@ -30,11 +30,11 @@ const NotFound = () => {
             </div>
           </div>
         ) : (
-          /* VISTA DEL PERRO (SECRET VIEW) */
+
           <SecretView />
         )}
 
-        {/* BOTONES DE ACCIÓN */}
+
         <div className="flex justify-center gap-4 mt-10">
           <button 
             className="description-text cursor-pointer"
