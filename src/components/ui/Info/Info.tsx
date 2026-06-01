@@ -20,7 +20,7 @@ const Info = () => {
              icon={<MailIcon/>}
              type='email'/>
             <ItemContact 
-            text={"Maggiolo - Santa Fe"} 
+            text={"Pilar - Buenos Aires"} 
             icon={<LocationIcon/>}
             type='location'/>
             <ItemContact 

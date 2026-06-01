@@ -45,7 +45,7 @@
     "items": {
       "14": {
         "title": "Full Check",
-        "description": "This project is a landing page developed with Next.js, JavaScript, and CSS, designed for a mechanical workshop. Its goal is to provide a modern, intuitive, and fully responsive interface so that customers can learn about the company's services and contact them easily."
+        "description": "This project is a landing page developed with Next.js, JavaScript, and CSS for an automotive repair shop. It features a modern, intuitive, and fully responsive interface designed to enhance the user experience and provide easy access to the services offered. It also includes an interactive chatbot that helps answer questions, provide real-time assistance, and improve communication with customers."
       },
       "15": {
         "title": "ImageConverter",

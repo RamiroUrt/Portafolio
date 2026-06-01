@@ -45,7 +45,7 @@
     "items": {
       "14": {
         "title": "Full Check",
-        "description": "Este proyecto es una landing page desarrollada con Next.js, JavaScript y CSS, diseñada para taller mecanico. Su objetivo es proporcionar una interfaz moderna, intuitiva y completamente responsiva para que los clientes puedan conocer los servicios de la empresa y contactarse fácilmente."
+        "description": "Este proyecto es una landing page desarrollada con Next.js, JavaScript y CSS para un taller mecánico. Cuenta con una interfaz moderna, intuitiva y totalmente responsiva, orientada a mejorar la experiencia del usuario y facilitar el acceso a los servicios ofrecidos. También integra un chatbot interactivo que permite resolver consultas, brindar asistencia en tiempo real y optimizar la comunicación con los clientes."
       },
       "15": {
         "title": "ImageConverter",
