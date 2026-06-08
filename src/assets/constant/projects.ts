@@ -42,7 +42,7 @@ export const projectsData = [
   {
     id: 1,
     title: "Entre Amigos",
-    description: "Landing page para una empresa constructora con interfaz moderna y responsiva. Implementa integración con pasarelas de pago y elementos en 3D.",
+    description: "Desarrollé una plataforma de comercio electrónico utilizando React, Next.js, Node.js y Express. Implementé la gestión de productos, órdenes y pagos, integrando la API de Mercado Pago con procesamiento de webhooks para actualizar automáticamente el estado de las transacciones. Utilicé MongoDB para el almacenamiento y administración de la información del sistema.",
     fontPage: EntreAmigos,
     tags: ["MercadoPagoAPI", "Express", "Node.js", "Three.Js", "React", "Tailwind", "Context API"],
     demo: 'https://entre-amigos-two.vercel.app',

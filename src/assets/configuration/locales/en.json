@@ -53,8 +53,7 @@
       },
       "1": {
         "title": "Entre Amigos",
-        "description": "Landing page for a construction company with a modern and responsive interface. Implements integration with payment gateways and 3D elements."
-      },
+"description": "Developed an e-commerce platform using React, Next.js, Node.js, and Express. Implemented product, order, and payment management, integrating the Mercado Pago API with webhook processing to automatically update transaction statuses."      },
       "2": {
         "title": "Urbanblock",
         "description": "Website for a construction company focused on visualizing architectural projects using Three.js for immersive experiences."
