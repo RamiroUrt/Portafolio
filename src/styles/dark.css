@@ -99,11 +99,11 @@
 .dark .download {
   background-color: var(--bg-dark-hover);
 }
-.dark .footer-dark-mobile{
- background-color: #00000000;
+.dark footer{
+  background-color: #252526;
 }
-.dark .footer-dark-mobile{
-background: transparent; 
+.dark footer{
+  background-color: #252526;
 }
 .dark{
   
