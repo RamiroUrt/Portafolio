@@ -19,7 +19,7 @@ export const SidebarUser = ({ isLoading }: SidebarUserProps) => {
       ) : (
         <>
           <Title text="Ramiro Urteaga"/>
-          <SubTitle text="Frontend Dev" />
+          <SubTitle text="Full Stack Developer" />
         </>
       )}
       

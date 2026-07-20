@@ -10,13 +10,13 @@
     }
   },
   "sidebar": {
-    "job_title": "Frontend Developer",
+    "job_title": "Full Stack Developer",
     "download_cv": "Download CV",
     "contact": "Contact"
   },
   "about": {
     "title": "About Me",
-    "full_bio": "Hi! I'm <b>Ramiro Urteaga</b>, a Frontend developer with a Full-Stack mindset and <strong>an innate curiosity for technology.</strong> <br />My story with the digital world began long before writing my first line of code: as a child, my favorite hobby was taking apart toys and electronic devices to understand the logic behind how they worked. That analytical mindset led me to found my own hardware and software repair venture, a stage that forged my <strong>autonomy, critical diagnostic skills, and effective communication.</strong><br />Over time, that passion for physical components <strong>evolved</strong> into software architecture. Today, I work as a developer with experience in the modern web ecosystem. In the <strong>Frontend</strong>, I specialize in using TypeScript, React, and Next.js.<br />As for the Backend, I have the versatility to work in various environments such as Node.js, Python, and C#. This technical foundation is complemented by solid data management, handling both MySQL and MongoDB databases. <strong>This combination allows me to have a 360° vision of every project.</strong><br />I am motivated to contribute to environments that value code quality and the development of functional solutions with real impact. For me, programming is a creative <strong>process</strong> that flows better with background music and, of course, a good mate always at hand.",
+"full_bio": "Hi! I'm <b>Ramiro Urteaga</b>, a Full Stack Developer <strong> with an innate curiosity for technology.</strong> <br />My story with the digital world began long before I wrote my first line of code: as a kid, my favorite hobby was taking apart toys and electronic devices to understand the logic behind how they worked. That analytical mindset led me to found my own hardware and software repair business, a stage that forged my <strong>autonomy, my critical diagnostic skills, and effective communication.</strong><br />Over time, that passion for physical components <strong>evolved</strong> into software architecture. Today I work with an end-to-end vision: on the <strong>Frontend</strong>, I specialize in TypeScript, React, and Next.js.<br />On the Backend side, I have the versatility to work across different environments such as Node.js, Python, and C#. This technical foundation is complemented by solid data management, working specifically with MySQL and MongoDB databases. <strong>This combination gives me a 360° view of every project.</strong><br />I'm motivated to contribute in environments that value code quality and building functional solutions with real impact. To me, coding is a creative <strong>process</strong> that flows better with music in the background and, of course, a good mate always at hand.",
     "mate_signature": "\"True believer that there is no code without a <strong>good mate</strong> by your side.\"",
     "status_badge": "Available to work"
   },
