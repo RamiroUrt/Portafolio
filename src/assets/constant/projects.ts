@@ -22,7 +22,7 @@ export const projectsData = [
     description: "Sistema web para gestionar y organizar traslados de pacientes, reemplazando procesos manuales en Excel y centralizando la información. Implementé la automatización de la gestión de traslados, asignación de choferes, estados de viajes y control de usuarios mediante roles (Admin, Recepción y Chofer).",
     alt: "Meditraslado",
     fontPage: Meditraslado,
-    tags: ["Next.js", "TypeScript", "NextAuth", "MySQL", "Tailwind"],
+    tags: ["Next.js", "TypeScript", "NextAuth", "Prisma", "MySQL", "Tailwind"],
     demo: 'https://meditraslado.vercel.app/',
     github: 'https://github.com/RamiroUrt/Meditraslado',
     folderName: "Meditraslado",
