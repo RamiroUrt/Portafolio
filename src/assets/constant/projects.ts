@@ -12,9 +12,22 @@ import Aloha from '../images/projects/Aloha.webp';
 import Chess from '../images/projects/Chess.png';
 import Scrapper from '../images/projects/Scrapper.png';
 import FullCheck from '../images/projects/FullCheck.png'
-import ConverterPDF from '../images/projects/PDFConverter.png'
+import ConverterPDF from '../images/projects/PDFConverter.png';
+import Meditraslado from '../images/projects/Meditraslado.webp';
 
 export const projectsData = [
+  {
+    id: 16,
+    title: "Meditraslado",
+    description: "Sistema web para gestionar y organizar traslados de pacientes, reemplazando procesos manuales en Excel y centralizando la información. Implementé la automatización de la gestión de traslados, asignación de choferes, estados de viajes y control de usuarios mediante roles (Admin, Recepción y Chofer).",
+    alt: "Meditraslado",
+    fontPage: Meditraslado,
+    tags: ["Next.js", "TypeScript", "NextAuth", "MySQL", "Tailwind"],
+    demo: 'https://meditraslado.vercel.app/',
+    github: 'https://github.com/RamiroUrt/Meditraslado',
+    folderName: "Meditraslado",
+    screenshotCount: 6
+  },
   {
     id: 14,
     title: "Full Check",
