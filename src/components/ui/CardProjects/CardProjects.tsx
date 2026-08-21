@@ -29,7 +29,7 @@ const CardProjects = ({
     if (!isLoading && cardRef.current) {
       gsap.fromTo(cardRef.current, 
         { opacity: 0, y: 30 }, 
-        { opacity: 1, y: 0, duration: 0.8, ease: "power3.out" }
+        { opacity: 1, y: 0, duration: 0.8, ease: "power3.out", clearProps: "transform" }
       );
     }
   }, [isLoading]);
@@ -42,7 +42,7 @@ const CardProjects = ({
       
       <div className="card-font-page">
         {isLoading ? (
-          <Skeleton height={250} borderRadius={10} />
+          <Skeleton height={300} borderRadius={10} />
         ) : (
           <>
             <img src={fontPage} alt={title || t(`projects.items.${id}.title`)} />
