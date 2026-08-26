@@ -31,10 +31,10 @@ export const projectsData = [
   {
     id: 14,
     title: "Full Check",
-    description: "Este proyecto es una landing page desarrollada con Next.js, JavaScript y CSS, diseñada para taller mecanico. Su objetivo es proporcionar una interfaz moderna, intuitiva y completamente responsiva para que los clientes puedan conocer los servicios de la empresa y contactarse fácilmente.",
+    description: "Full Check es un sitio web para un taller mecánico argentino (Buenos Aires). La app permite a los usuarios explorar servicios, comprar autopartes, ver vehículos usados y sucursales con mapa interactivo. Incluye chatbot con IA (Gemini 3.5 Flash), tienda de autopartes con filtros, listado de vehículos usados con detalle individual y mapa Leaflet con 10 sucursales.",
     alt: "Full Check",
     fontPage: FullCheck,
-    tags: ["Next.js", "Tailwind", "JavaScript", "CSS", "Leaflet.js", "Json-Server", "Vercel SDK", "Context API"],
+    tags: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS 4", "Framer Motion", "Leaflet.js", "Gemini AI", "AOS", "Swiper"],
     demo: 'https://full-check.vercel.app/',
     github: 'https://github.com/RamiroUrt/Full_Check',
     folderName: "FullCheck",
