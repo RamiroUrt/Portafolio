@@ -1315,7 +1315,7 @@ EDUCATION
 .container-vertical-item {
   width: 100%; 
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: var(--sp-8);
   padding: var(--sp-8);
   justify-items: center; 
@@ -1423,7 +1423,7 @@ EDUCATION
   .container-vertical-item{
     padding: 0;
     margin: 0;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
 .title-with-icon > h1 {
     font-size: 22px; 
