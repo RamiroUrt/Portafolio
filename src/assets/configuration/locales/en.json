@@ -43,6 +43,10 @@
   "projects": {
     "title": "Projects",
     "items": {
+      "17": {
+        "title": "Somos Eximus",
+        "description": "Comprehensive management system for a gym that unifies the member's account and the admin's operations in a single platform. It includes membership and fee management with online payments (MercadoPago), class booking, personalized routines, a loyalty program (Eximus Coins) with discounts and redeemable points, and an integrated supplements and merch store with in-store pickup."
+      },
       "16": {
         "title": "Meditraslado",
         "description": "Web system to manage and organize patient transfers, replacing manual Excel processes and centralizing information. I implemented automation of transfer management, driver assignment, trip statuses, and user access control through roles (Admin, Reception, and Driver)."

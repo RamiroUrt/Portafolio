@@ -21,6 +21,7 @@ const GalleryView = ({ activeId }: GalleryViewProps) => {
   }
 
   const screenshots = Array.from({ length: project.screenshotCount }, (_, i) => i + 1);
+  const ext = project.screenshotExt ?? 'webp';
 
   return (
   <PageLayout title={project.title}>
@@ -29,7 +30,7 @@ const GalleryView = ({ activeId }: GalleryViewProps) => {
         {screenshots.map((num) => (
           <div key={num} className="gallery-item">
             <img 
-src={`/screen/${project.folderName}/${num}.webp`}
+src={`/screen/${project.folderName}/${num}.${ext}`}
               alt={`${project.title} screenshot ${num}`}
               loading="lazy"
             />

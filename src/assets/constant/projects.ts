@@ -14,8 +14,36 @@ import Scrapper from '../images/projects/Scrapper.png';
 import FullCheck from '../images/projects/FullCheck.png'
 import ConverterPDF from '../images/projects/PDFConverter.png';
 import Meditraslado from '../images/projects/Meditraslado.webp';
+import Eximus from '../images/projects/Eximus.png';
 
-export const projectsData = [
+export interface ProjectItem {
+  id: number;
+  title: string;
+  description: string;
+  alt?: string;
+  fontPage: string;
+  tags: string[];
+  demo: string;
+  github: string;
+  folderName: string;
+  screenshotCount: number;
+  screenshotExt?: string;
+}
+
+export const projectsData: ProjectItem[] = [
+  {
+    id: 17,
+    title: "Somos Eximus",
+    description: "Sistema integral de gestión para un gimnasio que unifica la cuenta del socio y la operación del admin en una sola plataforma. Incluye gestión de membresías y cuotas con pago online (MercadoPago), reserva de clases, rutinas personalizadas, un programa de fidelización (Eximus Coins) con descuentos y puntos canjeables, y una tienda integrada de suplementos y merch con retiro en el local.",
+    alt: "Somos Eximus",
+    fontPage: Eximus,
+    tags: ["Next.js", "React 19", "TypeScript", "Tailwind CSS", "Prisma", "MercadoPago"],
+    demo: 'https://somos-eximus.vercel.app/login',
+    github: 'https://github.com/RamiroUrt/SomosEximus',
+    folderName: "SomosEximus",
+    screenshotCount: 10,
+    screenshotExt: 'png'
+  },
   {
     id: 16,
     title: "Meditraslado",
