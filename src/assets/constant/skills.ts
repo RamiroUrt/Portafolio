@@ -23,7 +23,7 @@ import EclipseIcon from "../icons/Svg/skills/EclipseIcon";
 import CanvaIcon from "../icons/Svg/skills/CanvaIcon";
 // import DockerIcon from "../icons/Svg/skills/DockerIcon";
 import LinuxIcon from "../icons/Svg/skills/LinuxIcon";
-import TrelloIcon from "../icons/Svg/skills/TrelloIcon";
+import VercelIcon from "../icons/Svg/skills/VercelIcon";
 import ClaudeIcon from "../icons/Svg/skills/ai/ClaudeIcon";
 import ClaudeCodeIcon from "../icons/Svg/skills/ai/ClaudeCodeIcon";
 import GPTIcon from "../icons/Svg/skills/ai/GPTIcon";
@@ -61,7 +61,7 @@ export const SKILLS_DATA = {
     tools: [
     { name: "FIGMA", icon: FigmaIcon},
     { name: "CANVA", icon: CanvaIcon},
-    { name: "TRELLO", icon: TrelloIcon},
+    { name: "VERCEL", icon: VercelIcon},
     { name: "GIT", icon: GitIcon},
     { name: "GITHUB", icon: GitHubIcon },
     { name: "VISUAL STUDIO", icon: VisualStudioIcon },
