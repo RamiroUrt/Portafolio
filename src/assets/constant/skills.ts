@@ -24,7 +24,12 @@ import CanvaIcon from "../icons/Svg/skills/CanvaIcon";
 // import DockerIcon from "../icons/Svg/skills/DockerIcon";
 import LinuxIcon from "../icons/Svg/skills/LinuxIcon";
 import TrelloIcon from "../icons/Svg/skills/TrelloIcon";
-
+import ClaudeIcon from "../icons/Svg/skills/ai/ClaudeIcon";
+import ClaudeCodeIcon from "../icons/Svg/skills/ai/ClaudeCodeIcon";
+import GPTIcon from "../icons/Svg/skills/ai/GPTIcon";
+import CodexIcon from "../icons/Svg/skills/ai/CodexIcon";
+import GeminiIcon from "../icons/Svg/skills/ai/GeminiIcon";
+import OpenCodeIcon from "../icons/Svg/skills/ai/OpenCodeIcon";
 
 
 
@@ -64,6 +69,14 @@ export const SKILLS_DATA = {
     { name: "ECLIPSE", icon: EclipseIcon},
     // { name: "DOCKER", icon: DockerIcon},
     { name: "LINUX", icon: LinuxIcon},
+  ],
+    ai: [
+    { name: "CLAUDE AI", icon: ClaudeIcon},
+    { name: "CLAUDE CODE", icon: ClaudeCodeIcon},
+    { name: "CHATGPT", icon: GPTIcon},
+    { name: "CODEX", icon: CodexIcon},
+    { name: "GEMINI", icon: GeminiIcon},
+    { name: "OPENCODE", icon: OpenCodeIcon},
   ],
 social: [
     { name: "skills.social_items.detail" },

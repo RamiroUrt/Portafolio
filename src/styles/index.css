@@ -1270,6 +1270,18 @@ EDUCATION
   padding: var(--sp-3);
   border-radius: var(--sp-5);
 }
+.item-habilities-catel img,
+.item-habilities-catel svg{
+  width: 100%;
+  height: 100%;
+}
+.icon-title img,
+.icon-download img,
+.icon-cap img,
+.icons-muted img{
+  width: 100%;
+  height: 100%;
+}
 .item-habilities{
     flex-wrap: wrap;
   padding-bottom: var(--sp-5);

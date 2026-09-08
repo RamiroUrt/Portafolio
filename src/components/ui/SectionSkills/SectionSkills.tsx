@@ -3,6 +3,7 @@ import CardHorizontal from "../CardHabilities/CardHorizontal";
 import CardVertical from "../CardHabilities/CardVertical";
 import MindSeeIcon from "../../../assets/icons/Svg/MindSeeIcon";
 import ToolsIconv2 from "../../../assets/icons/Svg/ToolsIconv2";
+import AIIcon from "../../../assets/icons/Svg/AIIcon";
 import { useTranslation } from "react-i18next";
 
 const SectionSkills = ({ isLoading }: { isLoading: boolean }) => {  
@@ -25,6 +26,12 @@ title={t('skills.categories.fundamentals')}
 title={t('skills.categories.tools')}
           icon={<ToolsIconv2/>}
           data={SKILLS_DATA.tools}
+          isLoading={isLoading}
+        />
+        <CardHorizontal
+title={t('skills.categories.ai')}
+          icon={<AIIcon/>}
+          data={SKILLS_DATA.ai}
           isLoading={isLoading}
         />
         <CardHorizontal

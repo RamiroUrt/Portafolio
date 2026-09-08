@@ -20,26 +20,27 @@ export const mainEducation = [
 export const certifications = [
   {
     id: 1,
+    title: "Claude Code in Action",
+    subtitle: "Anthropic",
+    date: "sept. 2026",
+    link: "https://academy.claude.com/verify/de0c559972783842b93b709781bb0b68",
+    description: "Claude Academy"
+  },
+  {
+    id: 2,
     title: "Google UX Design",
     subtitle: "Coursera",
     date: "2024",
     link: "https://drive.google.com/file/d/1d9bWenDVFxk2hYTtYqVZGViPXPurxffn/view?usp=drive_link"
   },
   {
-      id: 2,
-      title: "Int. C# - Web Programming with .Net Core",
-      subtitle: "EducacionIT",
-      date: "2024",
-      link: "https://drive.google.com/file/d/1AIdzJUfq2z_AcGWynlyerZgq2p3SgQfH/view?usp=drive_link"
-    },
-    {
-      id: 3,
-      title: "Desarrollador Salesforce",
-      subtitle: "Salesforce | Guayerd",
-      date: "2022 - 2023",
-      link: "https://drive.google.com/file/d/1TcLE7Xn5y8snsMswG_cETD610GuDzu2A/view?usp=drive_link"
-    },
-      {
+    id: 3,
+    title: "Int. C# - Web Programming with .Net Core",
+    subtitle: "EducacionIT",
+    date: "2024",
+    link: "https://drive.google.com/file/d/1AIdzJUfq2z_AcGWynlyerZgq2p3SgQfH/view?usp=drive_link"
+  },
+  {
     id: 4,
     title: "Desarrollo Web Full Stack",
     subtitle: "UTN Buenos Aires | Incluyeme",
@@ -48,20 +49,27 @@ export const certifications = [
   },
   {
     id: 5,
+    title: "Desarrollador Salesforce",
+    subtitle: "Salesforce | Guayerd",
+    date: "2022 - 2023",
+    link: "https://drive.google.com/file/d/1TcLE7Xn5y8snsMswG_cETD610GuDzu2A/view?usp=drive_link"
+  },
+  {
+    id: 6,
     title: "Programación Java",
     subtitle: "Codo a Codo 4.0",
     date: "2022",
     link: "https://drive.google.com/file/d/1m-r8OVpmzCLOQLXPck77B5g9FFRIQm9p/view?usp=drive_link"
   },
-    {
-    id: 6,
+  {
+    id: 7,
     title: "Introducción a la robótica (12hs)",
     subtitle: "@serte",
     date: "2022",
     link: "https://drive.google.com/file/d/1DKSc26Loas9Hs-6p0shYh8xb6KCXv5Wi/view?usp=drive_link"
   },
-      {
-    id: 7,
+  {
+    id: 8,
     title: "Primeros pasos en Python y POO",
     subtitle: "Arrow Academy",
     date: "2021",
