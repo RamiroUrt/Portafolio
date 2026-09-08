@@ -618,18 +618,21 @@ SIDEBAR
   cursor: pointer;
   border-radius: 6px 6px 0 0;
   background: transparent;
-  border: none;
-  transition: background 0.15s, color 0.15s;
+  border: 1px solid #ddd9d1;
+  border-bottom: 1px solid #ddd9d1;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
   white-space: nowrap;
 }
 .tab:hover{ 
   background: var(--color-gray-ligth);
    color: var(--color-dark);
+   border-color: #c9c5bc;
  }
 .tab.active{
    background: var(--color-gray-ligth);
     color: var(--color-dark);
     font-weight: 700;
+    border-color: #c2bdb2;
  }
 
 .tab-dot {
@@ -642,23 +645,24 @@ SIDEBAR
 .tab.active .tab-dot { background: #f59e0a; }
 
 .new-tab-btn {
-  width: 26px;
-  height: 26px;
+  width: 22px;
+  height: 22px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50%;
+  border-radius: 6px;
   background: transparent;
-  border: none;
+  border: 1px solid #ddd9d1;
   color: var(--color-button-nav);
   cursor: pointer;
   margin-bottom: var(--sp-2);
-  transition: background 0.15s, color 0.15s;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
 }
 .new-tab-btn:hover { 
   background: var(--color-gray-ligth);
    color: var(--color-dark);
    font-weight: 500;
+   border-color: #c9c5bc;
 }
 
 .window-content {

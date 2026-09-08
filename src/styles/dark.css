@@ -49,6 +49,20 @@
   background-color: var(--color-border-dark);
 }
 
+.dark .tab {
+  border-color: #555657;
+}
+.dark .tab:hover,
+.dark .tab.active {
+  border-color: #6d6e6f;
+}
+.dark .new-tab-btn {
+  border-color: #555657;
+}
+.dark .new-tab-btn:hover {
+  border-color: #6d6e6f;
+}
+
 /* TARJETAS Y CONTENEDORES (Agrupación Masiva) */
 .dark .timeline-card,
 .dark .card-contain-projects,
