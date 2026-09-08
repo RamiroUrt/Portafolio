@@ -23,13 +23,12 @@ const { t } = useTranslation();
   if (!show) return null;
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center z-[100] bg-black/40 backdrop-blur-[2px]">
+    <div className="fixed inset-0 flex items-center justify-center z-[100] bg-black/40">
       <div 
         ref={alertRef}
         className="ios-alert-container rounded-[10px] flex flex-col overflow-hidden shadow-xl transition-colors duration-300"
         style={{
-          backgroundColor: darkMode ? 'rgba(28, 28, 30, 0.9)' : 'rgba(242, 242, 242, 0.9)',
-          backdropFilter: 'blur(20px)'
+          backgroundColor: darkMode ? 'rgba(28, 28, 30, 0.9)' : 'rgba(242, 242, 242, 0.9)'
         }}
       >
         <div className="ios-alert-body text-center">
