@@ -5,8 +5,9 @@ import { useTranslation } from "react-i18next";
 
 const Resume = () => {
   const { isLoading, containerRef } = useAnimateList('.pdf-wrapper', {}, 800);
-  const pdfFilePath = "/pdf/CV.Ramiro.Urteaga.pdf";
-const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const isEnglish = i18n.language?.startsWith('en');
+  const pdfFilePath = isEnglish ? "/pdf/English_CV_Ramiro_Urteaga_Full_Stack.pdf" : "/pdf/CV.Ramiro.Urteaga.pdf";
   return (
 <PageLayout title={t('resume.title')} isLoading={isLoading}>
       <div className="layout-body-resume" ref={containerRef}>

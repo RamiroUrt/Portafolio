@@ -15,6 +15,7 @@ import FullCheck from '../images/projects/FullCheck.png'
 import ConverterPDF from '../images/projects/PDFConverter.png';
 import Meditraslado from '../images/projects/Meditraslado.webp';
 import Eximus from '../images/projects/Eximus.png';
+import Techtojob from '../images/projects/Techtojob.png';
 
 export interface ProjectItem {
   id: number;
@@ -31,6 +32,18 @@ export interface ProjectItem {
 }
 
 export const projectsData: ProjectItem[] = [
+  {
+    id: 18,
+    title: "Tech To Job",
+    description: "Web oficial de TechToJob, la comunidad de desarrolladores y empresas tech en español. Resultado del Torneo #2 de la comunidad: landing con hero con zoom de laptop, scroll suave (Lenis), animaciones GSAP, fondo de metaballs en WebGL y footer sticky con reveal.",
+    alt: "Tech To Job",
+    fontPage: Techtojob,
+    tags: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS v4", "GSAP", "Lenis"],
+    demo: 'https://tech-to-job-phi.vercel.app/',
+    github: 'https://github.com/RamiroUrt/Tech_to_job',
+    folderName: "Techtojob",
+    screenshotCount: 0
+  },
   {
     id: 17,
     title: "Somos Eximus",

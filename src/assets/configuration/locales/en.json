@@ -43,6 +43,10 @@
   "projects": {
     "title": "Projects",
     "items": {
+      "18": {
+        "title": "Tech To Job",
+        "description": "Official website of TechToJob, the community of developers and tech companies in Spanish. Result of the community's Tournament #2: landing with a laptop-zoom hero, smooth scrolling (Lenis), GSAP animations, a WebGL metaballs background, and a sticky footer with reveal effect."
+      },
       "17": {
         "title": "Somos Eximus",
         "description": "Comprehensive management system for a gym that unifies the member's account and the admin's operations in a single platform. It includes membership and fee management with online payments (MercadoPago), class booking, personalized routines, a loyalty program (Eximus Coins) with discounts and redeemable points, and an integrated supplements and merch store with in-store pickup."
