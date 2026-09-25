@@ -33,18 +33,6 @@ export interface ProjectItem {
 
 export const projectsData: ProjectItem[] = [
   {
-    id: 18,
-    title: "Tech To Job",
-    description: "Web oficial de TechToJob, la comunidad de desarrolladores y empresas tech en español. Resultado del Torneo #2 de la comunidad: landing con hero con zoom de laptop, scroll suave (Lenis), animaciones GSAP, fondo de metaballs en WebGL y footer sticky con reveal.",
-    alt: "Tech To Job",
-    fontPage: Techtojob,
-    tags: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS v4", "GSAP", "Lenis"],
-    demo: 'https://tech-to-job-phi.vercel.app/',
-    github: 'https://github.com/RamiroUrt/Tech_to_job',
-    folderName: "Techtojob",
-    screenshotCount: 0
-  },
-  {
     id: 17,
     title: "Somos Eximus",
     description: "Sistema integral de gestión para un gimnasio que unifica la cuenta del socio y la operación del admin en una sola plataforma. Incluye gestión de membresías y cuotas con pago online (MercadoPago), reserva de clases, rutinas personalizadas, un programa de fidelización (Eximus Coins) con descuentos y puntos canjeables, y una tienda integrada de suplementos y merch con retiro en el local.",
@@ -80,6 +68,18 @@ export const projectsData: ProjectItem[] = [
     github: 'https://github.com/RamiroUrt/Full_Check',
     folderName: "FullCheck",
     screenshotCount: 4 
+  },
+  {
+    id: 18,
+    title: "Tech To Job",
+    description: "Web oficial de TechToJob, la comunidad de desarrolladores y empresas tech en español. Resultado del Torneo #2 de la comunidad: landing con hero con zoom de laptop, scroll suave (Lenis), animaciones GSAP, fondo de metaballs en WebGL y footer sticky con reveal.",
+    alt: "Tech To Job",
+    fontPage: Techtojob,
+    tags: ["Next.js 15", "React 19", "TypeScript", "Tailwind CSS v4", "GSAP", "Lenis"],
+    demo: 'https://tech-to-job-phi.vercel.app/',
+    github: 'https://github.com/RamiroUrt/Tech_to_job',
+    folderName: "Techtojob",
+    screenshotCount: 0
   },
   {
     id: 15,
