@@ -21,7 +21,14 @@ const SecretView = () => {
               <Skeleton circle height="100%" width="100%" containerClassName="avatar-skeleton" />
             ) : (
               <>
-                <img src={FotoPerro} alt="Guardián del 404" />
+                <img
+                  src={FotoPerro}
+                  alt="Guardián del 404"
+                  width={1200}
+                  height={1600}
+                  loading="lazy"
+                  decoding="async"
+                />
               </>
             )}
           </div>

@@ -78,7 +78,7 @@ for (let i = 0; i <= maxAsterisks; i++) {
       )}
       <section className="lock-screen" id="lock">
         <div className="avatar-lock">
-          <img src={Avatar} alt="Ramiro Urteaga" loading='lazy'/>
+          <img src={Avatar} alt="Ramiro Urteaga" width={800} height={1200} decoding="async" fetchPriority="high" />
         </div>
         <h1 className="nickname">Ramiro Urteaga</h1>
         <div className="password">

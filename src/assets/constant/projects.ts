@@ -9,13 +9,13 @@ import VideoConverter from '../images/projects/VideoConverter.webp';
 import TresDeseos from '../images/projects/TresDESEOS.webp';
 import GrillHouse from '../images/projects/GrillHouse.webp';
 import Aloha from '../images/projects/Aloha.webp';
-import Chess from '../images/projects/Chess.png';
-import Scrapper from '../images/projects/Scrapper.png';
-import FullCheck from '../images/projects/FullCheck.png'
-import ConverterPDF from '../images/projects/PDFConverter.png';
+import Chess from '../images/projects/Chess.webp';
+import Scrapper from '../images/projects/Scrapper.webp';
+import FullCheck from '../images/projects/FullCheck.webp'
+import ConverterPDF from '../images/projects/PDFConverter.webp';
 import Meditraslado from '../images/projects/Meditraslado.webp';
-import Eximus from '../images/projects/Eximus.png';
-import Techtojob from '../images/projects/Techtojob.png';
+import Eximus from '../images/projects/Eximus.webp';
+import Techtojob from '../images/projects/Techtojob.webp';
 
 export interface ProjectItem {
   id: number;

@@ -45,7 +45,12 @@ const CardProjects = ({
           <Skeleton height={300} borderRadius={10} />
         ) : (
           <>
-            <img src={fontPage} alt={title || t(`projects.items.${id}.title`)} />
+            <img
+              src={fontPage}
+              alt={title || t(`projects.items.${id}.title`)}
+              loading="lazy"
+              decoding="async"
+            />
             <div className="project-actions">
               {demo && <Button text='Demo' href={demo}/>}
               {github && <Button text='Github' href={github}/>}
