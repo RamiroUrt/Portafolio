@@ -23,7 +23,7 @@ const AddressBar = ({ isLoading, active, onNavigate }: AddressBarProps) => {
     const path = formatUrlPath(translatedName);
     
     // eslint-disable-next-line react-hooks/set-state-in-effect
-    setInputValue(`ramirourteaga.online/${path}`);
+    setInputValue(`portafolio-dwd8.vercel.app/${path}`);
   }, [active, t, i18n.language]); // Se dispara cuando cambia la pestaña O el idioma
 
   const handleKeyDown = (e: React.KeyboardEvent) => {
