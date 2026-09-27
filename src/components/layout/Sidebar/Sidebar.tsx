@@ -22,7 +22,7 @@ const Aside = () => {
           
           <header className="sidebar-header">
             <div className="circle">
-              {isLoading ? <Skeleton width={150} height={150} borderRadius={10} /> : <img src={Logo} alt="Logo" />}
+              {isLoading ? <Skeleton width={150} height={150} borderRadius={10} /> : <img src={Logo} alt="" width={200} height={200} decoding="async" />}
             </div>
           </header>
 

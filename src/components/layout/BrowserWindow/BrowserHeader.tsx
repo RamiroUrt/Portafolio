@@ -37,7 +37,7 @@ const BrowserHeader = ({
       </div>
 
       <DndProvider backend={HTML5Backend}>
-        <nav className="tabs-bar desktop-only">
+        <nav className="tabs-bar desktop-only" aria-label="Pestañas del portfolio">
           {tabs.map((tabId, index) => (
             <SortableTab
               key={tabId}

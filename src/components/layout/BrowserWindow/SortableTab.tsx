@@ -40,6 +40,7 @@ const SortableTab = ({ tab, index, isActive, moveTab, onClick, onClose }: Sortab
       className={`tab ${isActive ? "active" : ""} ${isDragging ? "dragging" : ""}`}
       onClick={() => onClick(tabId)}
       type="button"
+      aria-current={isActive ? "page" : undefined}
       style={{ opacity: isDragging ? 0.5 : 1, cursor: 'grab' }}
     >
       <span className="tab-dot" />

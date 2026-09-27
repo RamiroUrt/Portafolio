@@ -21,7 +21,7 @@ const ButtonWithLink = ({ text, href, onClick }: ButtonWithLinksProps) => {
       className="download"
       href={href || "#"} 
       target={href ? "_blank" : undefined} 
-      rel={href ? "noreferrer" : undefined} 
+      rel={href ? "noopener noreferrer" : undefined} 
       onClick={handleClick}
     >
       <span className="subtitle">{text}</span>

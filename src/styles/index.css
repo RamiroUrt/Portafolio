@@ -113,7 +113,8 @@ body, button, a, span, *, [role="button"], .tab, .mobile-tab-card {
   font-size: 0.75rem;
   font-weight: 500;
 }
-.title-with-icon > h1 {
+.title-with-icon > h2,
+.title-with-icon > h3 {
   font-size: var(--size-xl);
   font-weight: 700;
   color: var(--color-main);
@@ -1440,7 +1441,8 @@ EDUCATION
     margin: 0;
     grid-template-columns: repeat(2, 1fr);
   }
-.title-with-icon > h1 {
+.title-with-icon > h2,
+.title-with-icon > h3 {
     font-size: 22px; 
   }
   .layout-title{

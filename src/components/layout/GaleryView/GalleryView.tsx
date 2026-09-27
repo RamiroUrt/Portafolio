@@ -31,7 +31,7 @@ const GalleryView = ({ activeId }: GalleryViewProps) => {
           <div key={num} className="gallery-item">
             <img 
 src={`/screen/${project.folderName}/${num}.${ext}`}
-              alt={`${project.title} screenshot ${num}`}
+              alt={`Captura de pantalla de ${project.title}, imagen ${num}`}
               loading="lazy"
             />
           </div>

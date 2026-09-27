@@ -18,7 +18,14 @@ const AvatarAbout = ({ isLoading }: AvatarAboutProps) => {
           />
         ) : (
           <>
-            <img src={Avatar} alt="Ramiro Urteaga - Frontend Dev" />
+            <img
+              src={Avatar}
+              alt="Ramiro Urteaga, Full Stack Developer"
+              width={800}
+              height={1200}
+              loading="lazy"
+              decoding="async"
+            />
             <div className="badge-job">
               <i className="status-dot"></i>
               <span className='text-badge'>{t('about.status_badge')}</span>

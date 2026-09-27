@@ -25,7 +25,7 @@ const { t } = useTranslation()
         </div>
 
         <div className="certificates flex flex-col items-center">
-          <TitleWithIcon text={t('education.certificates_title')} icon={<Ribbon/>} isLoading={isLoading} />
+          <TitleWithIcon text={t('education.certificates_title')} icon={<Ribbon/>} isLoading={isLoading} as="h2" />
           <div className="education-header w-full flex items-center certificated-container">
             {certifications.map((cert) => (
               <CardEducation 

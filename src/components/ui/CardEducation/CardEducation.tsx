@@ -24,7 +24,7 @@ const CardEducation = ({ title, subtitle, date, description, icon, isLoading, li
               </>
             ) : (
               <>
-                <h1 className="role-title font-bold text-gray-800">{title}</h1>
+                <h3 className="role-title font-bold text-gray-800">{title}</h3>
                 <p className="company-name text-[#f59e0a]">{subtitle}</p>
               </>
             )}

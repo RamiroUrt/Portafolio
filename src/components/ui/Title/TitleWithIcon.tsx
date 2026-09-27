@@ -2,7 +2,7 @@ import Skeleton from 'react-loading-skeleton';
 import 'react-loading-skeleton/dist/skeleton.css';
 import type { TitleWithIconProps } from "../../../assets/types/titles.Types";
 
-const TitleWithIcon = ({ text, icon, isLoading }: TitleWithIconProps) => {
+const TitleWithIcon = ({ text, icon, isLoading, as: Heading = 'h3' }: TitleWithIconProps) => {
   return (
     <div className="title-with-icon flex items-center justify-center gap-2.5">
       {(isLoading || icon) && (
@@ -14,7 +14,7 @@ const TitleWithIcon = ({ text, icon, isLoading }: TitleWithIconProps) => {
       {isLoading ? (
         <Skeleton width={200} height={20} />
       ) : (
-        <h1 className="font-bold text-whit-icon">{text}</h1>
+        <Heading className="font-bold text-whit-icon">{text}</Heading>
       )}
     </div>
   );

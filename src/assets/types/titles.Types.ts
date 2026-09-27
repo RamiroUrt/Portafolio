@@ -17,4 +17,5 @@ export type TitleWithIconProps = {
   text: string;
   icon?: ReactNode;
   isLoading?: boolean;
+  as?: 'h2' | 'h3';
 };

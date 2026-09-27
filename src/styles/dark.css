@@ -96,6 +96,12 @@
 .dark .download:hover .icon-download{
   color: var(--color-text-dark);
 }
+/* Los titulos en ambar mantienen su color por sobre la regla general de .dark p / .dark h2 */
+.dark .layout-title,
+.dark .title-with-icon > h2,
+.dark .title-with-icon > h3 {
+  color: var(--color-main);
+}
 .dark .date-text,
 .dark .icon-download{
   color: var(--color-border-accent);
