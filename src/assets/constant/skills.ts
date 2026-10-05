@@ -19,7 +19,7 @@ import GitIcon from "../icons/Svg/skills/GitIcon";
 import GitHubIcon from "../icons/Svg/skills/GitHubIcon";
 import VisualStudioIcon from "../icons/Svg/skills/VisualStudioIcon";
 import VsCodeIcon from "../icons/Svg/skills/VsCodeIcon";
-import EclipseIcon from "../icons/Svg/skills/EclipseIcon";
+import VirtualBoxIcon from "../icons/Svg/skills/VirtualBoxIcon";
 import CanvaIcon from "../icons/Svg/skills/CanvaIcon";
 // import DockerIcon from "../icons/Svg/skills/DockerIcon";
 import LinuxIcon from "../icons/Svg/skills/LinuxIcon";
@@ -66,7 +66,7 @@ export const SKILLS_DATA = {
     { name: "GITHUB", icon: GitHubIcon },
     { name: "VISUAL STUDIO", icon: VisualStudioIcon },
     { name: "VS CODE", icon: VsCodeIcon },
-    { name: "ECLIPSE", icon: EclipseIcon},
+    { name: "VIRTUAL BOX", icon: VirtualBoxIcon},
     // { name: "DOCKER", icon: DockerIcon},
     { name: "LINUX", icon: LinuxIcon},
   ],
