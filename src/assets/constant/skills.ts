@@ -20,6 +20,7 @@ import GitHubIcon from "../icons/Svg/skills/GitHubIcon";
 import VisualStudioIcon from "../icons/Svg/skills/VisualStudioIcon";
 import VsCodeIcon from "../icons/Svg/skills/VsCodeIcon";
 import VirtualBoxIcon from "../icons/Svg/skills/VirtualBoxIcon";
+import PrismaIcon from "../icons/Svg/skills/PrismaIcon";
 import CanvaIcon from "../icons/Svg/skills/CanvaIcon";
 // import DockerIcon from "../icons/Svg/skills/DockerIcon";
 import LinuxIcon from "../icons/Svg/skills/LinuxIcon";
@@ -52,6 +53,7 @@ export const SKILLS_DATA = {
     { name: "EXPRESS", icon: ExpressIcon },
     { name: "PYTHON", icon: PythonIcon },
     { name: "C#", icon: CsharpIcon },
+    { name: "PRISMA", icon: PrismaIcon },
   ],
   database: [
     { name: "MONGODB", icon: MongoIcon },
