@@ -13,6 +13,8 @@ import CsharpIcon from "../icons/Svg/skills/CsharpIcon";
 import MongoIcon from "../icons/Svg/skills/MongoIcon";
 import MYSQLIcon from "../icons/Svg/skills/MYSQLIcon";
 import SQLIcon from "../icons/Svg/skills/SQLIcon";
+import PostgresIcon from "../icons/Svg/skills/PostgresIcon";
+import SupabaseIcon from "../icons/Svg/skills/SupabaseIcon";
 
 import FigmaIcon from "../icons/Svg/skills/FigmaIcon";
 import GitIcon from "../icons/Svg/skills/GitIcon";
@@ -54,11 +56,13 @@ export const SKILLS_DATA = {
     { name: "PYTHON", icon: PythonIcon },
     { name: "C#", icon: CsharpIcon },
     { name: "PRISMA", icon: PrismaIcon },
+    { name: "SUPABASE", icon: SupabaseIcon },
   ],
   database: [
     { name: "MONGODB", icon: MongoIcon },
     { name: "MYSQL", icon: MYSQLIcon },
     { name: "SQL", icon: SQLIcon },
+    { name: "POSTGRESQL", icon: PostgresIcon },
   ],
     tools: [
     { name: "FIGMA", icon: FigmaIcon},
