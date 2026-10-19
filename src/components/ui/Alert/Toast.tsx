@@ -23,7 +23,7 @@ const { t } = useTranslation();
   if (!show) return null;
 
   return (
-    <div className="fixed inset-0 flex items-center justify-center z-[100] bg-black/40">
+    <div className="fixed inset-0 flex items-center justify-center z-[100] bg-black/80">
       <div 
         ref={alertRef}
         className="ios-alert-container rounded-[10px] flex flex-col overflow-hidden shadow-xl transition-colors duration-300"
