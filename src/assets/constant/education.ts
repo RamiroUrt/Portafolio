@@ -14,6 +14,13 @@ export const mainEducation = [
     date: "2023 - 2024",
     description: "Formación enfocada en lógica, bases de datos y desarrollo de software | Formación en Habilidades Interpersonales.",
     link: "https://drive.google.com/drive/folders/1OpgihF2KKpHBuAxrHpsEE3SucBPsXEcV?usp=drive_link"
+  },
+  {
+    id: 3,
+    title: "Diplomatura en Datos para el Agro",
+    subtitle: "UTN | Banco Macro",
+    date: "2026 - En curso",
+    description: "Power Bi | Análisis de datos | Estadística | R | Python"
   }
 ];
 

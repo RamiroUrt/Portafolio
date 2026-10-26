@@ -840,6 +840,11 @@ flex: 1;
 
 
 /*!EXPERIENCE*/
+.experience-container {
+  width: 100%;
+  margin-top: var(--sp-15);
+}
+
 .layout-body-experience {
   flex: 1;
   overflow-y: auto;
