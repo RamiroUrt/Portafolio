@@ -2,7 +2,6 @@ import ItemContact from "../Item/ItemContact"
 import Title from "../Title/Title"
 import LocationIcon from '../../../assets/icons/Svg/LocationIcon'
 import MailIcon from "../../../assets/icons/Svg/MailIcon"
-import WhatssapIcon from "../../../assets/icons/Svg/WhatssapIcon"
 import { useTranslation } from "react-i18next"
 
 
@@ -23,10 +22,6 @@ const Info = () => {
             text={"Pilar - Buenos Aires"} 
             icon={<LocationIcon/>}
             type='location'/>
-            <ItemContact 
-            text={"Whatsapp"} 
-            icon={<WhatssapIcon/>}
-            type='link'/>
         </div>
     </section>
   )
