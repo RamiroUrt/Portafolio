@@ -406,11 +406,14 @@ SIDEBAR
   gap: var(--sp-5);
   border-radius: var(--radius-md);
 }
-.item-contact:first-child:hover, .item-contact:last-child:hover {
+.item-contact:first-child:hover {
   cursor: pointer;
   border-radius: 10px;
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-md) ,inset var(--shadow-md);
 }
+
+
+
 /* ^buttons */
 .sidebar-socialInfo{
   width: 100%;
@@ -439,7 +442,7 @@ SIDEBAR
   border: var(--border-hover-color);
 }
 .social-container>a{
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-md) ,inset var(--shadow-md);
   padding: 10px;
 }
 .social-container>:hover{
@@ -740,7 +743,7 @@ flex: 1;
   height: 400px;
   overflow: hidden;
   border: 1px solid var(--color-border-gray);
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-md) ,inset var(--shadow-md);
 }
 .circle-avatar>img{
   object-fit: cover;
@@ -828,6 +831,7 @@ flex: 1;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  box-shadow: var(--shadow-md) ,inset var(--shadow-md);
 }
 
 .sing:hover{
@@ -1091,7 +1095,7 @@ grid-template-columns: repeat(auto-fill, minmax(min(100%, 430px), 1fr));
   background-color: white;
   padding: 8px 16px;
   border-radius: var(--sp-5);
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-md) ,inset var(--shadow-md);
 }
 .card-body {
   padding: 30px 10px 10px 10px; 
@@ -1112,7 +1116,7 @@ grid-template-columns: repeat(auto-fill, minmax(min(100%, 430px), 1fr));
 }
 .tag-information{
   color: var(--color-main);
-  box-shadow: var(--shadow-sm);
+  box-shadow: var(--shadow-md) ,inset var(--shadow-md);
   border: var(--border-hover-color);
 }
 
@@ -1122,7 +1126,7 @@ grid-template-columns: repeat(auto-fill, minmax(min(100%, 430px), 1fr));
   background-color: white;
   border-radius: 10px;
   position: absolute;
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-md) ,inset var(--shadow-md);
   padding: var(--sp-2);
   left: -4%; 
   top: 115px;
@@ -1181,6 +1185,7 @@ EDUCATION
   background-color: var(--color-main-hover);
   border-radius: var(--sp-5);
   padding: var(--sp-5);
+    box-shadow: var(--shadow-md) ,inset var(--shadow-md);
   }
 
 .date-text-education{
@@ -1207,6 +1212,7 @@ EDUCATION
     background-color: var(--color-main-hover);
     padding: var(--sp-5);
     border-radius: var(--radius-md);
+      box-shadow: var(--shadow-md) ,inset var(--shadow-md);
   }
   .main-card{
   margin-top: var(--sp-5);
@@ -1275,7 +1281,7 @@ EDUCATION
 
 .item-habilities-catel{
   /* background-color: #fff; */
-  box-shadow: var(--shadow-md);
+  box-shadow: var(--shadow-md) ,inset var(--shadow-md);
   padding: var(--sp-3);
   border-radius: var(--sp-5);
 }
@@ -1584,7 +1590,7 @@ gap: 16px;
   backdrop-filter: blur(20px); 
   display: flex;
   flex-direction: column;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); 
+  box-shadow: var(--shadow-md) ,inset var(--shadow-md);
   border: 1px solid rgba(0, 0, 0, 0.04);
   transition: transform 0.2s ease, box-shadow 0.2s ease;
   height: 140px; 
