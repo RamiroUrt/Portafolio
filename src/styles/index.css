@@ -937,7 +937,9 @@ flex: 1;
   margin-bottom: var(--sp-5);
 }
 
-
+.icon-company{
+  background-color: var(--color-main-hover);
+}
 
 .date-text {
   display: flex;
@@ -1284,6 +1286,7 @@ EDUCATION
   box-shadow: inset var(--shadow-md);
   padding: var(--sp-3);
   border-radius: var(--sp-5);
+
 }
 .item-habilities-catel img,
 .item-habilities-catel svg{

@@ -127,3 +127,7 @@
 .dark footer{
   background-color: #252526;
 }
+
+.dark .item-habilities-catel {
+  background-color: var(--bg-dark-hover);
+}

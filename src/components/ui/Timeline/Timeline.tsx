@@ -46,7 +46,7 @@ const itemsArray = isLoading ? Array(3).fill({}) : data;
                 ) : (
                   <>
                     <div className="card-header-timeline">
-                      <span className="icon-company icons-muted shrink-0 w-5 h-5 flex items-center justify-center">
+                      <span className=" icon-title icon  icon shrink-0 w-10 h-10 flex items-center justify-center">
                         <WorkIcon />
                       </span>
                       <span className="company-name">{item.company}</span>
