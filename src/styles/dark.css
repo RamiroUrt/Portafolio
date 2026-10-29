@@ -12,6 +12,9 @@
   --color-border-dark: #7c7d7e;
   --color-border-accent: #f39c12; 
   --color-text-dark: #f6f3ec;    
+
+  --shadow-sm: 0 4px 6px rgba(0, 0, 0, 0.45);
+  --shadow-md: 0 4px 10px rgba(0, 0, 0, 0.6);
 }
 /* ESTRUCTURA Y NAVEGACIÓN */
 .dark .layout-view, 
@@ -44,8 +47,7 @@
 .dark .new-tab-btn:hover,
 .dark .tab:hover,
 .dark .nav-btn:hover,
-.dark .item-content .item-contact:first-child:hover,
-.item-contact:last-child:hover {
+.dark .item-content .item-contact:first-child:hover {
   background-color: var(--color-border-dark);
 }
 

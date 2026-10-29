@@ -1281,7 +1281,7 @@ EDUCATION
 
 .item-habilities-catel{
   /* background-color: #fff; */
-  box-shadow: var(--shadow-md) ,inset var(--shadow-md);
+  box-shadow: inset var(--shadow-md);
   padding: var(--sp-3);
   border-radius: var(--sp-5);
 }

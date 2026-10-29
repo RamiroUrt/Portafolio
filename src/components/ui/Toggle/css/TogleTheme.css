@@ -50,4 +50,9 @@
   transform: translateX(30px);
   background-color: #f59e0a;
   box-shadow: none;
+
+}
+
+.checkbox:checked ~ .slider {
+  box-shadow: var(--shadow-md), inset var(--shadow-md);
 }
