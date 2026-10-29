@@ -28,7 +28,7 @@ const { t } = useTranslation();
         ref={alertRef}
         className="ios-alert-container rounded-[10px] flex flex-col overflow-hidden shadow-xl transition-colors duration-300"
         style={{
-          backgroundColor: darkMode ? 'rgba(28, 28, 30, 0.9)' : 'rgba(242, 242, 242, 0.9)'
+          backgroundColor: darkMode ? '#1c1c1e' : '#f2f2f2'
         }}
       >
         <div className="ios-alert-body text-center">
