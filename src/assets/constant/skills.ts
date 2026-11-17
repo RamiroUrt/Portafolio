@@ -21,11 +21,10 @@ import GitIcon from "../icons/Svg/skills/GitIcon";
 import GitHubIcon from "../icons/Svg/skills/GitHubIcon";
 import VisualStudioIcon from "../icons/Svg/skills/VisualStudioIcon";
 import VsCodeIcon from "../icons/Svg/skills/VsCodeIcon";
-import VirtualBoxIcon from "../icons/Svg/skills/VirtualBoxIcon";
+import PowerBiIcon from "../icons/Svg/skills/PowerBiIcon";
 import PrismaIcon from "../icons/Svg/skills/PrismaIcon";
 import CanvaIcon from "../icons/Svg/skills/CanvaIcon";
 // import DockerIcon from "../icons/Svg/skills/DockerIcon";
-import LinuxIcon from "../icons/Svg/skills/LinuxIcon";
 import VercelIcon from "../icons/Svg/skills/VercelIcon";
 import ClaudeIcon from "../icons/Svg/skills/ai/ClaudeIcon";
 import ClaudeCodeIcon from "../icons/Svg/skills/ai/ClaudeCodeIcon";
@@ -72,9 +71,8 @@ export const SKILLS_DATA = {
     { name: "GITHUB", icon: GitHubIcon },
     { name: "VISUAL STUDIO", icon: VisualStudioIcon },
     { name: "VS CODE", icon: VsCodeIcon },
-    { name: "VIRTUAL BOX", icon: VirtualBoxIcon},
+    { name: "POWER BI", icon: PowerBiIcon},
     // { name: "DOCKER", icon: DockerIcon},
-    { name: "LINUX", icon: LinuxIcon},
   ],
     ai: [
     { name: "CLAUDE AI", icon: ClaudeIcon},
