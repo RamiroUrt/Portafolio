@@ -42,10 +42,23 @@
   },
   "projects": {
     "title": "Projects",
+    "filters": {
+      "all": "All",
+      "fullstack": "Full-Stack",
+      "frontend": "Frontend",
+      "console": "Console",
+      "data": "Data Analyst",
+      "aria_label": "Filter projects by category",
+      "empty": "No projects in this category yet."
+    },
     "items": {
       "18": {
         "title": "Tech To Job",
         "description": "Official website of TechToJob, the community of developers and tech companies in Spanish. Result of the community's Tournament #2: landing with a laptop-zoom hero, smooth scrolling (Lenis), GSAP animations, a WebGL metaballs background, and a sticky footer with reveal effect."
+      },
+      "19": {
+        "title": "Crop Profitability",
+        "description": "Power BI dashboard analyzing the productive and economic evolution of Argentina's main agricultural crops. It integrates MAGyP crop estimates and historical price data into a star schema, with DAX measures, province maps, and production, yield, and price visuals by campaign."
       },
       "17": {
         "title": "Somos Eximus",

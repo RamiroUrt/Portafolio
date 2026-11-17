@@ -16,6 +16,11 @@ import ConverterPDF from '../images/projects/PDFConverter.webp';
 import Meditraslado from '../images/projects/Meditraslado.webp';
 import Eximus from '../images/projects/Eximus.webp';
 import Techtojob from '../images/projects/Techtojob.webp';
+import RentabilidadCultivos from '../images/projects/RentabilidadCultivos.jpg';
+
+export type ProjectCategory = 'fullstack' | 'frontend' | 'console' | 'data';
+
+export type ProjectFilter = ProjectCategory | 'all';
 
 export interface ProjectItem {
   id: number;
@@ -27,6 +32,7 @@ export interface ProjectItem {
   demo: string;
   github: string;
   folderName: string;
+  category: ProjectCategory;
   screenshotCount: number;
   screenshotExt?: string;
 }
@@ -42,6 +48,7 @@ export const projectsData: ProjectItem[] = [
     demo: 'https://somos-eximus.vercel.app/login',
     github: 'https://github.com/RamiroUrt/SomosEximus',
     folderName: "SomosEximus",
+    category: "fullstack",
     screenshotCount: 10,
     screenshotExt: 'png'
   },
@@ -55,6 +62,7 @@ export const projectsData: ProjectItem[] = [
     demo: 'https://meditraslado.vercel.app/',
     github: 'https://github.com/RamiroUrt/Meditraslado',
     folderName: "Meditraslado",
+    category: "fullstack",
     screenshotCount: 6
   },
   {
@@ -67,6 +75,7 @@ export const projectsData: ProjectItem[] = [
     demo: 'https://full-check.vercel.app/',
     github: 'https://github.com/RamiroUrt/Full_Check',
     folderName: "FullCheck",
+    category: "fullstack",
     screenshotCount: 4 
   },
   {
@@ -79,6 +88,7 @@ export const projectsData: ProjectItem[] = [
     demo: 'https://tech-to-job-phi.vercel.app/',
     github: 'https://github.com/RamiroUrt/Tech_to_job',
     folderName: "Techtojob",
+    category: "frontend",
     screenshotCount: 0
   },
   {
@@ -91,6 +101,7 @@ export const projectsData: ProjectItem[] = [
     demo: '',
     github: 'https://github.com/RamiroUrt/ImageConverter',
     folderName: "ConverterPDF",
+    category: "console",
     screenshotCount: 0 
   },
   {
@@ -102,6 +113,7 @@ export const projectsData: ProjectItem[] = [
     demo: 'https://entre-amigos-two.vercel.app',
     github: 'https://github.com/RamiroUrt/EntreAmigos',
     folderName: "EntreAmigos",
+    category: "fullstack",
     screenshotCount: 7
   },
   {
@@ -113,6 +125,7 @@ export const projectsData: ProjectItem[] = [
     demo: 'https://urbanblock.vercel.app/',
     github: 'https://github.com/RamiroUrt/Urbanblock',
     folderName: "Urbanblock",
+    category: "frontend",
     screenshotCount: 1
   },
   {
@@ -124,7 +137,21 @@ export const projectsData: ProjectItem[] = [
     demo: '',
     github: 'https://github.com/RamiroUrt/Web-Scraper/tree/main',
     folderName: "Scrapper",
+    category: "console",
     screenshotCount: 0 
+  },
+  {
+    id: 19,
+    title: "Rentabilidad Cultivos",
+    description: "Dashboard de Power BI que analiza la evolución productiva y económica de los principales cultivos agrícolas de Argentina. Integra estimaciones agrícolas y precios históricos del MAGyP en un modelo estrella, con medidas DAX, mapas de provincias y visualizaciones de producción, rendimiento y precios por campaña.",
+    alt: "Rentabilidad Cultivos",
+    fontPage: RentabilidadCultivos,
+    tags: ["Power BI", "DAX", "Power Query", "Data Modeling"],
+    demo: '',
+    github: 'https://github.com/RamiroUrt/rentabilidad-cultivos-argentina',
+    folderName: "RentabilidadCultivos",
+    category: "data",
+    screenshotCount: 0
   },
   {
     id: 3,
@@ -135,6 +162,7 @@ export const projectsData: ProjectItem[] = [
     demo: 'https://coquette.vercel.app',
     github: 'https://github.com/RamiroUrt/Coquette',
     folderName: "Coquette",
+    category: "frontend",
     screenshotCount: 3
   },
   {
@@ -146,6 +174,7 @@ export const projectsData: ProjectItem[] = [
     demo: 'https://convertertomp3.onrender.com',
     github: 'https://github.com/RamiroUrt/ConverterToMp3',
     folderName: "VideoConverter",
+    category: "fullstack",
     screenshotCount: 1
   },
   {
@@ -157,6 +186,7 @@ export const projectsData: ProjectItem[] = [
     demo: 'https://bike-shopgt.netlify.app',
     github: 'https://github.com/RamiroUrt/Bike-Shop',
     folderName: "BikeShop",
+    category: "frontend",
     screenshotCount: 1
   },
   {
@@ -168,6 +198,7 @@ export const projectsData: ProjectItem[] = [
     demo: 'https://educatina.vercel.app',
     github: 'https://github.com/RamiroUrt/Educatina',
     folderName: "Educatina",
+    category: "frontend",
     screenshotCount: 1
   },
   {
@@ -179,6 +210,7 @@ export const projectsData: ProjectItem[] = [
     demo: 'https://symphonious-trifle-c8a521.netlify.app',
     github: '',
     folderName: "Scaloneta",
+    category: "frontend",
     screenshotCount: 3
   },
   {
@@ -190,6 +222,7 @@ export const projectsData: ProjectItem[] = [
     demo: 'https://frabjous-rolypoly-c02616.netlify.app',
     github: 'https://github.com/RamiroUrt/Win.fin/tree/main',
     folderName: "Wingu",
+    category: "fullstack",
     screenshotCount: 4
   },
   {
@@ -201,6 +234,7 @@ export const projectsData: ProjectItem[] = [
     demo: 'https://aloha-tienda.onrender.com',
     github: 'https://github.com/RamiroUrt/Aloha_tienda',
     folderName: "Aloha",
+    category: "fullstack",
     screenshotCount: 4
   },
   {
@@ -212,6 +246,7 @@ export const projectsData: ProjectItem[] = [
     demo: 'https://pescar-3dseos.web.app',
     github: 'https://github.com/3Dseos/3dseos-pagina',
     folderName: "3Deseos",
+    category: "frontend",
     screenshotCount: 2
   },
   {
@@ -223,6 +258,7 @@ export const projectsData: ProjectItem[] = [
     demo: 'https://grill-house-three.vercel.app',
     github: 'https://github.com/RamiroUrt/Grill-House',
     folderName: "GrillHouse",
+    category: "frontend",
     screenshotCount: 3
   },
   {
@@ -234,6 +270,7 @@ export const projectsData: ProjectItem[] = [
     demo: '',
     github: 'https://github.com/RamiroUrt/Chess-App',
     folderName: "Chess",
+    category: "console",
     screenshotCount: 0 
   }
 ];

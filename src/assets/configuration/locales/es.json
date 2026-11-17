@@ -42,10 +42,23 @@
       },
       "projects": {
     "title": "Proyectos",
+    "filters": {
+      "all": "Todos",
+      "fullstack": "Full-Stack",
+      "frontend": "Frontend",
+      "console": "Consola",
+      "data": "Data Analyst",
+      "aria_label": "Filtrar proyectos por categoría",
+      "empty": "No hay proyectos en esta categoría."
+    },
     "items": {
       "18": {
         "title": "Tech To Job",
         "description": "Web oficial de TechToJob, la comunidad de desarrolladores y empresas tech en español. Resultado del Torneo #2 de la comunidad: landing con hero con zoom de laptop, scroll suave (Lenis), animaciones GSAP, fondo de metaballs en WebGL y footer sticky con reveal."
+      },
+      "19": {
+        "title": "Rentabilidad Cultivos",
+        "description": "Dashboard de Power BI que analiza la evolución productiva y económica de los principales cultivos agrícolas de Argentina. Integra estimaciones agrícolas y precios históricos del MAGyP en un modelo estrella, con medidas DAX, mapas de provincias y visualizaciones de producción, rendimiento y precios por campaña."
       },
       "17": {
         "title": "Somos Eximus",

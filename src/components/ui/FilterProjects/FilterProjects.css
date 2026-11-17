@@ -1,0 +1,100 @@
+/* =========================
+PROJECT CATEGORY FILTERS
+========================= */
+
+.filter-projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: var(--sp-4);
+  width: fit-content;
+  max-width: 100%;
+  margin: var(--sp-10) auto;
+  padding: var(--sp-5);
+  align-self: center;
+  background-color: var(--color-main-ligth);
+  border: var(--border-main-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md), inset var(--shadow-md);
+}
+
+.filter-projects__btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--sp-4);
+  min-height: 42px;
+  padding: var(--sp-2) var(--sp-10);
+  background-color: var(--color-cake);
+  border: var(--border-hover-color);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  color: var(--color-main);
+  font-family: var(--font-title);
+  font-size: var(--size-base);
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  transition: var(--transition-smooth);
+}
+
+.filter-projects__btn:hover,
+.filter-projects__btn.is-active {
+  background-color: var(--color-main);
+  border: var(--border-main-white);
+  color: #fff;
+}
+
+.filter-projects__btn.is-active {
+  box-shadow: inset var(--shadow-md);
+}
+
+.filter-projects__btn:hover .filter-projects__icon,
+.filter-projects__btn.is-active .filter-projects__icon {
+  color: #fff;
+}
+
+.filter-projects__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
+
+.filter-projects__label {
+  white-space: nowrap;
+}
+
+.filter-projects__empty {
+  grid-column: 1 / -1;
+  width: 100%;
+  padding: var(--sp-20) var(--sp-10);
+  text-align: center;
+  color: var(--color-muted);
+  font-family: var(--font-body);
+  font-size: var(--size-base);
+}
+
+/* Dark mode */
+.dark .filter-projects {
+  background-color: var(--bg-dark-sidebar);
+  border-color: var(--color-border-dark);
+}
+
+.dark .filter-projects__btn {
+  background-color: var(--bg-dark-hover);
+  border-color: var(--color-border-accent);
+  color: var(--color-border-accent);
+}
+
+.dark .filter-projects__btn:hover,
+.dark .filter-projects__btn.is-active {
+  background-color: var(--color-main);
+  border-color: #fff;
+  color: #fff;
+}
+
+.dark .filter-projects__empty {
+  color: var(--color-text-dark);
+}
