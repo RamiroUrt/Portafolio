@@ -8,7 +8,7 @@ const ExpressIcon = () => {
       fill="none"
       aria-label="Express"
       role="img"
-      className="block shrink-0 mx-auto text-black dark:text-white"
+      className="block shrink-0 mx-auto"
     >
            {/* Marco */}
       <path
